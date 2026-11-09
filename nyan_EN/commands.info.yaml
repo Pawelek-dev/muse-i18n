@@ -1,1 +1,200 @@
-{}
+about_desc1: '**Youw music, whewevew you pway~ Listen with fwiends in voice channews,
+  waunch the Discowd Activity, ow enjoy music fwom ouw web pwayew!** UwU'
+about_desc2: |
+  ・The bot pwefix fow this sewvew is `%{prefix}` nya~
+  ・Pway a twack using a wink ow seawch tewm `%{prefix} play`
+  Visit ouw **[website](%{website})** ow use the `%{prefix} help` command fow even mowe commands~ >w<
+about_desc3: |
+  **Heads up, fwiendies~!**
+  I pwefewabwy wequiwe `Administrator` pewmissions, but...
+  Even if you don't give me those pewmissions, I can stiww wowk! I just might not be abwe to do evewything I'm capabwe of~ Just saying! >_<
+
+  **Hewp and Suppowt**
+  Join ouw **[suppowt sewvew](%{serversupport})** if you need hewp, wanna get info about updates and issues, ow simpwy wanna hang out with the community! Nyaa~ <3
+finder_invalid: Invawid Command nya!
+button_not_author: Nyope~ Onwy the pewson who used this command can pwess these 
+  buttonies! >_<
+finder_example: I-I can't hewp you find that! Twy wooking fow an *actuaw* 
+  command, silly~!
+finder_name: '**Command:**'
+finder_des: ' **Descwiption:**'
+finder_usage: '**Usage:**'
+finder_access: '**Accessibwe by:**'
+finder_aliases: '**Awiases:**'
+finder_slash: '**Swash:**'
+finder_des_no: I-I couldn't find a descwiption, sowwy about that... :c
+finder_usage_no: Hmm~ I'm not quite suwe how to use this command...
+finder_aliases_prefix: '[Pwefix onwy]'
+finder_aliases_no: You can't use this command with an awias, sowwy~!
+finder_slash_enable: Enabwed~
+finder_slash_disable: Disabwed~
+command_not_found: Unknown command nya!
+select_menu: Enjoy music with Muse~! UwU
+help_timeout: Oopsie~ The hewp menu timed out! Twy using **`%{prefix}help`** ow 
+  **`/help`** again, nya~
+homepage_title: |-
+  **Youw music, whewevew you pway~ Listen with fwiends in voice channews, 
+  waunch the Discowd Activity, ow enjoy music fwom the web pwayew!**
+homepage_desc: |
+  <:blankers:1332784847961198632><:times:1332786387551916073> **Music 24/7**
+  <:blankers:1332784847961198632><:spotify1:1332809095522029651> **Spotify Integwation**
+  <:blankers:1332784847961198632><:speaker:1332786202545487872> **High-Quawity Audio**
+  <:blankers:1332784847961198632><:lastfm:1332808961161695332> **Scwobbwed with Last.fm**
+  <:blankers:1332784847961198632><:musicplay:1332785497013227520> **Spotify, Appwe Music, Deezer & Mowe...**
+
+  <:blankers:1332784847961198632><:bbb_sparkler:1549726912769687642> **Need hewp? Join ouw [Suppowt Sewvew](%{serversupport})~!** UwU
+rating_desc: Thankies, %{user}, fow giving ouw Discowd music bot a wating! <3
+rating_succes: |-
+  Thankies so much fow youw wating~!
+  Youw wating has been successfuwwy submitted! UwU
+rating_failure: Aww nyo~ Faiwed to send the wepowt! Pwease twy again watew. :c
+report_provide_desc: Oopsie~ Invawid command! Pwease pwovide a descwiption, nya~
+report_failure: Aww nyo~ Faiwed to send the wepowt! Pwease twy again watew. :c
+report_success: |-
+  Thankies fow youw wepowt~!
+  Youw wepowt has been successfuwwy submitted fow wesowution! <3
+suggestions_provide_desc: Oopsie~ Invawid command! Pwease pwovide a descwiption,
+  nya~
+suggestions_failure: Aww nyo~ Faiwed to send the suggestion! Pwease twy again 
+  watew. :c
+suggestions_success: |-
+  Thankies fow youw suggestion~!
+  Youw suggestion has been successfuwwy submitted! UwU <3
+patreon_logs_desc: |
+  **Status Wesuwt:**
+  %{desc}
+patreon_logs_user_identity_title: 👤 User Identity
+patreon_logs_user_identity_value: |
+  **Name:** %{fullName}
+  **Discowd:** <@%{discordId}> (`%{discordId}`)
+  **Emaiw:** %{email}
+patreon_logs_details_title: Patweon Detaiws
+patreon_logs_details_value: |
+  **Pwedge:** $%{pledge}
+  **Patweon ID:** `%{patreonId}`
+  **Status:** `%{status}`
+patreon_logs_date_title: 📅 Date
+kofi_logs_user_identity_title: User Identity
+kofi_logs_user_identity_value: |-
+  **Name:** %{fullName}
+  **Emaiw:** ||%{email}||
+  **Pubwic:** %{dataPublic}
+kofi_logs_discord_identity_title: Discowd Identity
+kofi_logs_discord_identity_value: |-
+  **Usew:** %{discordUser}
+  **ID:** %{discordId}
+kofi_logs_payment_details_title: Payment Detaiws
+kofi_logs_payment_details_value: |-
+  **Amount:** %{currency} %{amount}
+  **Tier:** **%{tierName}**
+  **Type:** %{type}
+kofi_logs_sub_status_title: Subscwiption Status
+kofi_logs_sub_status_value: |-
+  **Is Sub:** %{isSub}
+  **Fiwst Pay:** %{isFirst}
+kofi_logs_message_title: Message / Weason
+kofi_logs_tech_title: Technicaw / Twansaction IDs
+kofi_logs_tech_value: |-
+  **Ko-fi Tx ID:** %{kofiTxId}
+  **Msg ID:** %{msgId}
+  **UWW:** [%{viewDetails}](%{url})
+  **Token:** ||%{token}||
+kofi_logs_view_details: View Detaiws
+fav_title: '### 🤍 Youw Wiked Songies'
+fav_page_info: |-
+  **%{total} wiked songies**
+  Page %{page}/%{pages}
+fav_playall: Added %{added} wiked songies to the queue~! >w<
+fav_add_song: Added **%{title}** to the queue~! <3
+fav_error_player: Aww nyo~ Faiwed to cweate the pwayew ow join the voice 
+  channew! :c
+fav_remove_cancel: Cancew wemovaw and go back~
+fav_remove_placeholder: Choose a songie to wemove...
+fav_confirm_clear_title: '## Continue~?'
+fav_confirm_clear_desc: |-
+  Awe you suwe you wanna cweaw aww youw Wiked Songies?
+
+  This action wiww pewmanentwy wemove %{count} songies fwom youw wiked songies pwaywist and cannot be wevewsed! >_<
+fav_btn_sure: Suwe~
+fav_btn_no: Nyo!
+fav_empty_title: '### 🤍 Youw Wiked Songies'
+fav_empty_count: '### 0 wiked songies'
+fav_empty_desc: |-
+  -# Youw favowites awe waiting~
+  Add songies you wuv and buiwd youw own pwaywist vibes! <3
+fav_removed_title: '### Songie Wemoved'
+fav_removed_desc: Aww done~ **%{title}** is no wongew in youw favowites! :c
+fav_btn_back: Back~
+hist_title: '### Youw Listening Histowy'
+hist_page_info: |-
+  **%{total} songies pwayed**
+  Page %{page}/%{pages}
+hist_playpage: Added %{added} songies fwom this page to the queue~! >w<
+hist_add_song: Added **%{title}** to the queue~!
+hist_error_player: Aww nyo~ Faiwed to cweate the pwayew ow join the voice 
+  channew! :c
+hist_confirm_clear_title: '## Cweaw Histowy~?'
+hist_confirm_clear_desc: |-
+  Awe you suwe you wanna cweaw youw listening histowy?
+
+  This action wiww pewmanentwy wemove %{count} songies fwom youw histowy and cannot be wevewsed! >_<
+hist_btn_sure: Suwe~
+hist_btn_no: Nyo!
+hist_empty_title: '### Youw Listening Histowy'
+hist_empty_count: '### 0 songies pwayed'
+hist_empty_desc: |-
+  -# Youw histowy is empty~
+  Stawt listening to songies and they'ww appeaw hewe! UwU
+hist_btn_back: Back~
+gstats_empty_title: 📊 Sewvew Stats
+gstats_empty_desc: Thewe's no data fow this sewvew yet~ :c
+gstats_tracks_title: '### Top 10 Twacks in %{guild}'
+gstats_artists_title: '### Top 10 Awtists in %{guild}'
+gstats_btn_tracks: Top Twacks
+gstats_btn_artists: Top Awtists
+gstats_footer_tracks: -# Showing this month's top twacks fow the guiwd~
+gstats_footer_artists: -# Showing this month's top awtists fow the guiwd~
+gstats_track_item: |-
+  %{index}. [**%{title}**](%{url})
+  -# Pwayed %{count} times~
+gstats_artist_item: |-
+  %{index}. [**%{name}**](%{url})
+  -# Pwayed %{count} times~
+gstats_stats_subtext: '-# Wisten Time: `%{time}` • Twacks Pwayed: `%{played}` times'
+glstats_empty_title: 🌍 Gwobaw Stats
+glstats_empty_desc: Thewe's no gwobaw data yet~ :c
+glstats_servers_title: '### Top 10 Sewvews Gwobawwy'
+glstats_tracks_title: '### Top 10 Twacks Gwobawwy'
+glstats_artists_title: '### Top 10 Awtists Gwobawwy'
+glstats_voters_title: '### Top 10 Voters Gwobawwy'
+glstats_btn_servers: Top Sewvews
+glstats_btn_tracks: Top Twacks
+glstats_btn_artists: Top Awtists
+glstats_btn_voters: Top Voters
+glstats_footer_servers: -# Showing the top sewvews gwobawwy~
+glstats_footer_tracks: -# Showing the top twacks gwobawwy~
+glstats_footer_artists: -# Showing the top awtists gwobawwy~
+glstats_footer_voters: -# Showing the top voters gwobawwy~
+glstats_server_item: |-
+  %{index}. **%{name}**
+  -# Wisten Time: `%{time}` • Twacks Pwayed: `%{played}` times
+glstats_track_item: |-
+  %{index}. [**%{title}**](%{url})
+  -# Pwayed `%{count}` times~
+glstats_artist_item: |-
+  %{index}. [**%{name}**](%{url})
+  -# Pwayed `%{count}` times~
+glstats_voter_item: |-
+  %{index}. **%{name}**
+  -# Totaw Votes: `%{count}` times
+glstats_stats_subtext: '-# Gwobaw Wisten Time: `%{time}` • Gwobaw Twacks Pwayed: `%{played}`
+  times'
+invite_title: Get Stawted in Youw Sewvew~
+invite_desc: You can invite Muse by pwessing the button bewow~ If you wun into 
+  any bugies, pwease join ouw suppowt sewvew! UwU
+invite_activity_text: You can awso waunch ouw Discowd Activity and pway music 
+  togethew with youw fwiends~! >w<
+invite_btn_bot: Invite %{bot}
+invite_btn_instance: '%{name}'
+invite_btn_support: Suppowt Sewvew
+invite_btn_activity: Waunch Activity~
