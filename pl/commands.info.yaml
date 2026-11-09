@@ -1,1 +1,36 @@
-{}
+about_desc1: '**Twoja muzyka, gdziekolwiek zechcesz. Słuchaj z przyjaciółmi na kanałach
+  głosowych, użyj Aktywności, lub rozkoszuj się muzyką z odtwarzacza internetowego.**'
+about_desc2: |
+  ・Prefiks bota dla tego serwera to `%{prefix}`
+  ・Odtwórz utwór na podstawie linku lub hasła wyszukiwania: `%{prefix} play`
+  Odwiedź naszą **[stronę internetową](%{website})** lub skorzystaj z polecenia `%{prefix} help`, aby zapoznać się z innymi poleceniami.
+about_desc3: |
+  **Uwaga!**
+  Najlepiej byłoby, gdybym miał uprawnienia `Administratora`, ale…
+  Nawet jeśli nie przyznasz mi tych uprawnień, nadal będę mógł pracować, ale może nie uda mi się zrobić wszystkiego, do czego jestem zdolny. Tak tylko mówię!
+
+  **Pomoc i wsparcie**
+  Dołącz do naszego **[serwera wsparcia](%{serversupport})**, jeśli potrzebujesz pomocy, chcesz uzyskać informacje o aktualizacjach i problemach lub chcesz nawiązać kontakt ze społecznością!
+finder_invalid: Nieprawidłowa komenda
+button_not_author: Tylko osoba która uruchomiła tą komendę może używać 
+  przycisków.
+finder_example: Nie mogę ci w tym pomóc! Poszukaj *istniejącego* polecenia!
+finder_name: '**Komenda:**'
+finder_des: ' **Opis:**'
+finder_usage: '**Użycie:**'
+finder_access: '**Dostępne poprzez:**'
+finder_aliases: '**Aliasy:**'
+finder_slash: '**Ukośnikowe:**'
+finder_des_no: Nie udało mi się znaleźć opisu, wybacz...
+finder_usage_no: Nie mam pewności jak używać tej komendy.
+finder_aliases_prefix: '[Tylko z prefiksem]'
+finder_aliases_no: Nie możesz użyć tej komendy z aliasem.
+finder_slash_enable: Włączona
+finder_slash_disable: Wyłączona
+command_not_found: Nieznana komenda
+select_menu: Ciesz się muzyką z Muse!
+help_timeout: Upłynął czas oczekiwania menu pomocy, spróbuj użyć 
+  **`%{prefix}help`** lub **`/help`** ponownie.
+homepage_title: |-
+  **Twoja muzyka, gdziekolwiek zechcesz. Słuchaj że znajomymi na kanałach głosowych, 
+  uruchom Aktywność, lub ciesz się muzyką z odtwarzacza internetowego.**
