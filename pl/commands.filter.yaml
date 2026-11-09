@@ -1,1 +1,31 @@
-{}
+filter_on: |
+  Filtr **%{name}** został włączony!
+  Mam nadzieję że podoba Ci się to brzmienie!
+filter_already: Hmmm.. Wygląda na to że filtr %{name} jest już włączony..! Nie 
+  mogę nic na to poradzić.
+filter_number: To nie jest liczba którą mogę wprowadzić do EQ...
+filter_greater: To musi być liczba większa od **0**!
+filter_less: Hola! Za dużo! Może mniej niż **10** wyszłoby lepiej...
+bassboost_set: '**Podbicie bassu** zostało ustawione do **%{amount}dB**'
+bassboost_limit: Proszę wprowadzić liczbę w zakresie od **-10** do **10**
+eq_author: Korektor
+eq_icon: 
+  https://i.pinimg.com/originals/cb/17/b8/cb17b80a942d7c317a35ff1324fae12f.gif
+eq_desc: |
+  Jest **10 "suwaków"** których pozycję można ustawić w zakresie od **-10** do **10**
+  Nie musisz wpisywać wszystkich, tylko te które chcesz "przesunąć".
+  Jeśli więc nie chcesz dokonać zmiany, możesz pozostawić wartość jako **0**
+eq_field_title: 'Przykład:'
+eq_field_value: '%{prefix}eq 2 3 0 8 0 5 0 -5 0 0'
+eq_footer: Resetuj korektor • %{prefix}eq reset
+eq_on: Wartości korektora zostały ustawione na **%{bands}**!
+eq_number: Proszę podać prawidłową liczbę!
+eq_greater: Liczba musi być większa niż **-10**
+eq_than: Liczba musi być mniejsza niż **10**
+pitch_on: Okej, Pitch ma teraz wartość **%{amount}**!
+rate_on: Okej! Rate ma teraz wartość **%{amount}x**!
+speed_on: Jasna sprawa, zmieniam prędkość na **%{amount}x**!
+reset_on: Resetuje wszystkie filtry dźwięku! Wracamy do oryginału!
+reset_already: Wszystkie filtry zostały **wyłączone**, nie pamiętasz?
+number_invalid: To nie jest liczba na której mogę wykonać operację... Spróbuj 
+  znowu z prawidłową liczbą.
