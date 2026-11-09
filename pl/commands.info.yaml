@@ -34,3 +34,24 @@ help_timeout: Upłynął czas oczekiwania menu pomocy, spróbuj użyć
 homepage_title: |-
   **Twoja muzyka, gdziekolwiek zechcesz. Słuchaj że znajomymi na kanałach głosowych, 
   uruchom Aktywność, lub ciesz się muzyką z odtwarzacza internetowego.**
+homepage_desc: |
+  <:blankers:1332784847961198632><:times:1332786387551916073> **Muzyka 24/7**
+  <:blankers:1332784847961198632><:spotify1:1332809095522029651> **Integracja ze Spotify **
+  <:blankers:1332784847961198632><:speaker:1332786202545487872> **Wysokiej jakości audio**
+  <:blankers:1332784847961198632><:lastfm:1332808961161695332> **Scrobble z Last.fm**
+  <:blankers:1332784847961198632><:musicplay:1332785497013227520> **Spotify, Apple Music, Deezer & więcej...**
+
+  <:blankers:1332784847961198632><:bbb_sparkler:1549726912769687642> **Potrzebujesz pomocy? Dołącz na nasz [serwer wsparcia](%{serversupport})**
+rating_desc: Dziękujemy Ci %{user} za wystawienie gwiazdek dla naszego 
+  muzycznego bota Discord!«
+rating_succes: |-
+  Dziękujemy za Twoją ocenę!
+  Została ona pomyślnie wysłana.
+rating_failure: Nie udało się wysłać zgłoszenia. Spróbuj ponownie później.
+report_provide_desc: Ups! Nieprawidłowe polecenia. Proszę podać opis.
+report_failure: Nie udało się wysłać zgłoszenia. Spróbuj ponownie później.
+report_success: |-
+  Dziękujemy za zgłoszenie.
+  Zgłoszenie zostało pomyślnie przesłane w celu rozpatrzenia.
+suggestions_provide_desc: Ups! Nieprawidłowe polecenia. Proszę podać opis
+suggestions_failure: Nie udało się wysłać sugestii. Spróbuj ponownie później.
