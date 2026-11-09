@@ -1,1 +1,77 @@
-{}
+setup_helper_content: |
+  ## Wewcome to %{guild}
+   *Nyew hewe? You'we in the wight pwace~*
+   > **Youw music, whewevew you pway~ Listen with fwiends in voice channews, waunch the Discowd Activity, ow enjoy music fwom the web pwayew.** UwU
+   This sewvew is the home of the %{guild}~
+   You can chat, shawe songies, get suppowt, and discovew evewyfing %{bot} offews, nya~
+  ### Quick Navigation
+   - Wepowt bugs: https://discord.com/channels/
+   - Shawe suggestions: https://discord.com/channels/
+   - Cweate a suppowt ticket: https://discord.com/channels/
+   - Open the Hewpdesk (FAQ): https://discord.com/channels/
+  ### Community Tips
+   - Be wespectfuw and keep convewsations fwiendwy~
+   - Use the wight channew fow the wight topic.
+   - If you need hewp, incwude detaiws so the team can assist fastew, pwease~
+  Want to invite youw fwiends? Shawe this sewvew wink: %{serversupport} <3
+disable_helper: The hewpew has been disabwed~
+invalid_channel_helper: The pwovided channew is invawid
+channel_viewable_helper: The pwovided channew is not visibwe to me
+setup_helper_succes: The hewpew has been set up to %{channel} successfuwwy! UwU
+rules_title: Sewvew Wuwes fow %{guild} Community!
+rules_desc: |
+  - **Be wespectfuw**
+    Awways fowwow Discowd [ToS](https://discord.com/terms) and [Guidewines](https://discord.com/guidelines), nya~
+  - **Hewp Code**
+    When asking fow hewp, make suwe to pwovide as much detaiw as possibwe, incwuding ewwows, pwease~
+  - **No Hate Speech or Hawassment**
+    No convewsations containing hate speech ow hawassment tawgeting individuaws ow gwoups.
+  - **No Twowwing or Fwaming**
+    No actions intended to diswupt convewsations ow pwovoke confwicts in any way.
+  - **Wespect Intewwectual Pwopewty**
+    Wespect intewwectual pwopewty wights, incwuding but not wimited to copywights, twademawks, and patents.
+  - **No Spoiwews Without Wawning**
+    If discussing content not yet seen by aww membews, pwovide spoiwer wawnings to avoid disappointment, pwease~
+  - **Use Appwopwiate Channews**
+    Use wewevant channews fow specific topics, and avoid off-topic discussions in unwewated channews.
+  - **No Excessive Capitawization or Spamming**
+    Avoid excessive use of capitaw wetters ow sending wepeated messages too wapidwy, nya~
+  - **Keep Voice Channews Cweaw**
+    If using voice channews, make suwe thewe's no diswuptive noise and speak powitewy~
+  - **No Unauthowized Bots or Automation**
+    Onwy bots authowized by modewatows awe awwowed to opewate on the sewvew.
+  - **Wepowt Viowations**
+    If you witness any wuwe viowations, wepowt them to a modewatow ow admin, pwease~
+  - **Have Fun!**
+    Most impowtantwy, enjoy youw time on this sewvew by wespecting aww membews and keeping a positive enviwonment, nya~ <3
+
+  Thank you fow joining! We hope you'ww have a gweat time hewe, UwU~
+support_us_title: How to Suppowt %{bot}
+support_us_desc: You can suppowt me by voting fow %{bot}, inviting %{bot} to 
+  youw sewvew, ow shawing %{bot} with youw fwiends~ Evewy bit of suppowt hewps 
+  me gwow and impwove! UwU
+support_us_footer: Thank you fow considewing suppowting %{bot}! I weawwy 
+  appweciate it, nya~ <3
+role_title: You can add ow wemove wowes fwom the wist bewow, nya~
+role_added: '**[Success]** The %{rolename} Wole has been successfuwwy added! UwU'
+role_removed: '**[Wemoved]** The %{rolename} Wole has been wemoved~'
+role_rules_added: "%{user} hope you'ww fowwow aww the wuwes! You now have access to
+  the whowe sewvew, nya~"
+role_rules_already: "%{user} you'we awweady accepted the wuwes, silly~"
+role_desc: We just wanna make suwe you'we a human and not a bot, nya~ Pwease 
+  hewp us confiwm youw authenticity by compweting a quick vewification task, 
+  UwU.
+vote_desc: |
+  %{voteuser} has voted fow %{votebot} on **[Top.gg](%{voteurl})**
+  Thank you fow showing youw suppowt! We hope you have a gweat day, nya~
+vote_footer: 'Totaw Votes: %{count}, stay in youw imagination! UwU'
+reminder_label_name: Wemindew to Vote
+reminder_label_emoji: ⏰
+reminder_title: Vote Wemindew
+reminder_desc: It's time~ You can now vote again on **[Top.gg](%{voteurl})**, 
+  nya!
+reminder_set_content: Wemindew set! I'ww wemind you to vote again in 12 houws~ 
+  UwU
+reminder_cancel_content: Wemindew cancewwed. You won't be weminded to vote 
+  again, nya~
+reminder_no_vote_warning: You must vote fiwst befowe setting a wemindew, pwease!
