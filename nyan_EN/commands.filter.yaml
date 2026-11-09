@@ -1,1 +1,32 @@
-{}
+filter_on: |
+  Filter **%{name}** is onnn~!
+  I-I hope you wike how this one sounds! UwU ♪
+filter_already: Huhh- The %{name} VST is awweady tuwned on... I can't do anyfing
+  hewe! :c
+filter_number: Nyope! That's not a numbew I can put into the EQ... >_<
+filter_greater: It has to be a numbew gweatew than **0**! Pwease twy again~ nya!
+filter_less: W-Woah!! That's a wittwe too much! Maybe twy something wess than 
+  **10**~? >w<
+bassboost_set: '**Bassboost has been set to %{amount}dB**~ B-Boom boom!! >w<'
+bassboost_limit: Pwease use a numbew between **-10** and **10**~ nya!
+eq_author: Equawizew~
+eq_icon: 
+  https://i.pinimg.com/originals/cb/17/b8/cb17b80a942d7c317a35ff1324fae12f.gif
+eq_desc: |
+  Thewe awe **10 Bands** you can adjust fwom **-10** to **10**~!
+  You don't have to input aww of dem, just the ones you wanna change!
+  Sooo, if you wanna skip one, just weave it as a **0**~ UwU
+eq_field_title: 'Exampwe~:'
+eq_field_value: '%{prefix}eq 2 3 0 8 0 5 0 -5 0 0'
+eq_footer: Weset Equawizew • %{prefix}eq weset
+eq_on: EQ has been set to **%{bands}**! Wet's get those soundies wight~ >w<
+eq_number: Pwease pwovide a vawid numbew~! >_<
+eq_greater: The numbew must be gweatew than **-10**~!
+eq_than: The numbew must be wess than **10**~!
+pitch_on: Okiii~ Pitch is now **%{amount}**! UwU
+rate_on: Aww wight~! Wate is now **%{amount}x**! >w<
+speed_on: Suwe thingie~ Changing speed to **%{amount}x**! Nyoom nyoom~!
+reset_on: '**Wesetting** aww VSTs~! Back to the owiginaw soundies! UwU ♪'
+reset_already: But... the VSTs awe **awweady off**! Did you fowget, silly? :c
+number_invalid: That's not a numbew I can wowk with... Sowwy~ Twy again with a 
+  vawid numbew, pwease! >_<
