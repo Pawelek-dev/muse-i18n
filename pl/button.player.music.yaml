@@ -1,2 +1,30 @@
 autoplay_on: Hurra~~ Funkcja automatycznego odtwarzania jest teraz **włączona**
 autoplay_off: Hmmm~~ Funkcja automatycznego odtwarzania jest teraz **wyłączona**
+autoplay_no_song: Brak utworów do odtwarzania!
+loop_current: Od teraz utwór którego słuchasz zostanie zapętlony. Rozkoszuj się 
+  nim ponownie!
+loop_all: Od teraz kolejka została zapętlona. Pozwól muzyce grać w kółko!
+unloop_all: Pętla została wyłączona. Eksploruj wachlarz utworów!
+pause_msg: Muzyka została wstrzymana. Zrób sobie przerwę i rozkoszuj się ciszą.
+resume_msg: I gra muzyka! Niech dyskoteka trwa dalej ♪
+previous_notfound: Wybacz, ale nie mogę cofnąć dalej. Nie znalazłem poprzedniego
+  utworu :(
+previous_msg: Cóż, wydaję mi się, że przewijamy! Poprzedni utwór nadchodzi <3
+queue_title: Trwająca kolejka...
+queue_description: |-
+  **%{title} **
+
+  **Reszta kolejki %{list_song}**
+queue_footer: Strona • %{page}/%{pages} | Utworów • %{queue_lang} | Łączna 
+  długość • %{total_duration}
+shuffle_msg: Zgadnij co zrobiłem? Przemieszałem dla Ciebie kolejkę!
+skip_msg: Pominąłem utwór. Mam nadzieję że nie masz nic przeciwko :p
+skip_notfound: Ups! Wygląda na to, że nie ma utworu do którego można by było 
+  pomijać! Baw się dobrze przy obecnym kawałku ♪
+stop_msg: Odtwarzanie zostało zatrzymane. Mam nadzieję, że dobrze się bawił*ś!
+voldown_msg: Głośność została zmniejszona o %{volume}%. Ciesz się łagodniejszymi
+  wibracjami!
+volume_invalid: Nieprawidłowa wartość. Dostępny zakres sięga od **1** do **100**
+volup_msg: Głośność została zwiększona o %{volume}%. Dajcie czadu!
+volume_max: Nie mogę ustawić głośności powyżej 100%
+volume_min: O nie, już na minimalnej głośności!
