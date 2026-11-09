@@ -2,11 +2,34 @@ autoplay_on: Yay~~ Autopway is now **Enabwed**! UwU
 autoplay_off: Hmmmm~ Autopway is now **Disabwed**. Nyo more automatic musicies 
   :c
 autoplay_no_song: Nyo songs awe pwaying! *sad nya noises*
-loop_current: Nyaa~ The cuwwent song wiww now pway on woop! Enjoy the wepeaties~
-  >w<
-loop_all: The queue is now set to woop! Wet the music pway fowever and evew~ UwU
-unloop_all: Woopies mode has been tuwned off~ Enjoy aww those diffewent 
-  twackies! :3
-pause_msg: Music has been pawsed. Take a wittwe bweathie and enjoy the siwence~ 
-  *purrs*
-resume_msg: The music is back on!! Wet's get back to gwovvin'~ ♪ >w<
+loop_current: The cuwwent song wiww now pway on woop! Enjoy the wepeaties~ nya~ 
+  UwU
+loop_all: The queue is now set to woop! Wet the music pway on wepeat fowevew~ ♪
+unloop_all: Woopies mode has been tuwned off~ Enjoy aww the diffewent twackies! 
+  :3
+pause_msg: Music is pawsed~ Take a wittwe bweakie and enjoy the siwence~ *purrs*
+resume_msg: The music is back on!! Wet's continue the gwoove~ ♪ >w<
+previous_notfound: Sowwy~ Can't go back any fuwther! Nyo pwevious twackie found 
+  :(
+previous_msg: Ooooh~ I guess we'we wewinding! Pwevious twackie incoming~ <3
+queue_title: Quewie pwaying~ nya!
+queue_description: |-
+  **%{title} **
+
+  **West of Quewie %{list_song}**
+queue_footer: Page • %{page}/%{pages} | Songies • %{queue_lang} | Totaw 
+  Duwwation • %{total_duration}
+shuffle_msg: Guess what I did~? I scwambwed aww those twackies fow you!! 
+  *giggles* >:3
+skip_msg: I skipped the twackie fow you~ Hope you don't mind! :p nya~
+skip_notfound: Oopsie~ Wooks wike thewe's no twackie to skip to! Keep gwovvin' 
+  with the cuwwent one~ ♪ >w<
+stop_msg: Music pwayback has been stopped~ Hope you had a gweat time gwovvin'! 
+  *happy purrs* <3
+voldown_msg: The vowume has been wowewed by %{volume}%~ Enjoy the softie vibes! 
+  UwU
+volume_invalid: Nyope! Invawid vowume~ The awwowed wange is between **1** and 
+  **100** nya!
+volup_msg: The vowume has been incweased by %{volume}%~ PUMP UP THE JAM!! >w<
+volume_max: I-I can't tuwn my vowume past 100%!! Sowwy~ >_<
+volume_min: Oh nyo~~ It's awweady at the wowest vowume! :c
