@@ -1,0 +1,292 @@
+### 24/7 command!
+247_on: "24/7 mode is now **Enabled**"
+247_off: "24/7 mode is now **Disabled**"
+247_already: "24/7 mode is already **%{mode}**"
+247_arg_error: "Invalid 24/7 mode. Please use %{text}"
+247_no_in_voice: "You are not in a voice channel!"
+
+### Set Language command! ###
+provide_lang: "**Invalid Language. Please use** `%{languages}`"
+lang_set: "**Language has been set to** `%{language}`"
+lang_change: "**Language has been changed to** `%{language}`"
+
+### Prefix command! ###
+prefix_arg: "Please provide a valid Prefix!"
+prefix_length: "**Prefix can not be longer than 10 Characters**"
+prefix_set: "**Prefix has been set to** `%{prefix}`"
+prefix_change: "**Prefix has been changed to** `%{prefix}`"
+
+### Control command!
+control_set: "**Player control mode has been set to %{toggle}**"
+control_arg_error: "Invalid argument. Please use %{text}"
+control_already: "Song Notifications are already **%{mode}**"
+
+### Setup Music Req command! ###
+setup_arg_error: "Invalid! Please use %{text}"
+setup_enable: "**Oops! Music System already exists.**"
+setup_topic: "♪ Your music, wherever you play. ♪"
+setup_msg: "*`Succesfully Setup Music System in`* %{channel}\n```Note: Do not delete any message(s) I've created in order for me to work properly.```"
+setup_null: "*`Successfully delete setup channel!`*"
+setup_deleted: "*`Successfully delete setup channel!`*"
+setup_null_inguild: "**Music System not found in this server! Ready to delete data**"
+setup_queuemsg: "**Join a voice channel and play songs using name or URL in here!**"
+setup_playembed_author: "No Song Is Currently Playing"
+
+### Themes command!
+error_themes: "Invalid... Please try again."
+succes_themes: "**Succesfully changed theme to %{themes}**"
+
+### Last FM Login command!
+lastfm_login_footer: "Notes: This link will expire in %{expired}."
+lastfm_login_title: "Last.fm Login"
+lastfm_login_desc: "Would you like to grant authorization to your [Last.fm](https://www.last.fm/) account?\nIf yes, please click the button below to start the authorization process."
+lastfm_not_login_desc: "You are not logged in to Last.fm"
+lastfm_view_dashboard: "### Last.fm Dashboard"
+lastfm_view_account_details: "### Account Details"
+lastfm_view_username: "**Username**"
+lastfm_view_scrobbling_since: "**Scrobbling since**"
+lastfm_view_total_scrobbles: "**Total Scrobbles**"
+lastfm_view_total_artists: "**Total Artists**"
+lastfm_view_total_albums: "**Total Albums**"
+lastfm_view_total_loved_tracks: "**Total Loved Tracks**"
+lastfm_view_no_data: "No data found for this period."
+lastfm_view_top_artists: "Top Artists"
+lastfm_view_top_albums: "Top Albums"
+lastfm_view_top_tracks: "Top Tracks"
+lastfm_view_select_period: "Select Time Period"
+lastfm_view_period_7d: "7 Days"
+lastfm_view_period_30d: "30 Days"
+lastfm_view_period_1y: "1 Year"
+lastfm_view_period_lifetime: "Lifetime"
+lastfm_view_plays: "plays"
+lastfm_view_by: "by"
+lastfm_view_error: "An error occurred while fetching Last.fm data."
+
+### Last FM Logout command!
+lastfm_logout_title: "Last.fm Logout"
+lastfm_logout_desc: "You have successfully logout from Last.fm"
+
+### Last FM Feature Disable!
+lastfm_feature_disabled_title: "Last.fm Feature is disabled."
+lastfm_feature_disabled_desc: "The Last.fm feature is currently disabled. Please contact the administrator for more information."
+
+### Temp Voice Feature command!
+tempvoice_setup: "Temp Voice feature has been %{status}."
+tempvoice_disabled: "Temp Voice has been disabled."
+
+### Status Voice Channel Feature command!
+status_voice_channel_error: "Invalid... only %{text}."
+status_voice_channel_true: "Status Voice Channel has been set to **%{type}**."
+status_voice_channel_false: "Status Voice Channel has been set to **%{type}**."
+
+### Player Control Embed config command! ###
+player_embed_config_invalid_setting: "Invalid setting. Please choose Disable all controls, Filter Menu, Button Name, Music Card, Recommended Menu, or Player Buttons."
+player_embed_config_invalid_value: "Invalid value. Please choose true or false."
+player_embed_config_already: "**%{setting}** is already set to **%{value}** for this server."
+player_embed_config_set: "Successfully set **%{setting}** to **%{value}** for this server."
+player_embed_config_musiccard_note: "Music Card changes will fully apply on the next track message."
+player_embed_config_musiccard_disabled: "Music Card features are currently disabled."
+player_embed_config_controlmode_note: "Disable all controls changes will fully apply on the next track message."
+
+### Patreon Claim command!
+not_in_guild: "This command can only be executed on the Server!"
+no_data_patreon: "Patreon data not found (Database Error)"
+no_data_patreon_title: "Not Found"
+no_data_patreon_desc: |
+  If you have already subscribed, make sure your Discord account is linked to Patreon!
+no_data_patreon_footer: "Patreon sync may take a moment, please check again shortly"
+no_patreon_guild_membership: |
+  hello, your patreon plan is **user tier**.
+  please upgrade to **server tier** to unlock premium server access.
+patreon_guild_membership_full_quota: |
+  you have used all of your server quota!
+  **status:** %{status} servers used.
+
+  solution:
+  1. upgrade your tier on patreon.
+  2. or disable premium on your old server.
+patreon_guild_membership_already_before: "You have already activated premium on this server before!"
+patreon_guild_membership_already: "**ALREADY PREMIUM** because it is sponsored by someone else.\nSave your quota for other servers!"
+patreon_guild_membership_claim_title: "Activation Confirmation"
+patreon_guild_membership_claim_desc: |
+  are you sure you want to activate **premium server** for:
+  **%{guildName}**
+
+  this action will use **1 server quota**.
+  remaining quota: **%{status}**
+patreon_guild_membership_claim_success: |
+  success! **%{guildName}** is now a **premium server**.
+
+  **sponsor:** %{user}
+  **remaining quota:** %{status}
+  thank you for supporting us on patreon!
+patreon_guild_membership_claim_success_title: "💎 Premium Activated!"
+patreon_guild_membership_claim_cancel: "Premium activation canceled."
+patreon_guild_membership_claim_norespon: "Activation was automatically canceled due to no response."
+
+### Patreon Claim command Logs!
+patreon_guild_membership_claim_logs_title: "🏰 Server Redeemed (Patreon)"
+patreon_guild_membership_claim_logs_desc: |
+  **sponsor user:** %{sponsorTag} %{sponsorId}
+  **target server:** %{guildName} %{guildId}
+  **quota status:** %{status}
+
+### Patreon UNClaim command!
+patreon_guild_not_owned_by_user: "You cannot revoke this premium server because you did not register it."
+patreon_guild_unclaim_title: "Premium Revocation Confirmation"
+patreon_guild_unclaim_desc: |
+  Are you sure you want to **CANCEL** the Premium status of the **%{guildName}** server?
+  **Effects:** Premium features will be disabled on this server.
+  Your Server Quota will be restored (+1). 
+  Current remaining quota: **%{status}**
+patreon_guild_unclaim_success_title: "Premium Revoked"
+patreon_guild_unclaim_success: |
+  Premium status for **%{guildName}** has been successfully revoked.
+  **Quota Restored:** 1 Server
+  **New Remaining Quota:** %{status}
+patreon_guild_unclaim_cancel: "Premium revocation process canceled."
+patreon_guild_unclaim_norespon: "⏱️ Timeout. Process canceled."
+
+### Patreon UNClaim command Logs!
+patreon_guild_unclaim_logs_title: "Unclaimed Servers (Patreon)"
+patreon_guild_unclaim_logs_desc: |
+  **User:** %{sponsorTag} %{sponsorId}
+  **Server:** %{guildName}} %{guildId}
+  **Quota Restored:** %{status}
+
+patreon_kofi_claim_log_desc: |
+  **User:** %{userTag} (%{userId})
+  **Server:** %{guildName} (%{guildId})
+  **Quota:** %{quota}
+  **Expires:** %{expires}
+
+patreon_kofi_claim_log_title: "🏗️ %{platform} Action: %{action}"
+
+### Kofi Claim command!
+no_data_kofi: "Transaction ID not found or already claimed."
+kofi_linked_success_title: "Payment Linked Successfully!"
+kofi_linked_success_desc: "Now you can use `/premium claim <kofi>` without an TxID."
+kofi_no_data_title: "No Data Found!"
+kofi_no_data_desc: |
+  If you have already paid but have not connected your Discord account to Kofi
+  use: `/premium claim <kofi> <transaction_id>`
+kofi_no_server_quota_desc: "No quota, but you are a premium user."
+kofi_full_server_quota_title: "Quota Full!"
+kofi_full_server_quota_desc: "You have used **%{quota}** server slots."
+kofi_server_already_claim_desc: "**Already Active!**\nYou have already activated Premium on this server before."
+kofi_server_already_active_desc: " **Already Premium!**\nThis server has already been activated as premium by another user."
+kofi_guild_membership_claim_success: |
+  Premium has been successfully activated!
+  **Quota Usage:** %{quota}
+  **Expires In:** %{expires}
+kofi_guild_membership_claim_footer: "Thank you for your support!"
+kofi_action_title: "🏗️ Ko-fi Action: %{type}"
+kofi_action_description: "**User:** %{userTag} (`%{userId}`)\n**Server:** %{guildName} (`%{guildId}`)\n**Action:** %{action}\n**Quota:** %{quota}"
+kofi_action_activation: "Server Activated"
+kofi_action_manual_link: "Manual Payment Linked"
+
+## Premium Kofi UnClaim
+kofi_guild_unclaim_success_title: "Premium Revoked"
+kofi_guild_unclaim_success_desc: |
+  Premium status for **%{guildName}** has been successfully revoked.
+  **Quota Restored:** 1 Server
+kofi_guild_not_owned_by_user: "You cannot revoke this premium server because you did not register it."
+
+## Premium UnClaim logs
+premium_unclaim_log_title: "Unclaimed Servers %{platform}"
+premium_unclaim_log_desc: |
+  **User:** %{userTag} %{userId}
+  **Server:** %{guildName}} %{guildId}
+  **Quota Restored:** %{quota}
+
+### DjRole ###
+dj_role_disabled: "The DJ Role system has been **Disabled**."
+dj_role_missing_role: "You need to provide a role to use the `set` action."
+dj_role_set: |
+  The DJ Role has been set to %{role}.
+  Status: **Enabled**
+  **Affected Commands:**
+  %{commands}
+
+### Stage Control ###
+stage_control_disabled: "Stage Control has been **Disabled**. Anyone can control music in Stage Channels."
+stage_control_missing_role: "You need to provide a role to use the `set` action."
+stage_control_set: "Stage Control role has been set to %{role}. Only users with this role can control music in Stage Channels."
+
+### Set Channel ###
+set_channel_added: "Channel %{channel} has been added to the allowed command channels."
+set_channel_already_exists: "Channel %{channel} is already in the allowed command channels."
+set_channel_removed: "Channel %{channel} has been removed from the allowed command channels."
+set_channel_removed_all: "All channel restrictions have been removed. Commands can now be used in any channel."
+set_channel_no_channels: "No command channels are configured for this server."
+set_channel_missing_channel: "You need to provide a text channel to use the `add` action."
+set_channel_list_title: "Allowed Command Channels"
+set_channel_page_info: "%{total} channel(s) configured · Page %{page}/%{pages}"
+set_channel_btn_prev: "Previous"
+set_channel_btn_next: "Next"
+set_channel_btn_remove_all: "Remove All"
+set_channel_btn_delete: "✕"
+set_channel_expired: "This interaction has expired."
+
+### Customize command ###
+customize_view_title: "Server Bot Customization"
+customize_view_status: "Status"
+customize_view_access: "Access"
+customize_view_requirement: "Requirement"
+customize_view_cooldown: "Cooldown"
+customize_view_cooldown_ends: "Cooldown ends"
+customize_view_ready: "Ready"
+customize_view_access_allowed: "Allowed"
+customize_view_access_denied: "Not allowed"
+customize_view_current: "Current"
+customize_view_pending: "Pending Review"
+customize_view_nickname: "Nickname"
+customize_view_bio: "Bio"
+customize_view_avatar: "Avatar"
+customize_view_banner: "Banner"
+customize_view_default: "(default)"
+customize_view_custom: "Custom"
+customize_view_default_state: "Default"
+customize_view_no_pending: "No pending changes."
+
+customize_status_idle: "Idle"
+customize_status_pending: "Pending"
+customize_status_approved: "Approved"
+customize_status_rejected: "Rejected"
+
+customize_submit_success: "Profile submitted for review."
+customize_reset_success: "Bot profile reset to default."
+customize_no_changes: "No changes detected. Provide at least one new value (nickname, bio, avatar, or banner)."
+
+customize_error_load: "Failed to load bot profile."
+customize_error_load_current: "Failed to load current profile."
+customize_error_submit: "Failed to submit profile."
+customize_error_reset: "Failed to reset bot profile."
+customize_error_image_process: "Failed to process image attachment."
+customize_error_image_type: "Only PNG, JPEG, GIF, or WebP images are supported."
+customize_error_image_size: "Image must be 2 MB or smaller."
+customize_error_image_read: "Failed to read uploaded image."
+
+customize_error_guild_required: "guildId is required."
+customize_error_guild_not_found: "Guild not found or bot is not in this guild."
+customize_error_access_level: "Bot profile customization requires the configured access level."
+customize_error_manage_customize: "You need the Manage Server permission to customize the bot profile."
+customize_error_manage_reset: "You need the Manage Server permission to reset the bot profile."
+customize_error_nick_max: "Nickname must be 32 characters or fewer."
+customize_error_bio_max: "Bio must be 190 characters or fewer."
+customize_error_avatar_uri: "Avatar must be a valid base64 data URI (png/jpeg/gif/webp)."
+customize_error_avatar_size: "Avatar image must be 2 MB or smaller."
+customize_error_banner_uri: "Banner must be a valid base64 data URI (png/jpeg/gif/webp)."
+customize_error_banner_size: "Banner image must be 2 MB or smaller."
+customize_error_cooldown: "You can only change the bot profile once every 3 days."
+customize_error_reset_discord: "Failed to reset profile on Discord"
+
+customize_review_unauthorized: "You are not allowed to use this review action."
+customize_review_approve_success: "Profile approved and applied."
+customize_review_approve_failed: "Failed to approve profile: %{error}"
+customize_review_reject_title: "Reject bot profile review"
+customize_review_reject_reason_label: "Rejection reason"
+customize_review_reject_reason_placeholder: "Explain why the request was rejected..."
+customize_review_reject_reason_required: "A rejection reason is required."
+customize_review_reject_success: "Profile rejected."
+customize_review_reject_failed: "Failed to reject profile: %{error}"

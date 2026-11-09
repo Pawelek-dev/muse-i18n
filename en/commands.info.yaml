@@ -1,0 +1,165 @@
+### About commands
+about_desc1: "**Your music, wherever you play. Listen with friends in voice channels, launch the Discord Activity, or enjoy music from the web player.**"
+about_desc2: |
+  ・Bot prefix for this server is `%{prefix}`
+  ・Play a track by link or search term `%{prefix} play`
+  Visit our **[website](%{website})** or use the `%{prefix} help` command for more commands.
+about_desc3: |
+  **Heads up!**
+  I preferably require `Administrator` permissions, but...
+  Even if you don't give me those permissions, I can still work, but I might not be able to do everything I'm capable of. Just saying!
+
+  **Help and Support**
+  Join our **[support server](%{serversupport})** if you need help, want to get information about updates and issues or want to engage with the community!
+
+### Help command!
+finder_invalid: "Invalid Command"
+button_not_author: "Only the person who ran this command can use these buttons."
+finder_example: "I can't help you find that! Look for an *actual* command!"
+finder_name: "**Command:**"
+finder_des: " **Description:**"
+finder_usage: "**Usage:**"
+finder_access: "**Accessible by:**"
+finder_aliases: "**Aliases:**"
+finder_slash: "**Slash:**"
+finder_des_no: "Couldn't find a description, sorry about that..."
+finder_usage_no: "I’m not sure how to use this command."
+finder_aliases_prefix: "[Prefix only]"
+finder_aliases_no: "You can't use this command with an alias."
+finder_slash_enable: "Enabled"
+finder_slash_disable: "Disabled"
+command_not_found: "Unknown command"
+select_menu: "Enjoy music with Muse!"
+help_timeout: "Help Menu timed out try using **`%{prefix}help`** or **`/help`** again."
+homepage_title: "**Your music, wherever you play. Listen with friends in voice channels, \nlaunch the Discord Activity, or enjoy music from the web player.**"
+homepage_desc: |
+  <:blankers:1332784847961198632><:times:1332786387551916073> **Music 24/7**
+  <:blankers:1332784847961198632><:spotify1:1332809095522029651> **Spotify Integration**
+  <:blankers:1332784847961198632><:speaker:1332786202545487872> **High-Quality Audio**
+  <:blankers:1332784847961198632><:lastfm:1332808961161695332> **Scrobbled with Last.fm**
+  <:blankers:1332784847961198632><:musicplay:1332785497013227520> **Spotify, Apple Music, Deezer & More...**
+
+  <:blankers:1332784847961198632><:bbb_sparkler:1549726912769687642> **Need help? join our [Support Server](%{serversupport})**
+### Rating bot commands! ###
+rating_desc: "Thank you %{user} for rating stars for our Discord music bot!"
+rating_succes: "Thank you for your rating!\nYour rating has been successfully submitted."
+rating_failure: "Failed to send the report. Please try again later."
+
+### Report command #####
+report_provide_desc: "Oops! Invalid commands. Please provide your description"
+report_failure: "Failed to send the report. Please try again later."
+report_success: "Thank you for your report.\nThe report has been successfully submitted for resolution."
+
+### Suggestions command #####
+suggestions_provide_desc: "Oops! Invalid commands.please provide your description"
+suggestions_failure: "Failed to send the suggestion. Please try again later."
+suggestions_success: "Thank you for your suggestion!\nYour suggestion has been successfully submitted."
+
+### Patreon Service Logs ###
+patreon_logs_desc: |
+  **Status Result:**
+  %{desc}
+
+patreon_logs_user_identity_title: "👤 User Identity"
+patreon_logs_user_identity_value: |
+  **Name:** %{fullName}
+  **Discord:** <@%{discordId}> (`%{discordId}`)
+  **Email:** %{email}
+
+patreon_logs_details_title: "Patreon Details"
+patreon_logs_details_value: |
+  **Pledge:** $%{pledge}
+  **Patreon ID:** `%{patreonId}`
+  **Status:** `%{status}`
+patreon_logs_date_title: "📅 Date"
+
+### Kofi Service Logs ###
+kofi_logs_user_identity_title: "User Identity"
+kofi_logs_user_identity_value: "**Name:** %{fullName}\n**Email:** ||%{email}||\n**Public:** %{dataPublic}"
+kofi_logs_discord_identity_title: "Discord Identity"
+kofi_logs_discord_identity_value: "**User:** %{discordUser}\n**ID:** %{discordId}"
+kofi_logs_payment_details_title: "Payment Details"
+kofi_logs_payment_details_value: "**Amount:** %{currency} %{amount}\n**Tier:** **%{tierName}**\n**Type:** %{type}"
+kofi_logs_sub_status_title: "Subscription Status"
+kofi_logs_sub_status_value: "**Is Sub:** %{isSub}\n**First Pay:** %{isFirst}"
+kofi_logs_message_title: "Message / Reason"
+kofi_logs_tech_title: "Technical / Transaction IDs"
+kofi_logs_tech_value: "**Ko-fi Tx ID:** %{kofiTxId}\n**Msg ID:** %{msgId}\n**URL:** [%{viewDetails}](%{url})\n**Token:** ||%{token}||"
+kofi_logs_view_details: "View Details"
+
+### Favorites command ####
+fav_title: "### 🤍 Your Liked Songs"
+fav_page_info: "**%{total} liked songs**\nPage %{page}/%{pages}"
+fav_playall: "Added %{added} liked songs to the queue!"
+fav_add_song: "Added **%{title}** to the queue!"
+fav_error_player: "Failed to create player or join voice channel."
+fav_remove_cancel: "Cancel removal and go back."
+fav_remove_placeholder: "Select a song to remove..."
+fav_confirm_clear_title: "## Continue?"
+fav_confirm_clear_desc: "Are you sure you want to clear all Liked Song?\n\nThis action will permanently remove %{count} songs from your liked songs playlist and cannot be reversed."
+fav_btn_sure: "Sure"
+fav_btn_no: "No"
+fav_empty_title: "### 🤍 Your Liked Songs"
+fav_empty_count: "### 0 liked songs"
+fav_empty_desc: "-# Your favorites are waiting\nAdd songs you love and build your own playlist energy."
+fav_removed_title: "### Song Removed"
+fav_removed_desc: "Successfully! **%{title}** is out of your favorites now."
+fav_btn_back: "Back"
+
+### History command ####
+hist_title: "### Your Listening History"
+hist_page_info: "**%{total} songs played**\nPage %{page}/%{pages}"
+hist_playpage: "Added %{added} songs from this page to the queue!"
+hist_add_song: "Added **%{title}** to the queue!"
+hist_error_player: "Failed to create player or join voice channel."
+hist_confirm_clear_title: "## Clear History?"
+hist_confirm_clear_desc: "Are you sure you want to clear your listening history?\n\nThis action will permanently remove %{count} songs from your history and cannot be reversed."
+hist_btn_sure: "Sure"
+hist_btn_no: "No"
+hist_empty_title: "### Your Listening History"
+hist_empty_count: "### 0 songs played"
+hist_empty_desc: "-# Your history is empty\nStart listening to songs and they will appear here."
+hist_btn_back: "Back"
+
+### GuildStats command ####
+gstats_empty_title: "📊 Server Stats"
+gstats_empty_desc: "There is no data for this server yet."
+gstats_tracks_title: "### Top 10 Tracks in %{guild}"
+gstats_artists_title: "### Top 10 Artists in %{guild}"
+gstats_btn_tracks: "Top Tracks"
+gstats_btn_artists: "Top Artists"
+gstats_footer_tracks: "-# Showing the top tracks of the month for the guild."
+gstats_footer_artists: "-# Showing the top artists of the month for the guild."
+gstats_track_item: "%{index}. [**%{title}**](%{url})\n-# Played %{count} times"
+gstats_artist_item: "%{index}. [**%{name}**](%{url})\n-# Played %{count} times"
+gstats_stats_subtext: "-# Listen Time: `%{time}` • Tracks Played: `%{played}` times"
+
+### GlobalStats command ####
+glstats_empty_title: "🌍 Global Stats"
+glstats_empty_desc: "There is no global data yet."
+glstats_servers_title: "### Top 10 Servers Globally"
+glstats_tracks_title: "### Top 10 Tracks Globally"
+glstats_artists_title: "### Top 10 Artists Globally"
+glstats_voters_title: "### Top 10 Voters Globally"
+glstats_btn_servers: "Top Servers"
+glstats_btn_tracks: "Top Tracks"
+glstats_btn_artists: "Top Artists"
+glstats_btn_voters: "Top Voters"
+glstats_footer_servers: "-# Showing the top servers globally."
+glstats_footer_tracks: "-# Showing the top tracks globally."
+glstats_footer_artists: "-# Showing the top artists globally."
+glstats_footer_voters: "-# Showing the top voters globally."
+glstats_server_item: "%{index}. **%{name}**\n-# Listen Time: `%{time}` • Tracks Played: `%{played}` times"
+glstats_track_item: "%{index}. [**%{title}**](%{url})\n-# Played `%{count}` times"
+glstats_artist_item: "%{index}. [**%{name}**](%{url})\n-# Played `%{count}` times"
+glstats_voter_item: "%{index}. **%{name}**\n-# Total Votes: `%{count}` times"
+glstats_stats_subtext: "-# Global Listen Time: `%{time}` • Global Tracks Played: `%{played}` times"
+
+### Invite command ####
+invite_title: "Get Started in your Server"
+invite_desc: "You can invite Muse by clicking the button below. If you encounter any bugs, please join the support server."
+invite_activity_text: "You can also launch our Discord Activity to play music together with friends!"
+invite_btn_bot: "Invite %{bot}"
+invite_btn_instance: "%{name}"
+invite_btn_support: "Support Server"
+invite_btn_activity: "Launch Activity"

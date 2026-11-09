@@ -1,0 +1,18 @@
+joined_title: "📥 Joined a Guild!"
+leave_title: "📥 Left a Guild!"
+guild_name: "Name"
+guild_id: "ID"
+guild_owner: "Owner"
+guild_member_count: "Member count"
+guild_creation_date: "Creation date"
+guild_join_date: "Joined date"
+current_server_count: "Current server count"
+
+### message that the bot will send if it has just joined the server
+join_content_button_label_1: "Need assistance? Join our support community."
+join_content_button_label_2: "Learn how to maximize your music experience."
+join_content_button_label_3: "Manage settings and listen directly via web."
+
+join_content_msg_1: "### Thank you for choosing %{bot}!"
+join_content_msg_2: "**The ultimate music experience for your server is now ready.**\nHere is how you can get started:"
+join_content_msg_3: "- Default Prefix: `%{prefix}`\n- Try some popular commands: %{help}, %{play}, or %{autoplay}.\n\n-# Enjoy high-quality, 100% free music with zero payment or voting required."

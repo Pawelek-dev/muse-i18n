@@ -1,0 +1,24 @@
+### Ticket Events ###
+ticket_reason: "Provide the reason for creating a ticket"
+ticket_already_open: "You already have an open ticket."
+ticket_already_closed: "Ticket data for user %{id} not found or Ticket already closed"
+ticket_close_user: "You are not allowed to close the ticket."
+ticket_delete_user: "You are not allowed to delete the ticket."
+ticket_deleting_action: "Deleting tickets..."
+ticket_closed_label: "🔒 Closed"
+ticket_delete_label: "🗑️ Delete"
+ticket_create: "The ticket has been created. Go to %{channel}"
+ticket_create_title: "Wait for staff to respond"
+ticket_create_desc: |
+  Thanks for creating your ticket. Please wait for staff to respond.
+  `NOTE: This ticket has no backup. Please ensure to back up any important information yourself`
+
+### Closed Ticket Events ###
+ticket_closed_title: "🔒 Closed Ticket"
+ticket_closed_desc: "The ticket has been closed successfully!"
+
+### Closed Ticket DM User ###
+ticket_closed_dm_title: "The ticket has been closed."
+ticket_closed_dm_desc: |
+  A ticket you opened was just closed. A copy of the transcript is attached to this message as an HTML file.
+  If you encounter any issues or have further questions, feel free to open a new ticket. We're here to help!

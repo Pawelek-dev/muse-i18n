@@ -1,0 +1,417 @@
+### Search command!
+search_placeholder: "Check my picks for you!~"
+search_desc: "### HEY! Found results for your request"
+search_end_desc2: "### OMG! %{user}, you didn't select a song in time\n**Give it another go!**"
+search_footer: "%{countSong} tracks found"
+search_end_desc1: "## [`%{title}`](%{url}) `%{author}` enjoy it ♥"
+
+search_active: "You already have an active search menu running in this server.\nPlease close it (✖) or wait for it to expire."
+search_no_result: "No results found for your search :("
+search_cooldown: "Please wait **%{time}s** before using `/search` again."
+search_tab_songs: "Songs"
+search_tab_artists: "Artists"
+search_tab_albums: "Albums"
+search_tab_playlists: "Playlists"
+search_btn_add: "+ Add"
+search_btn_add_tracks: "+ Add Tracks"
+search_btn_add_album: "+ Add Album"
+search_btn_add_playlist: "+ Add Playlist"
+search_btn_first: "First"
+search_btn_prev: "Previous"
+search_btn_next: "Next"
+search_btn_last: "Last"
+search_btn_page: "Page %{page}/%{pages}"
+search_empty_category: '*No %{category} found for "%{query}"*'
+search_duration_artist: "-# Duration: %{duration} • %{artist}"
+search_artist_sub: "-# Type: Artist%{followers}"
+search_followers: " • %{count} followers"
+search_album_sub: "-# Type: Album • Artist: %{artist}"
+search_playlist_sub: "-# Type: Playlist • Tracks: %{tracks} • By: %{owner}"
+search_closed: "Search closed."
+search_only_author: "Only %{user} can interact with this search menu."
+search_item_expired: "Item not found or has expired."
+search_load_failed: "Could not load audio for **%{title}**."
+search_added_single: "Added **%{title}** to the queue!"
+search_added_multi: "Added **%{count} tracks** from **%{title}** to the queue!"
+search_join_failed: "Failed to join voice channel: %{reason}"
+search_processing: "Adding to queue, please wait..."
+play_search_track: "## [`%{title}`](%{url}) `%{author}` enjoy it ♥"
+no_songs_playing: "No song is currently playing!"
+card_error: "Failed to generate card. Please try again later!"
+
+### Autoplay command!
+autoplay_off: "Autoplay is now **Disabled**"
+autoplay_on: "Autoplay is now **Enabled**"
+autoplay_no_songs_playing: "No songs are playing!"
+
+### ClearQueue command!
+clearqueue_msg: "Queue has been **Cleared**"
+
+### Forward command!
+forward_msg: "**%{user} Forwarded %{title} to** `%{duration}`"
+forward_beyond: "Song is about to end. You can not Forward beyond it!"
+
+### PlayNext command!
+playnext_desc: "### %{name} Next To Play ♪"
+playnext_queue_empty: "The queue is empty. Please add some songs first"
+playnext_notfound: "Song not found!"
+
+# Execute when invalid
+no_node: "**Audio nodes are currently unavailable. Please wait a moment and try your command again.**"
+
+### Join command!
+join_msg: "The player has been successfully created and joined %{channel}.\nIf the bot hasn't joined the voice channel, please use /forcejoin."
+join_already: "I am already in %{channel}"
+join_no_in_voice: "You are not in a voice channel!"
+join_no_same_voice: "You are not in the same voice channel as me!"
+join_fail: "Could not connect to the voice channel.\nReason: `%{reason}`\n\n-# Tip: Check channel permissions or use %{fix} to resolve connection issues."
+
+### Leave command!
+leave_msg: "**Left the voice channel %{channel}**"
+leave_no_bot_voice: "The bot is not currently in a voice channel!"
+
+### Loop command!
+loop_current: "Now Looping %{title}"
+loop_all: "**Has been looping QUEUE mode**"
+unloop_all: "**Looping mode has been DISABLED**"
+loop_invalid: "Invalid Loop mode. Please use **Disabled**"
+loop_already: "Loop mode is already **%{mode}**"
+
+### Lyrics command!
+provide_lyrics: "Please provide a valid **Song Name**"
+lyrics_title: "Lyrics for **%{song}**"
+lyrics_notfound: "**Could not find the lyrics for this song!**"
+lyrics_toolong: "**Lyrics too long maks 4048 characters allowed!**"
+lyrics_disable: " **Lyrics is currently disabled!**"
+lyrics_noquery: "**Please provide a valid **Song Name**"
+lyrics_error: "**Error: %{error}**"
+lyrics_session_closed: "### Lyrics session closed."
+lyrics_session_timeout: "-# ⏱️ Lyrics session timed out. Use `/lyrics` again to restart."
+
+### Nowplaying command!
+nowplaying_stats: "-# - Duration: %{duration}\n-# - Requested by: %{requester}\n-# - Listen on: %{source}"
+nowplaying_currently_playing: "### Currently Playing ♬"
+nowplaying_up_next: "**♬ Up next:**\n[%{title}](%{uri}) by %{author}"
+nowplaying_grab_content: "♬ **%{title}** by **%{author}**\n%{uri}"
+nowplaying_saved_dm: "✅ Saved to your DMs!"
+nowplaying_saved_dm_failed: "I couldn't send you a DM. Please check your privacy settings."
+nowplaying_already_liked: "**%{title}** is already in your liked songs."
+nowplaying_liked: "🤍 Added **%{title}** to your Liked Songs.\nYou can play your liked songs using the `/play` command."
+nowplaying_like_error: "There was an error saving your liked song. Please try again later."
+
+### Pause command!
+pause_msg: "The track %{title} is currently paused!"
+
+### Play command!
+play_no_same_voice: "You are not in the same voice channel as me!"
+play_no_in_voice: "You are not in a voice channel!"
+play_arg: "Please provide a valid song name or URL!"
+play_emoji: "**Oops! This is emoji, You can not play songs using emoji**"
+play_match: "**This song couldn't be found. Try another source or a different search.**"
+play_fail: "Could not connect to the voice channel.\nReason: `%{reason}`\n\n-# Tip: Make sure the voice channel's RTC Region is working properly, or use %{fix} to re-initialize the connection."
+play_track: "### %{title}"
+play_result: "### %{title}"
+play_playlist: |
+  ## That was easy!
+  ### Your %{title} was added to the queue
+
+play_queue_max: |
+  OMG!>,.,< The queue is too long. Max %{limitqueue} songs.
+  Upgrade to [**premium**](%{premium}) for unlimited queue access!
+
+play_playlist_max: |
+  OMG!>,.,< The playlist is too long. Max %{limitqueue} songs.
+  Upgrade to [**premium**](%{premium}) for unlimited playlist access!
+
+### Previous command!
+previous_notfound: |
+  **No Previous song found in the queue! 
+  Why not /play more tracks and keep the music going?**
+previous_msg: |
+  **Back to the previous song! 
+  Now playing %{title}**
+
+### Queue command!
+queue_number_invalid: "Please provide a valid number!"
+queue_notnumber: "Please provide a valid page number!"
+queue_page_notfound: "There are only **%{page} Pages**"
+queue_now_playing_title: "### Now Playing"
+queue_up_next_title: "### Up Next (%{count} tracks)"
+queue_up_next_single: "### Up Next (1 track)"
+queue_empty_rest: "-# No upcoming tracks in the queue. Use `/play` to add more!"
+queue_track_sub: "-# Duration: %{duration} • %{artist} • Requested by: %{requester}"
+queue_summary_footer: "-# Total: %{total} tracks • Duration: %{duration} • Loop: %{loop} • Volume: %{volume}%"
+queue_btn_first: "First"
+queue_btn_prev: "Previous"
+queue_btn_page: "Page %{page}/%{pages}"
+queue_btn_next: "Next"
+queue_btn_last: "Last"
+queue_loop_off: "Off"
+queue_loop_track: "Song"
+queue_loop_queue: "Queue"
+queue_only_author: "Only %{user} can interact with this queue menu."
+
+### RemoveTrack command!
+removetrack_number_invalid: "Please provide a valid number!"
+removetrack_already: "**I cannot Remove a song that is already playing**"
+removetrack_notfound: "**Sorry %{user}, Song not found!**"
+removetrack_desc: "**Removed %{title} from the Queue!**"
+
+### Replay command!
+replay_msg: "**%{user} Hits Replay on %{title}**"
+replay_not_seekable: "The track **%{title}** cannot be replayed."
+
+### Resume command!
+resume_msg: "Playback Resumed %{title}"
+
+### Rewind command!
+rewind_msg: "**%{user} Rewinded %{title} to** `%{duration}`"
+rewind_beyond: "Song just started. You can not Rewind beyond it!"
+
+### Seek command!
+seek_beyond: "You can not Seek beyond the song duration!"
+seek_invalid: "Invalid Seek duration. Please use a valid timestamp. Example: **1:30**"
+seek_msg: "**Seeked %{title} to** `%{duration}`"
+seek_not_seekable: "The track **%{title}** cannot be rewound or fast-forwarded."
+
+### Skip command!
+skip_notfound: |
+  **No song was found to Skip to! Seems like there's nothing to skip to. 
+  Let's /play keep the music going by adding more tracks!**
+skip_msg: "**%{title} Has been Skipped**"
+skip_number_invalid: "Please provide a valid number!"
+
+### Stop command!
+stop_msg: "**%{title} Has been stopped**"
+
+### Shuffle command!
+shuffle_title: "Shuffles the Queue"
+
+### Volume command!
+volume_number_invalid: "Please provide a valid number!"
+volume_invalid: "Invalid Volume. Please use a number between **1** and **100**"
+volume_msg: "**Volume set to %{volume}%, Enjoy %{user}**"
+volume_max: "**Volume is already at max 100%**"
+
+### play source commands
+url_no_allowed: "Please use the song name/artist name (url no allowed)"
+play_arg_source: "Please provide a valid song name/artists!"
+
+## Temporarily disabled commands
+youtube_disabled: "YouTube support is temporarily unavailable"
+autoplay_disabled: "Autoplay is temporarily disabled."
+
+### Trivia command!
+trivia_not_server: "This command can only be used in a server."
+trivia_no_voice: "You must be in a **voice channel** to play Music Trivia! The bot needs to play song snippets for you to guess."
+trivia_music_playing: "Music is already playing in this server. Please stop the current music first before starting Music Trivia."
+trivia_active_session: "A Music Trivia session is already active in this channel. Wait for it to finish!"
+trivia_failed_start: "Failed to start Music Trivia. The bot could not join the voice channel."
+trivia_normal_playing: "A player in the current voice channel is using the bot for normal music. Stop it first."
+trivia_lobby_title: "# Music Trivia Lobby"
+trivia_lobby_waiting: "Waiting for players to join..."
+trivia_lobby_warning: "Game will automatically cancel if nobody joins."
+trivia_lobby_footer_multi: "-# Mode: Multiplayer | Host: %{host}"
+trivia_lobby_footer_single: "-# Mode: Single Player | Host: %{host}"
+trivia_join_btn: "Join Game"
+trivia_start_btn: "Start Game"
+trivia_cancel_btn: "Cancel"
+trivia_already_in: "You are already in the game."
+trivia_not_same_voice: "You must be in the same voice channel to join."
+trivia_joined: "Joined the trivia game!"
+trivia_left: "Left the trivia game."
+trivia_not_host_start: "Only the host can start the game."
+trivia_not_enough_players: "Not enough players! At least 2 players are needed for Multiplayer."
+trivia_starting: "Starting the game now..."
+trivia_not_host_cancel: "Only the host can cancel the game."
+trivia_cancelled_host: "Music Trivia lobby was cancelled."
+trivia_countdown_title: "# Music Trivia Get Ready!"
+trivia_countdown_desc: "**Mode:** %{mode}\n**Rounds:** %{rounds} | **Time:** %{time}s\n**Genre:** %{genre}\n\n- Bot has joined your voice channel!\n- Game starts in **%{seconds}** seconds..."
+trivia_countdown_players: "-# Players: %{players}"
+trivia_no_questions: "Could not generate enough questions. Try a different genre or difficulty."
+trivia_round_title: "# Music Trivia Round %{round}/%{rounds}"
+trivia_round_desc: "**Listen to the song playing and guess which one it is!**\nEnds <t:%{time}:R>"
+trivia_round_footer_multi: "-# %{answered}/%{total} players answered | Time: %{time}s | Genre: %{genre}"
+trivia_round_footer_single: "-# Mode: Single Player | Score: %{score} pts | Time: %{time}s | Genre: %{genre}"
+trivia_skip_btn: "Skip"
+trivia_not_in_game: "You are not in this game!"
+trivia_already_answered: "You already answered!"
+trivia_skipped_msg: "You skipped this round."
+trivia_cancelled_user: "Trivia Cancelled."
+trivia_answer_recorded: "%{emoji} Answer recorded!"
+trivia_ended_cancelled: "**Trivia Cancelled by user.**"
+trivia_ended_disconnect: "**🔌 Trivia Ended due to bot disconnect.**"
+trivia_result_title: "# Round %{round}/%{rounds} Result"
+trivia_result_correct: "**Correct!**\n**%{title}** by **%{artist}**\n\n**+%{points} pts** %{streak}\nTotal: **%{totalPts}** pts"
+trivia_result_skipped: "**Skipped!**\nThe answer was: **%{title}** by **%{artist}**\n\nTotal: **%{totalPts}** pts"
+trivia_result_wrong: "**Wrong!**\nThe correct answer was: **%{title}** by **%{artist}**\n\nTotal: **%{totalPts}** pts"
+trivia_result_timeout: "**Time's up!**\nThe answer was: **%{title}** by **%{artist}**\n\nTotal: **%{totalPts}** pts"
+trivia_result_next: "-# Next round in 3s..."
+trivia_final_title: "# Music Trivia Final Results"
+trivia_final_performance: "**Performance:**"
+trivia_final_correct: "Correct: **%{correct}/%{rounds}** (%{accuracy}%)"
+trivia_final_skipped: "Skipped: **%{skipped}** | Timeouts: **%{timeouts}**"
+trivia_final_streak: "Best Streak: **%{streak}**"
+trivia_final_points: "Total Points: **%{points}**"
+trivia_final_badges: "**New Badges Earned:**"
+trivia_view_stats_btn: "View Progress & Stats"
+trivia_final_footer: "-# Mode: %{mode} | Rounds: %{rounds} | Genre: %{genre}"
+trivia_prev_btn: "Prev"
+trivia_next_btn: "Next"
+trivia_profile_not_found: "Profile not found. Play a game first!"
+trivia_no_badges: "-# No badges earned yet."
+trivia_profile_title: "# Music Trivia Profile\n-# <@%{user}>"
+trivia_profile_stats: "## Global Stats\n**Total Points:** %{points}\n**Games Played:** %{games} (Single: %{single} | Multi: %{multi})\n**Accuracy:** %{accuracy}% (%{correct} Correct / %{missed} Missed)\n**Best Streak:** %{streak}"
+trivia_profile_achievements: "## Achievements (%{count})"
+trivia_final_player_stats: "-# %{medal} <@%{userId}> — **%{points}** pts (%{correct}/%{rounds} correct)"
+trivia_lobby_host_tag: "👑 Host"
+trivia_lobby_player_tag: "👤 Player"
+trivia_lobby_desc: "**%{user}** is hosting a Music Trivia game!\n\n## Players (%{count})\n%{list}"
+trivia_result_answer_multi: "The answer was: **%{title}** by **%{artist}**\n\n"
+
+### Fix command!
+fix_title: "### Fix Audio Connection"
+fix_desc: "Choose one of the following options to resolve audio issues:"
+fix_option_region: "Switch voice channel region to fix latency issues."
+fix_option_reconnect: "Destroys the voice connection, clears all tracks and queue, then automatically rejoins."
+fix_option_recreate: "Fully resets and recreates the audio player, keep all track"
+fix_btn_region: "Change Region"
+fix_btn_reconnect: "Reconnect"
+fix_btn_recreate: "Recreate"
+fix_region_success: "Voice region has been changed to **%{region}**.\nThis may help resolve latency issues."
+fix_region_fail: "Failed to change voice region. Please try again or check bot permissions."
+fix_region_no_perm: "I don't have **Manage Channels** permission to change the voice region!"
+fix_reconnect_success: "Voice connection has been reset and rejoined successfully! Queue has been cleared."
+fix_reconnect_fail: "Failed to reconnect to the voice channel. Please try again."
+fix_recreate_success: "Player has been recreated successfully!\nYou can now use %{play} to start playing."
+fix_recreate_fail: "Failed to recreate the player. Please try again."
+fix_no_player: "There is no active player to fix!"
+fix_no_voice: "You must be in a voice channel to use this action!"
+fix_no_bot_voice: "The bot is not currently in a voice channel!"
+fix_no_permission: "Only the person who ran this command can use these buttons."
+
+### Spotify command!
+spotify_integration_title: "### Spotify Integration"
+spotify_integration_desc: "Link your Spotify account to access and play your playlists directly through the bot."
+spotify_integration_help_title: "### What can you do?"
+spotify_integration_help_desc: "• Browse your public Spotify playlists\n• Queue full playlists directly from Discord"
+spotify_connect_title: "### Link Your Account"
+spotify_connect_desc: "-# Connect your Spotify account via the dashboard to use playlist features"
+spotify_connect_btn: "Connect Spotify"
+spotify_dashboard_title: "### Spotify Dashboard"
+spotify_dashboard_desc: "Your Spotify account is connected and ready to use!"
+spotify_dashboard_account_title: "### Account Details:"
+spotify_dashboard_account_details: "• Username: **%{displayName}**\n• Playlists: **%{totalPlaylists}**"
+spotify_manage_title: "### Manage Playlists"
+spotify_manage_desc: "-# Browse and queue your Spotify playlists"
+spotify_manage_btn: "View Playlists"
+spotify_unlink_title: "### Unlink Your Account"
+spotify_unlink_desc: "-# Unlink your Spotify account by pressing this button"
+spotify_unlink_btn: "Unlink Account"
+spotify_unlink_success_title: "### Spotify Account Unlinked"
+spotify_unlink_success_desc: "Your Spotify account has been successfully unlinked."
+spotify_playlist_title: "### Your Spotify Playlists"
+spotify_playlist_desc: "-# Found %{count} playlists ready to queue! Click the play button to add them to your queue."
+spotify_playlist_tracks: "%{count} tracks"
+spotify_playlist_no_public: "No public playlists found on your Spotify account. Make sure you have public playlists visible."
+spotify_playlist_not_found: "❌ Playlist not found or invalid."
+spotify_no_voice: "❌ You need to be in a voice channel to play music."
+spotify_not_same_voice: "❌ You need to be in the same voice channel as me"
+spotify_player_failed: "❌ Failed to create a music player. Please try again later."
+spotify_no_tracks_title: "### No Tracks Found"
+spotify_no_tracks_desc: "No playable tracks found in this playlist."
+spotify_queued_title: "### Playlist Queued"
+spotify_queued_desc: "Added **%{added}** tracks from **%{playlist}** to the queue."
+spotify_queue_failed_title: "### Queue Failed"
+spotify_queue_failed_desc: "Could not add any tracks from this playlist to the queue."
+spotify_not_owner: "❌ You don't have access to this session. Only the person who ran this command can interact with it."
+spotify_btn_back: "◀ Back"
+spotify_btn_prev: "Previous"
+spotify_btn_next: "Next"
+
+### Radio command!
+radio_fetch_countries_error: "Failed to fetch radio countries from the server."
+radio_no_countries: "No countries found."
+radio_global_title: "## 📻 Global Radio"
+radio_global_desc: "Welcome to the Global Radio player!\nPlease select a country from the menu below to view popular radio stations.\n\n-# 🌍 Showing page %{page} of %{totalPages}"
+radio_stations_count: "📻 %{count} stations available"
+radio_select_country: "Select a country..."
+radio_prev: "Previous"
+radio_next: "Next"
+radio_country_title: "## 📻 Radio Stations in %{country}"
+radio_country_desc: "Press the Play button to listen to a radio station.\n\n-# 📑 Page %{page} of %{totalPages}"
+radio_play_btn: "▶ Play"
+radio_back_btn: "Back"
+radio_no_stations: "No valid stations found for this country."
+radio_fetch_stations_error: "Failed to fetch stations."
+radio_offline: "Could not resolve the radio stream."
+radio_now_playing: "Now playing radio station: **%{station}**"
+radio_error_playing: "Error playing radio station."
+
+### Remove Tracks command!
+removetracks_command_desc: "Remove tracks by requester"
+removetracks_title: "Remove Tracks"
+removetracks_desc: "Select a requester to remove all of their queued tracks."
+removetracks_track_single: "%{count} Track"
+removetracks_track_multiple: "%{count} Tracks"
+removetracks_btn_delete: "Delete"
+removetracks_btn_prev: "Previous"
+removetracks_btn_next: "Next"
+removetracks_page_indicator: "%{page} / %{pages}"
+removetracks_empty_title: "Remove Tracks"
+removetracks_empty_desc: "There are currently no removable tracks in the queue."
+removetracks_expired: "This menu has expired. Please run `/removetracks` again."
+removetracks_success: "Removed all **%{count}** tracks requested by **%{user}** from the queue."
+removetracks_no_tracks_left: "**%{user}** no longer has any tracks in the queue."
+removetracks_unknown_user: "Unknown Requester"
+removetracks_not_author: "You cannot use this menu! Only the command author can."
+removetracks_no_same_voice: "You must be in the same voice channel to use this menu!"
+
+### Sleep Timer command!
+sleeptimer_command_desc: "Set, check, or cancel a sleep timer for music playback"
+sleeptimer_title: "Sleep Timer"
+sleeptimer_desc: "Schedule an automatic countdown timer for your listening session. Once the duration elapses, playback will stop cleanly and the queue will be cleared, allowing you to relax or sleep without keeping the music stream running."
+sleeptimer_status_active_title: "Active Sleep Timer"
+sleeptimer_status_active_desc: "**Status:** Active\n**Duration:** %{duration} minutes\n**Ends:** <t:%{timestamp}:R> (<t:%{timestamp}:T>)\n**Requested by:** %{user}"
+sleeptimer_status_inactive_title: "No Sleep Timer Active"
+sleeptimer_status_inactive_desc: "**Status:** Inactive\n*No sleep timer currently configured for this session.*"
+sleeptimer_btn_set: "Set Timer"
+sleeptimer_btn_cancel: "Cancel"
+sleeptimer_btn_status: "Refresh"
+sleeptimer_modal_title: "Set Sleep Timer"
+sleeptimer_modal_input_label: "Duration in minutes (1 - 120)"
+sleeptimer_modal_placeholder: "e.g. 30"
+sleeptimer_modal_invalid: "Please enter a valid number of minutes between 1 and 120."
+sleeptimer_cancel_success: "The active sleep timer has been cancelled."
+sleeptimer_cancel_none: "There is no active sleep timer to cancel."
+sleeptimer_set_success: "Sleep timer set for %{duration} minutes. Playback will stop <t:%{timestamp}:R>."
+sleeptimer_expired_notification_247: "Sleep Timer Expired!\nPlayback has stopped and queue cleared."
+sleeptimer_expired_notification_leave: "Sleep Timer Expired: Playback has stopped and the bot has left the voice channel."
+sleeptimer_menu_expired: "This sleep timer menu has expired.\nRun `/sleeptimer` again to open a new one."
+sleeptimer_not_author: "You cannot interact with this menu!\nOnly the command author can."
+sleeptimer_no_same_voice: "You must be in the same voice channel as the bot to use this menu!"
+sleeptimer_no_player: "No music is currently playing on this server."
+
+### Remove Dupes command!
+removedupes_command_desc: "Remove duplicate songs from the queue"
+removedupes_title: "Remove Duplicate Tracks"
+removedupes_desc_success: "Cleaned up the queue by removing duplicate tracks while preserving the original order of your playlist."
+removedupes_desc_none: "The queue is clean. No duplicate tracks were found."
+removedupes_stat_removed: "**Duplicates Removed:** %{count}"
+removedupes_stat_remaining: "**Remaining Queue:** %{total} tracks"
+removedupes_empty_queue: "There are currently no songs in the queue to check for duplicates."
+
+### Grab command!
+grab_command_desc: "Send the currently playing track to your direct messages."
+grab_dm_success: "I have sent the details of the currently playing track to your direct messages."
+grab_dm_failed: "Could not send you a direct message. Please check your server privacy settings and allow direct messages from server members."
+grab_field_title: "Title"
+grab_field_duration: "Duration"
+grab_field_requested_by: "Requested by"
+grab_field_source: "Source"
+grab_btn_favorite: "Add to Favorites"
+grab_btn_saved: "Saved to Favorites"
+grab_btn_already_saved: "Already in Favorites"
+grab_fav_success: "Added **%{title}** to your favorites."
+grab_fav_already_exists: "**%{title}** is already in your favorites."
+grab_fav_error: "There was an error saving this song to your favorites."

@@ -1,0 +1,199 @@
+### HELPDESK EVENTS ###
+disable_helpdesk: "The helpdesk has been disabled"
+invalid_channel_helpdesk: "The provided channel is invalid"
+channel_viewable_helpdesk: "The provided channel is not visible to me"
+setup_helpdesk_succes: "The helpdesk has been set up to %{channel} successfully."
+
+embed1_title: "Welcome to %{bot} support server!"
+embed1_desc: "**Your music, wherever you play. Listen with friends in voice channels,\nLaunch the Discord Activity, or enjoy music from the web player.**"
+embed1_footer: "Thank you for choosing %{bot} as your music companion!"
+
+embed2_title: "%{bot} Helpdesk"
+embed2_desc: |
+  **%{button1} What is %{bot}?
+
+  %{button2} How to invite %{bot} to your server?
+
+  %{button3} How to use %{bot} (Voice, Activity, & Web Player)?
+
+  %{button4} How to enable the 24/7 feature?
+
+  %{button5} %{bot} is not responding or offline.
+
+  %{button6} Audio quality sounds laggy or stuttering.
+
+  %{button7} %{bot} keeps saying it's missing permissions.
+
+  %{button8} How to redeem my Premium perks?
+
+  %{button9} Can I transfer premium to another server?
+
+  %{button10} What should I do if my Premium subscription has expired?**
+
+embed2_field1_name: "Website"
+embed2_field1_value: "**[Muse](%{website})**"
+embed2_field2_name: "Type"
+embed2_field2_value: "**Music Bot & Web Player**"
+embed2_field3_name: "Support Us"
+embed2_field3_value: "**[Vote on Top.gg](%{vote})**"
+
+### BUTTON HELPDESK 1 ###
+helpdesk1_title: "Those who wish to sing always find a song ♪"
+helpdesk1_desc: |
+  **Your music, wherever you play. Listen with friends in voice channels, launch the Discord Activity, or enjoy music from the web player.**
+
+  **Why %{bot}?**
+  - **Multiple Ways to Listen**: Play in voice channels with friends, launch the interactive Discord Activity (in servers or private DMs), or control everything from the web player UI.
+  - **Modern Web Dashboard**: Real-time player controls, synced queues, lyrics, custom playlists, and server configuration.
+  - **High-Quality Audio & Reliability**: Optimized streaming engine with 24/7 mode, autoplay, audio filters, and support for major audio platforms.
+  - **Regular Updates & Community**: Constantly updated with new features and improvements. If you have questions or suggestions, our support team is always here to help!
+
+  **Useful Links**
+  - %{server}
+  - %{vote}
+  - %{website}
+  - %{premium}
+
+  **Need Support?**
+  - Submit a ticket in our support server for quick assistance.
+
+  **Ready to elevate your music experience? Invite %{bot} to your Discord server today!**
+  **[Click here to invite](%{invite})**
+
+helpdesk2_title: "Adding %{bot} to your server"
+helpdesk2_desc: |
+  **You can invite %{bot} using this [Invite Link](%{invite}).** 
+  Select your server from the list, ensure the permissions are granted, and click **Authorize**.
+
+  **Permissions Guide**
+  For the best experience, ensure %{bot} has permissions to **View Channels**, **Send Messages**, **Embed Links**, **Connect**, and **Speak**. For full automated channel management (such as request channels), **Manage Channels** or **Administrator** is recommended.
+
+  **Web Music Player & Dashboard**
+  You can also control %{bot} directly from the browser at [%{bot} Web Player](%{website}).
+  Log in with your Discord account, choose your server, and control playback, volume, queues, and playlists with a sleek modern UI.
+
+helpdesk3_title: "How to use %{bot}?"
+helpdesk3_desc: |
+  Enjoying music with %{bot} is easy with three flexible ways to listen:
+
+  **1. Voice Channels (Slash Commands & Buttons)**
+  - Join any voice channel and type `/play <song name or URL>`.
+  - Use the interactive player buttons below the track message to pause, skip, loop, shuffle, or adjust volume.
+  - Explore all commands by typing `/` or `/help`.
+
+  **2. Discord Activity (Listen Together & DM Play)**
+  - Launch the **%{bot} Activity** in voice channels to stream and interact together with friends.
+  - You can also launch the activity in **Direct Messages (DMs)** for private, personal listening anytime!
+
+  **3. Web Player & Dashboard UI**
+  - Visit [%{bot} Web Player](%{website}) to search songs, manage queue, create custom playlists, and control playback in real time.
+
+helpdesk4_title: "How to enable the 24/7 feature?"
+helpdesk4_desc: |
+  **Keep %{bot} connected in your voice channel 24/7 without disconnecting!**
+
+  **To enable 24/7 Mode:**
+  1. Join the voice channel where you want %{bot} to stay.
+  2. Type `/247 enable` (or toggle 24/7 mode in the [Web Dashboard](%{website})).
+
+  **Note:** *You need the `Manage Server` permission (or DJ role) to configure 24/7 mode, and the bot must be connected to the voice channel.*
+
+helpdesk5_title: "%{bot} is not responding or offline"
+helpdesk5_desc: |
+  If %{bot} isn't responding to your commands, follow these steps to troubleshoot:
+
+  **1. Use Discord Slash Commands**
+  - Type `/play` or `/help` and pick %{bot}'s command from the command menu.
+  - If slash commands don't show up, reinvite the bot with the `applications.commands` scope using [this invite link](%{invite}).
+
+  **2. Check Channel Permissions**
+  - Make sure %{bot} has permissions to **View Channel**, **Send Messages**, and **Embed Links** in your text channel.
+
+  **3. Service Status & Maintenance**
+  - If the bot appears offline, it might be undergoing a quick update or experiencing Discord API downtime. Check announcement channels in our [Support Server](%{server}) or open a support ticket.
+
+helpdesk6_title: "Audio quality sounds laggy or stuttering"
+helpdesk6_desc: |
+  Audio stutter or lag is typically caused by temporary voice server routing or network latency. Here is how to resolve it:
+
+  **1. Check Voice Connection Stability**
+  - Click **Voice Connected** at the bottom-left of Discord.
+  - Ensure your ping is stable and below 200ms with low jitter and 0% packet loss.
+
+  **2. Switch Discord Voice Region**
+  - Server moderators can change the voice region under **Voice Channel Settings → Overview → Region Override**.
+  - Selecting a different region closer to your members usually gives a fresh, stable voice connection.
+
+  **3. Try the Web Player or Discord Activity**
+  - You can also stream directly using the [%{bot} Web Player](%{website}) or Discord Activity for an alternative high-fidelity listening experience.
+
+  If issues persist, please let us know in our [Support Server](%{server}).
+
+helpdesk7_title: "%{bot} keeps saying it's missing permissions"
+helpdesk7_desc: |
+  When %{bot} lacks required Discord permissions, it cannot join voice channels, send message embeds, or manage player setups.
+
+  **Essential Permissions:**
+  - **Voice:** `Connect`, `Speak`, `View Channel`, `Use Voice Activity`.
+  - **Text:** `View Channel`, `Send Messages`, `Embed Links`, `Read Message History`.
+  - **Channel Management:** `Manage Channels` (required for channel setup and cleanup).
+
+  **How to Fix:**
+  1. Check the bot's role in **Server Settings → Roles** and ensure permissions are granted.
+  2. Check channel-specific permission overrides under **Channel Settings → Permissions**.
+  3. For the smoothest operation without permission conflicts, granting `Administrator` is recommended.
+
+helpdesk8_title: "How to redeem my Premium perks?"
+helpdesk8_desc: |
+  **To activate your premium membership perks, please follow these steps:**
+
+  **1. Link your Discord account first**
+  Before purchasing, make sure your Discord account is connected to the platform you are using (Patreon or Ko-fi). This is required so the system can detect your payment automatically.
+
+  **2. Purchase your membership**
+  After linking your Discord, complete the membership payment based on the plan you want: %{premium}
+
+  **3. Wait for synchronization**
+  Once your payment is successful, please wait a few minutes for the system to sync your membership.
+
+  **4. Claim premium in your server**
+  Go to the Discord server you want to upgrade, then use this command:
+  `/premium claim`
+  Choose the correct platform option (Patreon or Ko-fi) when prompted.
+  *Make sure you run the command inside the server you want to activate premium for. Once claimed, premium will be activated instantly.*
+
+  By following the above steps, you'll be able to activate and enjoy all the Premium benefits offered. If you encounter any issues or have further questions, feel free to reach out to our support team.
+
+helpdesk9_title: "Can I transfer premium to another server?"
+helpdesk9_desc: |
+  **Yes, you can transfer your premium to another server by yourself. To do this, please follow these steps:**
+
+  **1. Unclaim from the current server**
+  Go to the server where premium is currently active, then use the command:
+  `/premium unclaim`
+  This will release your premium slot from that server.
+
+  **2. Claim on the new server**
+  Go to the new server you want to upgrade, and use the command:
+  `/premium claim`
+  Choose your platform (Patreon or Ko-fi) and your premium will be active on the new server instantly.
+
+  *If you no longer have access to the old server to run the unclaim command, please contact our staff in the [Support Server](%{server}) for manual assistance.*
+
+helpdesk10_title: "What should I do if my Premium subscription has expired?"
+helpdesk10_desc: |
+  **If your subscription has expired, the premium features in your server will be automatically disabled. To restore them, please follow these steps:**
+
+  **1. Renew your subscription**
+  - [Renew on Patreon](https://www.patreon.com/c/)
+  - [Renew on Ko-fi](https://ko-fi.com/)
+  Make sure the payment is successful and your Discord account is still linked.
+
+  **2. Re-claim the premium**
+  Once renewed, go back to your server and use the command:
+  `/premium claim`
+  This will re-sync your membership status and reactivate the features immediately without losing your previous settings.
+
+  *Note: You don't need to wait for staff. The system will recognize your renewal as soon as the platform (Patreon/Ko-fi) processes the payment.*
+
+helpdesk10_footer: "Thank you for being a part of our journey! We hope you have a great time here."

@@ -1,0 +1,41 @@
+### PLAYER MUSIC ###
+track_author: "Now Playing"
+track_author_v2: "### <a:nowplaying:1332785646804402258> Now Playing"
+track_author_icon: "https://media.tenor.com/Sb0yPHMgNaUAAAAi/music-disc.gif"
+track_song_author: "Author"
+track_requested_by: "Requested by"
+track_duration: "Duration"
+no_same_voice: "You are not in the same voice channel as me!"
+filter_already: "**%{name} filter is already enabled**"
+filter_reset_on: "**Filter has been Reset**"
+filter_reset_already: "**Filter has already been Reset**"
+no_player_filter: "**I can't apply a filter!**"
+filter_menu_on: "**Filter %{name} on!**"
+
+player_get_exception: "Uh-oh! Looks like there's a hiccup with the track. Want me to give it another shot?"
+player_track_error: "The track had an issue, Can you please try it once more?"
+player_track_stuck: "I'm so sad :(, the track got stuck. Maybe a retry will cheer us up?"
+queue_end_desc: "All songs are done! Need more beats?\nUse **/play** to keep the party going!"
+
+leave_pause: "Considering that you all left me alone :( The player has been paused."
+leave_resume: "Considering that someone has joined me, the player has been resumed."
+
+player_end: "The channel has been empty for almost 15 minutes, so I decided to leave because I don't like being alone"
+
+### Last FM Scrobble ###
+lastfm_session_expired_title: "Last.fm Session Expired"
+expired_login_session: "The Last.fm session for %{user} has expired or is invalid.\nPlease click the button below to re-authenticate and continue scrobbling."
+lastfm_session_expired_footer: "Account: %{user} • Reconnect to continue scrobbling"
+lastfm_login_button: "Login to Last.fm"
+
+### Milestone Track ###
+milestone_track_footer: "%{user} • Those who wish to sing always find a song ♪"
+milestone_track_desc: |
+  ## OH Hey
+  You've listened to **%{total}** tracks! Is your playlist endless, or are you just that musically obsessed?
+
+### Recommendation Select ###
+no_active_player: "There is no active player to add to!"
+recommendation_notfound: "Could not find the recommended track 😔"
+track_added_recommendation: "Added **%{title}** by **%{author}** to the queue!"
+track_recommendation_error: "An error occurred while adding the recommended track."
