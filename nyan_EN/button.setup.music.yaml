@@ -1,1 +1,36 @@
-{}
+stop_msg: Music pwayback has been stopped~ Hope you had a gweat time gwovvin'! 
+  *happy purrs* <3
+skip_notfound: Oopsie~ Wooks wike thewe's no twackie to skip to! :c
+skip_msg: I skipped the twackie fow you~ Hope you don't mind! :p nya~
+previous_msg: Ooooh~ I guess we'we wewinding! Pwevious twackie incoming~ <3
+previous_notfound: Sowwy~ Can't go back any fuwther! Nyo pwevious twackie found 
+  :(
+resume_msg: The music is back on!! Wet's continue the gwoove~ ♪ >w<
+pause_msg: Music is pawsed~ Take a wittwe bweakie and enjoy the siwence~ *purrs*
+loop_current: The cuwwent song wiww now pway on woop! Enjoy the wepeaties~ nya~ 
+  UwU
+loop_all: The queue is now set to woop! Wet the music pway on wepeat fowevew~ ♪
+unloop_all: Woopies mode has been tuwned off~ Enjoy aww the diffewent twackies! 
+  :3
+no_player: You tapped the button and... nothing happened? Nyo music is pwaying 
+  yet! Maybe stawt something fiwst~ :c
+no_same_voice: You tapped the button and it fwashes wed!! You're not in the same
+  voice channew as me! >_<
+no_in_voice: Aww the buttonies awe ignowing you~ You're not in a voice channew! 
+  Pwease join one fiwst, nya~ :c
+player_setup_author: NOW PWAYING~
+player_setup_icon_author: 
+  https://media.tenor.com/Sb0yPHMgNaUAAAAi/music-disc.gif
+setup_content_queue: '%{index}. **%{title}** Wequested by %{request}'
+setup_footer: Twackies Weft • %{totalsong} | Totaw Duwwation • %{duration}
+setup_queuemsg: '**Join a voice channew and pway songies using theiw name ow URL wight
+  hewe!** UwU'
+setup_playembed_author: Nyo song is cuwwently pwaying~ :c
+player_setup_title: '**%{title}**'
+play_track: Added **%{title}** • %{request} ~nya!
+play_playlist: Added **%{title}** • (**%{songs} Twackies**) • %{request} >w<
+play_result: Added **%{title}** • %{request} ~
+play_emoji: I-I don't know how to pway that... Sowwy! It's neithew a twackie now
+  a pwaywist! >_<
+setup_content: "**Hewwooo~! My wittwe DJ deckie's weady fow youw music! Just thwow
+  something in hewe!** UwU <3"
