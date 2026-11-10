@@ -1,1 +1,174 @@
-{}
+search_placeholder: Zobacz, co dla Ciebie wybrałem!~
+search_desc: '### HEJ! Znalazłem wyniki odpowiadające Twojemu zapytaniu'
+search_end_desc2: |-
+  ### O rany! %{user}, nie wybrałeś utworu na czas
+  **Spróbuj jeszcze raz!**
+search_footer: Znaleziono %{countSong} utworów
+search_end_desc1: '## [`%{title}`](%{url}) `%{author}` Miłego słuchania ♥'
+search_active: |-
+  Na tym serwerze działa już menu wyszukiwania.
+  Zamknij je (✖) lub poczekaj, aż wygaśnie.
+search_no_result: Nie znaleziono wyników dla Twojego wyszukiwania :(
+search_cooldown: Przed ponownym użyciem polecenia `/search` proszę odczekać 
+  **%{time}s**.
+search_tab_songs: Utwory
+search_tab_artists: Wykonawcy
+search_tab_albums: Albumy
+search_tab_playlists: Playlisty
+search_btn_add: + Dodaj
+search_btn_add_tracks: + Dodaj utwory
+search_btn_add_album: + Dodaj albumy
+search_btn_add_playlist: + Dodaj playlisty
+search_btn_first: Pierwszy
+search_btn_prev: Poprzedni
+search_btn_next: Następny
+search_btn_last: Ostatni
+search_btn_page: Strona %{page}/%{pages}
+search_empty_category: '*Nie znaleziono %{category} dla "%{query}"*'
+search_duration_artist: '-# Czas trwania: %{duration} • %{artist}'
+search_artist_sub: '-# Typ: Artysta%{followers}'
+search_followers: ' • %{count} obserwujących'
+search_album_sub: '-# Typ: Album • Wykonawca: %{artist}'
+search_playlist_sub: '-# Typ: Lista odtwarzania • Utworów: %{tracks} • Autor: %{owner}'
+search_closed: Wyszukiwanie zakończone.
+search_only_author: Tylko %{user} może korzystać z tego menu.
+search_item_expired: Nie znaleziono tego elementu lub jego ważność wygasła.
+search_load_failed: Nie udało się załadować pliku audio dla **%{title}**.
+search_added_single: Dodano **%{title}** do kolejki!
+search_added_multi: Dodano **%{count} utworów** z **%{title}** do kolejki!
+search_join_failed: 'Nie udało się dołączyć do kanału głosowego: %{reason}'
+search_processing: Dodawanie do kolejki, proszę czekać...
+play_search_track: '## [`%{title}`](%{url}) `%{author}` Miłego słuchania ♥'
+no_songs_playing: W tej chwili nie leci żadna piosenka!
+card_error: Nie udało się wygenerować karty. Spróbuj ponownie później!
+autoplay_off: Funkcja automatycznego odtwarzania jest obecnie **wyłączona**
+autoplay_on: Funkcja automatycznego odtwarzania jest obecnie **włączona**
+autoplay_no_songs_playing: W tej chwili nie lecą żadne piosenki!
+clearqueue_msg: Kolejka została **wyczyszczona**
+forward_msg: '**%{user} Przewinięto w przód %{title} do** `%{duration}`'
+forward_beyond: Piosenka zaraz się skończy. Nie możesz przewinąć dalej!
+playnext_desc: '### %{name} – następny utwór ♪'
+playnext_queue_empty: Lista odtwarzania jest pusta. Proszę najpierw dodać kilka 
+  utworów
+playnext_notfound: Nie znaleziono utworu!
+no_node: '**Węzły audio są obecnie niedostępne. Proszę chwilę poczekać i spróbować
+  ponownie.**'
+join_msg: |-
+  Odtwarzacz został pomyślnie utworzony i dołączył do %{channel}.
+  Jeśli bot nie dołączył jeszcze do kanału głosowego, użyj polecenia /forcejoin.
+join_already: Jestem już w %{channel}
+join_no_in_voice: Nie jesteś na kanale głosowym!
+join_no_same_voice: Nie dzielimy tego samego kanału głosowego!
+join_fail: |-
+  Nie udało się połączyć z kanałem głosowym.
+  Przyczyna: `%{reason}`
+
+  -# Wskazówka: Sprawdź uprawnienia do kanału lub użyj %{fix}, aby rozwiązać problemy z połączeniem.
+leave_msg: '**Opuściłem kanał głosowy %{channel}**'
+leave_no_bot_voice: Nie jestem obecnie na żadnym kanale głosowym!
+loop_current: Teraz w pętli %{title}
+loop_all: '**Pracuje w trybie KOLEJKA w pętli**'
+unloop_all: '**Tryb zapętlania został WYŁĄCZONY**'
+loop_invalid: Nieprawidłowy tryb pętli. Proszę użyć opcji **Wyłączone**
+loop_already: Tryb pętli jest w tej chwili **%{mode}**
+provide_lyrics: Podaj poprawny **tytuł utworu**
+lyrics_title: Tekst piosenki **%{song}**
+lyrics_notfound: '**Nie udało się znaleźć tekstu tej piosenki!**'
+lyrics_toolong: '**Tekst piosenki jest za długi – dopuszczalna długość to 4048 znaków!**'
+lyrics_disable: ' **Funkcja wyświetlania tekstów piosenek jest obecnie wyłączona!**'
+lyrics_noquery: '**Proszę podać poprawny **tytuł utworu**'
+lyrics_error: '**Błąd: %{error}**'
+lyrics_session_closed: '### Sesja tekstów piosenek została zamknięta.'
+lyrics_session_timeout: -# ⏱️ Wygasł limit czasu sesji tekstów piosenek. Użyj 
+  ponownie polecenia `/lyrics`, aby ją wznowić.
+nowplaying_stats: |-
+  -# - Czas trwania: %{duration}
+  -# - Zgłoszone przez: %{requester}
+  -# - Zródło odtwarzania: %{source}
+nowplaying_currently_playing: '### Teraz gra ♬'
+nowplaying_up_next: |-
+  **♬ Następny utwór:**
+  [%{title}](%{uri}) autorstwa %{author}
+nowplaying_grab_content: |-
+  ♬ **%{title}** autorstwa **%{author}**
+  %{uri}
+nowplaying_saved_dm: ✅ Zapisano w Twoich DMach!
+nowplaying_saved_dm_failed: Nie udało mi się wysłać Ci DM. Sprawdź, proszę, 
+  swoje ustawienia prywatności.
+nowplaying_already_liked: '**%{title}** znajduje się już na liście twoich ulubionych
+  utworów.'
+nowplaying_liked: |-
+  🤍 Dodano utwór **%{title}** do listy ulubionych utworów.
+  Możesz odtworzyć swoje ulubione utwory za pomocą polecenia `/play`.
+nowplaying_like_error: Wystąpił błąd podczas zapisywania utworu, który dodałeś 
+  do ulubionych. Spróbuj ponownie później.
+pause_msg: Utwór %{title} jest obecnie wstrzymany!
+play_no_same_voice: Nie jesteś na tym samym kanale głosowym co ja!
+play_no_in_voice: Nie jesteś na kanale głosowym!
+play_arg: Podaj poprawny tytuł utworu lub adres URL!
+play_emoji: '**Ups! To jest emoji. Nie można odtwarzać utworów za pomocą emoji**'
+play_match: '**Nie udało się znaleźć tej piosenki. Spróbuj skorzystać z innego źródła
+  lub wpisz inne hasło wyszukiwania.**'
+play_fail: |-
+  Nie udało się nawiązać połączenia z kanałem głosowym.
+  Przyczyna: `%{reason}`
+
+  -# Wskazówka: Upewnij się, że region RTC kanału głosowego działa poprawnie, lub użyj polecenia %{fix}, aby ponownie zainicjować połączenie.
+play_result: '### %{title}'
+play_playlist: |
+  ## To było proste!
+  ### Twój %{title} został dodany do kolejki
+play_queue_max: |
+  O rany!>,.,< Kolejka jest za długa. Maksymalnie %{limitqueue} utworów.
+  Przejdź na plan [**premium**](%{premium}), aby uzyskać nieograniczony dostęp do kolejki!
+play_playlist_max: |
+  O rany!>,.,< Playlista jest za długa. Maksymalnie %{limitqueue} utworów.
+  Przejdź na plan [**premium**](%{premium}), aby uzyskać nieograniczony dostęp do playlist!
+previous_notfound: |
+  **W kolejce nie znaleziono żadnego poprzedniego utworu!
+  Może odtworzysz więcej utworów i nie przerwiesz słuchania muzyki?**
+previous_msg: |
+  **Powrót do poprzedniego utworu!
+  Teraz leci %{title}**
+queue_number_invalid: Proszę podać prawidłowy numer!
+queue_notnumber: Proszę podać prawidłowy numer strony!
+queue_page_notfound: Jest tylko **%{page} stron(a)**
+queue_now_playing_title: '### Teraz odtwarzane'
+queue_up_next_title: '### Następne w kolejce (%{count} utworów)'
+queue_up_next_single: '### Następny utwór (1 utwór)'
+queue_empty_rest: -# W kolejce nie ma żadnych utworów. Użyj polecenia `/play`, 
+  aby dodać kolejne!
+queue_track_sub: '-# Czas trwania: %{duration} • %{artist} • Zażądał: %{requester}'
+queue_summary_footer: '-# Łącznie: %{total} utworów • Czas trwania: %{duration} •
+  Pętla: %{loop} • Głośność: %{volume}%'
+queue_btn_first: Pierwszy
+queue_btn_prev: Poprzedni
+queue_btn_page: Strona %{page}/%{pages}
+queue_btn_next: Następny
+queue_btn_last: Ostatni
+queue_loop_off: Wyłączona
+queue_loop_track: Piosenka
+queue_loop_queue: Kolejka
+queue_only_author: Tylko %{user} może wejść w interakcję z tym menu.
+removetrack_number_invalid: Proszę podać prawidłowy numer!
+removetrack_already: '**Nie mogę usunąć aktualnie odtwarzanego utworu**'
+removetrack_notfound: '**Przepraszamy, %{user}, nie znaleziono utworu!**'
+removetrack_desc: '**Usunięto %{title} z kolejki!**'
+replay_msg: '**%{user} włącza powtórkę %{title}**'
+replay_not_seekable: Utwór **%{title}** nie może zostać odtworzony ponownie.
+resume_msg: Wznowiono odtwarzanie %{title}
+rewind_msg: '**%{user} przewinął %{title} do** `%{duration}`'
+rewind_beyond: Piosenka właśnie się zaczęła. Nie można cofnąć się dalej niż do 
+  tego momentu!
+seek_beyond: Nie można przeszukiwać utworu na czas dłuższy niż czas trwania!
+seek_invalid: 'Nieprawidłowy czas trwania wyszukiwania. Proszę użyć prawidłowego znacznika
+  czasu. Przykład: **1:30**'
+seek_msg: '**Przeszukano %{title} do** `%{duration}`'
+seek_not_seekable: Utworu **%{title}** nie można przewinąć do tyłu ani do 
+  przodu.
+skip_notfound: |
+  **Nie znaleziono utworu, do którego można by przejść! Wygląda na to, że nie ma nic, do czego można by przejść.
+  Dodajmy więcej utworów (/play), żeby muzyka grała dalej!**
+skip_msg: '**%{title} zostało pominięte**'
+skip_number_invalid: Proszę podać prawidłowy numer!
+stop_msg: '**%{title} Zostało zatrzymane**'
