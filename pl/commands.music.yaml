@@ -172,3 +172,5 @@ skip_notfound: |
 skip_msg: '**%{title} zostało pominięte**'
 skip_number_invalid: Proszę podać prawidłowy numer!
 stop_msg: '**%{title} Zostało zatrzymane**'
+shuffle_title: Przetasowuje kolejkę
+volume_number_invalid: Proszę podać prawidłowy numer!
