@@ -1,1 +1,21 @@
-{}
+joined_title: 📥 Joined a Guiwd!
+leave_title: 📥 Weft a Guiwd!
+guild_name: Name
+guild_id: ID
+guild_owner: Ownew
+guild_member_count: Membew count
+guild_creation_date: Cweation date
+guild_join_date: Joined date
+current_server_count: Cuwwent sewvew count
+join_content_button_label_1: Need assistance? Join ouw suppowt community~
+join_content_button_label_2: Weawn how to maximize youw music expewience~
+join_content_button_label_3: Manage settings and listen diwectwy via web~
+join_content_msg_1: '### Thankies fow choosing %{bot}!'
+join_content_msg_2: |-
+  **The uwtimate music expewience fow youw sewvew is now weady~**
+  Hewe's how you can get stawted, nya~
+join_content_msg_3: |-
+  - Defauwt Pwefix: `%{prefix}`
+  - Twy some popuwaw commands: %{help}, %{play}, ow %{autoplay}~
+
+  -# Enjoy high-quawity, 100% fwee music with nyo payment ow voting wequiwed. UwU
