@@ -174,3 +174,9 @@ skip_number_invalid: Proszę podać prawidłowy numer!
 stop_msg: '**%{title} Zostało zatrzymane**'
 shuffle_title: Przetasowuje kolejkę
 volume_number_invalid: Proszę podać prawidłowy numer!
+volume_invalid: Nieprawidłowa wartość. Proszę podać liczbę z przedziału od **1**
+  do **100**
+volume_msg: '**Głośność ustawiona na %{volume}%, miłego słuchania, %{user}**'
+volume_max: '**Głośność jest już ustawiona na maksymalny poziom 100%**'
+url_no_allowed: Proszę podać tytuł utworu lub nazwę wykonawcy (nie wolno podawać
+  adresów URL)
