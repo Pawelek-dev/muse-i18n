@@ -63,7 +63,7 @@ suggestions_success: |-
 patreon_logs_desc: |
   **Status Wesuwt:**
   %{desc}
-patreon_logs_user_identity_title: 👤 User Identity
+patreon_logs_user_identity_title: 👤 Usew Identity
 patreon_logs_user_identity_value: |
   **Name:** %{fullName}
   **Discowd:** <@%{discordId}> (`%{discordId}`)
@@ -74,7 +74,7 @@ patreon_logs_details_value: |
   **Patweon ID:** `%{patreonId}`
   **Status:** `%{status}`
 patreon_logs_date_title: 📅 Date
-kofi_logs_user_identity_title: User Identity
+kofi_logs_user_identity_title: Usew Identity
 kofi_logs_user_identity_value: |-
   **Name:** %{fullName}
   **Emaiw:** ||%{email}||
@@ -86,7 +86,7 @@ kofi_logs_discord_identity_value: |-
 kofi_logs_payment_details_title: Payment Detaiws
 kofi_logs_payment_details_value: |-
   **Amount:** %{currency} %{amount}
-  **Tier:** **%{tierName}**
+  **Tiew:** **%{tierName}**
   **Type:** %{type}
 kofi_logs_sub_status_title: Subscwiption Status
 kofi_logs_sub_status_value: |-
@@ -170,11 +170,11 @@ glstats_voters_title: '### Top 10 Voters Gwobawwy'
 glstats_btn_servers: Top Sewvews
 glstats_btn_tracks: Top Twacks
 glstats_btn_artists: Top Awtists
-glstats_btn_voters: Top Voters
+glstats_btn_voters: Top Votews~
 glstats_footer_servers: -# Showing the top sewvews gwobawwy~
 glstats_footer_tracks: -# Showing the top twacks gwobawwy~
 glstats_footer_artists: -# Showing the top awtists gwobawwy~
-glstats_footer_voters: -# Showing the top voters gwobawwy~
+glstats_footer_voters: -# Showing the top votews gwobawwy~
 glstats_server_item: |-
   %{index}. **%{name}**
   -# Wisten Time: `%{time}` • Twacks Pwayed: `%{played}` times
@@ -194,7 +194,7 @@ invite_desc: You can invite Muse by pwessing the button bewow~ If you wun into
   any bugies, pwease join ouw suppowt sewvew! UwU
 invite_activity_text: You can awso waunch ouw Discowd Activity and pway music 
   togethew with youw fwiends~! >w<
-invite_btn_bot: Invite %{bot}
+invite_btn_bot: Invite %{bot} OwO
 invite_btn_instance: '%{name}'
 invite_btn_support: Suppowt Sewvew
 invite_btn_activity: Waunch Activity~
