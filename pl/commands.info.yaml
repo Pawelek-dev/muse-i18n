@@ -43,15 +43,63 @@ homepage_desc: |
 
   <:blankers:1332784847961198632><:bbb_sparkler:1549726912769687642> **Potrzebujesz pomocy? Dołącz na nasz [serwer wsparcia](%{serversupport})**
 rating_desc: Dziękujemy Ci %{user} za wystawienie gwiazdek dla naszego 
-  muzycznego bota Discord!«
+  muzycznego bota Discord!
 rating_succes: |-
   Dziękujemy za Twoją ocenę!
   Została ona pomyślnie wysłana.
 rating_failure: Nie udało się wysłać zgłoszenia. Spróbuj ponownie później.
-report_provide_desc: Ups! Nieprawidłowe polecenia. Proszę podać opis.
+report_provide_desc: Ups! Nieprawidłowe polecenia. Proszę podać opis zgłoszenia
 report_failure: Nie udało się wysłać zgłoszenia. Spróbuj ponownie później.
 report_success: |-
   Dziękujemy za zgłoszenie.
   Zgłoszenie zostało pomyślnie przesłane w celu rozpatrzenia.
-suggestions_provide_desc: Ups! Nieprawidłowe polecenia. Proszę podać opis
+suggestions_provide_desc: Ups! Nieprawidłowe polecenie. Proszę podać opis 
+  sugestii
 suggestions_failure: Nie udało się wysłać sugestii. Spróbuj ponownie później.
+suggestions_success: |-
+  Dziękujemy za Twoją sugestie!
+  Została ona pomyślnie przesłana.
+patreon_logs_desc: |
+  **Status wyników:**
+  %{desc}
+patreon_logs_user_identity_title: 👤 Dane osobowe
+patreon_logs_user_identity_value: |
+  **Nazwa:** %{fullName}
+  **Discord:** <@%{discordId}> (`%{discordId}`)
+  **E-mail:** %{email}
+patreon_logs_details_title: Szczegóły dot. Patreon
+patreon_logs_details_value: |
+  **Zastaw:** $%{pledge}
+  **Patreon ID:** `%{patreonId}`
+  **Status:** `%{status}`
+patreon_logs_date_title: 📅 Data
+kofi_logs_user_identity_title: Logi serwisu Kofi
+kofi_logs_user_identity_value: |-
+  **Nazwa:** %{fullName}
+  **Email:** ||%{email}||
+  **Publiczne:** %{dataPublic}
+kofi_logs_discord_identity_title: Dane użytkownika Discord
+kofi_logs_discord_identity_value: |-
+  **Użytkownik:** %{discordUser}
+  **ID:** %{discordId}
+kofi_logs_payment_details_title: Szczegóły płatności
+kofi_logs_payment_details_value: |-
+  **Kwota:** %{currency} %{amount}
+  **Poziom:** **%{tierName}**
+  **Typ:** %{type}
+kofi_logs_sub_status_title: Status subskrypcji
+kofi_logs_sub_status_value: |-
+  **Subskrybent:** %{isSub}
+  **Pierwsza płatność:** %{isFirst}
+kofi_logs_message_title: Wiadomość / powód
+kofi_logs_tech_title: Techniczne/ ID transakcji
+kofi_logs_tech_value: |-
+  **Ko-fi Tx ID:** %{kofiTxId}
+  **ID wiadomości:** %{msgId}
+  **URL:** [%{viewDetails}](%{url})
+  **Token:** ||%{token}||
+kofi_logs_view_details: Wyświetl szczegóły
+fav_title: '### 🤍 Twoje polubione utwory'
+fav_page_info: |-
+  **%{total} polubionych utworów**
+  Strona %{page}/%{pages}
