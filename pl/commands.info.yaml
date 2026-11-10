@@ -103,3 +103,100 @@ fav_title: '### 🤍 Twoje polubione utwory'
 fav_page_info: |-
   **%{total} polubionych utworów**
   Strona %{page}/%{pages}
+fav_playall: Dodano %{added} polubionych utworów do listy odtwarzania!
+fav_add_song: Dodano **%{title}** do kolejki!
+fav_error_player: Nie udało się utworzyć odtwarzacza ani dołączyć do kanału 
+  głosowego.
+fav_remove_cancel: Anuluj usuwanie i wróć.
+fav_remove_placeholder: Wybierz utwór do usunięcia...
+fav_confirm_clear_title: '## Kontynuować?'
+fav_confirm_clear_desc: |-
+  Czy na pewno chcesz usunąć wszystkie utwory z listy „Polubione”?
+
+  Ta czynność spowoduje trwałe usunięcie %{count} utworów z listy odtwarzania „Polubione” i nie można jej cofnąć.
+fav_btn_sure: Pewnie
+fav_btn_no: Nie
+fav_empty_title: '### 🤍 Twoje ulubione utwory'
+fav_empty_count: '### 0 polubionych utworów'
+fav_empty_desc: |-
+  -# Twoje ulubione utwory już na Ciebie czekają
+  Dodaj utwory, które kochasz, i stwórz własną energetyczną playlistę.
+fav_removed_title: '### Utwór usunięty'
+fav_removed_desc: Udało się! **%{title}** zostało usunięte z listy ulubionych.
+fav_btn_back: Wstecz
+hist_title: '### Twoja historia odsłuchań'
+hist_page_info: |-
+  **%{total} odtworzonych utworów**
+  Strona %{page}/%{pages}
+hist_playpage: Dodano %{added} utworów z tej strony do listy odtwarzania!
+hist_add_song: Dodano **%{title}** do kolejki!
+hist_error_player: Nie udało się utworzyć odtwarzacza ani dołączyć do kanału 
+  głosowego.
+hist_confirm_clear_title: '## Wyczyścić historię?'
+hist_confirm_clear_desc: |-
+  Czy na pewno chcesz wyczyścić historię odtwarzania?
+
+  Ta czynność spowoduje trwałe usunięcie %{count} utworów z historii i nie będzie można jej cofnąć.
+hist_btn_sure: Tak
+hist_btn_no: Nie
+hist_empty_title: '### Twoja historia odsłuchań'
+hist_empty_count: '### Odtworzono 0 utworów'
+hist_empty_desc: |-
+  -# Twoja historia jest pusta
+  Zacznij słuchać utworów, a pojawią się one w tym miejscu.
+hist_btn_back: Wstecz
+gstats_empty_title: 📊 Statystyki serwera
+gstats_empty_desc: Nie pobrano jeszcze danych dla tego serwera.
+gstats_tracks_title: '### 10 najpopularniejszych utworów w %{guild}'
+gstats_artists_title: '### 10 najlepszych wykonawców w %{guild}'
+gstats_btn_tracks: Najpopularniejsze utwory
+gstats_btn_artists: Najpopularniejsi wykonawcy
+gstats_footer_tracks: -# Wyświetlanie najpopularniejszych utworów miesiąca w 
+  gildii.
+gstats_footer_artists: -# Wyświetlanie najlepszych artystów miesiąca w gildii.
+gstats_track_item: |-
+  %{index}. [**%{title}**](%{url})
+  -# Odtworzono %{count} razy
+gstats_artist_item: |-
+  %{index}. [**%{title}**](%{url})
+  -# Wybrano %{count} razy
+gstats_stats_subtext: '-# Czas odtwarzania: `%{time}` • Łącznie odtworzeń: `%{played}`
+  razy'
+glstats_empty_title: 🌍Statystyki globalne
+glstats_empty_desc: Brak globalnych danych na tą chwilę.
+glstats_servers_title: '### 10 najlepszych serwerów na świecie'
+glstats_tracks_title: '### 10 najpopularniejszych utworów na świecie'
+glstats_artists_title: '### 10 najlepszych artystów na świecie'
+glstats_voters_title: '### 10 najlepszych głosujących na świecie'
+glstats_btn_servers: Ranking serwerów
+glstats_btn_tracks: Ranking utworów
+glstats_btn_artists: Ranking wykonawców
+glstats_btn_voters: Ranking głosujących
+glstats_footer_servers: -# Wyświetlanie najlepszych serwerów na świecie.
+glstats_footer_tracks: -# Prezentacja najpopularniejszych utworów na świecie.
+glstats_footer_artists: -# Prezentacja najpopularniejszych artystów na świecie.
+glstats_footer_voters: -# Wyświetlanie użytkowników, którzy oddali najwięcej 
+  głosów na całym świecie.
+glstats_server_item: |-
+  %{index}. **%{name}**
+  -# Czas odtwarzania: `%{time}` • Odtworzone utwory: `%{played}` razy
+glstats_track_item: |-
+  %{index}. [**%{title}**](%{url})
+  -# Odtworzono `%{count}` razy
+glstats_artist_item: |-
+  %{index}. [**%{name}**](%{url})
+  -# Odtworzono `%{count}` razy
+glstats_voter_item: |-
+  %{index}. **%{name}**
+  -# Łączna liczba głosów: `%{count}` razy
+glstats_stats_subtext: '-# Łączny czas odsłuchu: `%{time}` • Łączna liczba odtworzonych
+  utworów: `%{played}` razy'
+invite_title: Zacznij słuchać na swoim serwerze
+invite_desc: Możesz zaprosić Muse, klikając przycisk poniżej. Jeśli napotkasz 
+  jakieś błędy, dołącz do serwera pomocy technicznej.
+invite_activity_text: Możesz też uruchomić naszą aplikację Discord Activity, aby
+  wspólnie słuchać muzyki z przyjaciółmi!
+invite_btn_bot: Zaproś %{bot}
+invite_btn_instance: '%{name}'
+invite_btn_support: Serwer wsparcia
+invite_btn_activity: Uruchom Aktywność
