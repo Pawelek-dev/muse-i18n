@@ -1,1 +1,24 @@
-{}
+joined_title: 📥 Dołączono do serwera!
+leave_title: 📥 Opuszczono serwer!
+guild_name: Nazwa
+guild_id: ID
+guild_owner: Właściciel
+guild_member_count: Ilość członków
+guild_creation_date: Data utworzenia
+guild_join_date: Data dołączenia
+current_server_count: Aktualna liczba serwerów
+join_content_button_label_1: Potrzebujesz pomocy? Dołącz do naszego serwera 
+  wsparcia.
+join_content_button_label_2: Dowiedz się jak usprawnić Twoje muzyczne 
+  doświadczenie.
+join_content_button_label_3: Zarządzaj ustawieniami i słuchaj bezpośrednio w 
+  przeglądarce.
+join_content_msg_1: '### Dziękujemy, że wybrał*ś %{bot}!'
+join_content_msg_3: |-
+  - Domyślny prefiks: `%{prefix}`
+  - Wypróbuj kilka popularnych poleceń: %{help}, %{play} lub %{autoplay}.
+
+  -# Ciesz się wysokiej jakości, w 100% darmową muzyką – bez konieczności płacenia ani głosowania.
+join_content_msg_2: |-
+  **Najlepsze wrażenia muzyczne dla Twojego serwera są już dostępne.**
+  Oto jak możesz zacząć:
