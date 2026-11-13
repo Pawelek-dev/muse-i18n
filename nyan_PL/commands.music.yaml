@@ -1,0 +1,417 @@
+### Search command!
+search_placeholder: "Zerknij na moje propozycje dla ciebie~! UwU ;3"
+search_desc: "### HEJOOO! Znalazłam wyniki dla twojego wyszukiwania~"
+search_end_desc2: "### O MATKOO! %{user}, nie wybrałeś piosienki na czas!\n**Spwóbuj ponownie~!** >_<"
+search_footer: "Znaleziono %{countSong} utworków~"
+search_end_desc1: "## [`%{title}`](%{url}) `%{author}` miłego słuchanka~ ♥"
+
+search_active: "Na tym serwerku masz już otwarte menu wyszukiwania.\nZamknij je (✖) albo zaczekaj, aż wygaśnie~"
+search_no_result: "Nic nie znalazłam w wynikach wyszukiwania... :c"
+search_cooldown: "Poczekaj **%{time}s** przed ponownym użyciem `/search`~ nya!"
+search_tab_songs: "Piosienki"
+search_tab_artists: "Artyści"
+search_tab_albums: "Albumy"
+search_tab_playlists: "Playlisty"
+search_btn_add: "+ Dodaj~"
+search_btn_add_tracks: "+ Dodaj utwówki"
+search_btn_add_album: "+ Dodaj album"
+search_btn_add_playlist: "+ Dodaj playlistę"
+search_btn_first: "Pierwsza"
+search_btn_prev: "Poprzednia"
+search_btn_next: "Następna~"
+search_btn_last: "Ostatnia"
+search_btn_page: "Strona %{page}/%{pages}"
+search_empty_category: '*Nie znalazłam %{category} dla "%{query}"... :c*'
+search_duration_artist: "-# Czas: %{duration} • %{artist}"
+search_artist_sub: "-# Rodzaj: artysta%{followers}"
+search_followers: " • Obserwujący: %{count}"
+search_album_sub: "-# Rodzaj: album • Artysta: %{artist}"
+search_playlist_sub: "-# Rodzaj: playlista • Utwówki: %{tracks} • Autor: %{owner}"
+search_closed: "Wyszukiwanie zamknięte~"
+search_only_author: "Tylko %{user} może używać tego menu wyszukiwania!"
+search_item_expired: "Elementu nie znaleziono albo wygasł~"
+search_load_failed: "Nie mogę wczytać dźwięku dla **%{title}**... :c"
+search_added_single: "Dodano **%{title}** do kowejki~! >w<"
+search_added_multi: "Dodano **%{count} utworków** z **%{title}** do kowejki~! >w<"
+search_join_failed: "Nie udało się dołączyć na kanał głosowy: %{reason}"
+search_processing: "Dodaję do kowejki, momencik... nya~ mrrreow~"
+play_search_track: "## [`%{title}`](%{url}) `%{author}` miłego słuchanka~ ♥"
+no_songs_playing: "Nic tewaz nie gra!"
+card_error: "Nie udało się wygenerować karty... Spwóbuj później! :c"
+
+### Autoplay command!
+autoplay_off: "Autoodtwarzanie jest **wyłączone**~"
+autoplay_on: "Autoodtwarzanie jest **włączone**~ UwU"
+autoplay_no_songs_playing: "Żadna piosienka nie gra!"
+
+### ClearQueue command!
+clearqueue_msg: "Kowejka została **wyczyszczona**~! >w<"
+
+### Forward command!
+forward_msg: "**%{user} przewinął %{title} do** `%{duration}`"
+forward_beyond: "Piosienka prawie się skończyła! Nie da się przewinąć dalej~"
+
+### PlayNext command!
+playnext_desc: "### Następny do odtworzenia: %{name} ♪"
+playnext_queue_empty: "Kowejka jest pusta... Najpierw dodaj piosienki~"
+playnext_notfound: "Nie znalazłam piosienki! :c"
+
+# Execute when invalid
+no_node: "**Węzły audio są chwilowo niedostępne. Poczekaj momencik i spwóbuj ponownie~**"
+
+### Join command!
+join_msg: "Utworzono odtwarzacz i dołączono do %{channel}~!\nJeśli bot nie wszedł na kanał głosowy, użyj /forcejoin."
+join_already: "Już jestem na %{channel}~"
+join_no_in_voice: "Nie jesteś na kanale głosowym! >_<"
+join_no_same_voice: "Nie jesteś ze mną na tym samym kanale głosowym! Nyope~"
+join_fail: "Nie mogę połączyć się z kanałem głosowym... :c\nPowód: `%{reason}`\n\n-# Wskazówka: Sprawdź uprawnienia kanału lub użyj %{fix}, by naprawić połączenie~"
+
+### Leave command!
+leave_msg: "**Opuściłam kanał głosowy %{channel}**~"
+leave_no_bot_voice: "Bot nie jest tewaz na żadnym kanale głosowym!"
+
+### Loop command!
+loop_current: "Zapętlam %{title}~! UwU"
+loop_all: "**Tryb zapętlania KOWEJKI włączony**~"
+unloop_all: "**Tryb zapętlania WYŁĄCZONY**~"
+loop_invalid: "Niepoprawny tryb zapętlania! Wybierz **Disabled**~"
+loop_already: "Tryb zapętlania to już **%{mode}**!"
+
+### Lyrics command!
+provide_lyrics: "Podaj poprawną **nazwę piosienki**~ nya!"
+lyrics_title: "Tekst piosienki **%{song}**~ ♪"
+lyrics_notfound: "**Nie znalazłam tekstu tej piosienki!** :c"
+lyrics_toolong: "**Tekst piosienki jest za długi! Maksymalnie 4048 znaków!** >_<"
+lyrics_disable: "**Teksty piosienek są chwilowo wyłączone!**"
+lyrics_noquery: "**Podaj poprawną **nazwę piosienki**~"
+lyrics_error: "**Błędzik: %{error}**"
+lyrics_session_closed: "### Sesja tekstów piosienek zamknięta~"
+lyrics_session_timeout: "-# ⏱️ Sesja tekstów wygasła. Użyj `/lyrics` ponownie, żeby zacząć~"
+
+### Nowplaying command!
+nowplaying_stats: "-# - Czas trwania: %{duration}\n-# - Poprosił(a): %{requester}\n-# - Słuchaj w: %{source}"
+nowplaying_currently_playing: "### Tewaz gra ♬"
+nowplaying_up_next: "**♬ Następne:**\n[%{title}](%{uri}) od %{author}"
+nowplaying_grab_content: "♬ **%{title}** od **%{author}**\n%{uri}"
+nowplaying_saved_dm: "✅ Zapisałam ci to w DM-ach~!"
+nowplaying_saved_dm_failed: "N-nie mogłam wysłać ci DM-a... Sprawdź ustawienia prywatności! :c"
+nowplaying_already_liked: "**%{title}** już jest w twoich polubionych piosienkach~"
+nowplaying_liked: "🤍 Dodano **%{title}** do twoich polubionych piosienek~!\nMożesz je odtworzyć komendą `/play`! >w<"
+nowplaying_like_error: "Upsik~ Nie udało się zapisać polubionej piosienki. Spwóbuj później! :c"
+
+### Pause command!
+pause_msg: "Utwówek %{title} jest tewaz wstrzymany~"
+
+### Play command!
+play_no_same_voice: "Nie jesteś ze mną na tym samym kanale głosowym! Nyope~"
+play_no_in_voice: "Nie jesteś na kanale głosowym! >_<"
+play_arg: "Podaj poprawną nazwę piosienki albo URL~!"
+play_emoji: "**Upsik! To emoji! Nie mogę odtwarzać piosienek na podstawie emoji~**"
+play_match: "**Nie znalazłam tej piosienki... Spwóbuj innego źródła albo innego wyszukiwania!** :c"
+play_fail: "Nie mogę połączyć się z kanałem głosowym... :c\nPowód: `%{reason}`\n\n-# Wskazówka: Sprawdź region RTC kanału albo użyj %{fix}, by nawiązać połączenie od nowa~"
+play_track: "### %{title}"
+play_result: "### %{title}"
+play_playlist: |
+  ## Prościutko~! UwU
+  ### Twoja playlista %{title} trafiła do kowejki~!
+
+play_queue_max: |
+  OMG! >,.,< Kowejka jest za długa! Limit to %{limitqueue} piosienek.
+  Kup [**Premium**](%{premium}), aby odblokować nielimitowaną kowejkę~!
+
+play_playlist_max: |
+  OMG! >,.,< Ta playlista jest za długa! Limit to %{limitqueue} piosienek.
+  Kup [**Premium**](%{premium}), aby odblokować nielimitowane playlisty~!
+
+### Previous command!
+previous_notfound: |
+  **Nie znalazłam poprzedniej piosienki w kowejce!
+  Może dodasz coś przez /play, żeby zabawa trwała dalej~?**
+previous_msg: |
+  **Wracamy do poprzedniej piosienki~!
+  Tewaz gra %{title} ♪**
+
+### Queue command!
+queue_number_invalid: "Podaj poprawną liczbę~!"
+queue_notnumber: "Podaj poprawny numer strony~!"
+queue_page_notfound: "Dostępnych stron: **%{page}**~"
+queue_now_playing_title: "### Tewaz gra~"
+queue_up_next_title: "### Następne (%{count} utworków)"
+queue_up_next_single: "### Następny (1 utwówek)"
+queue_empty_rest: "-# W kowejce nie ma następnych piosienek. Użyj `/play`, by coś dodać~!"
+queue_track_sub: "-# Czas: %{duration} • %{artist} • Poprosił(a): %{requester}"
+queue_summary_footer: "-# Łącznie: %{total} utworków • Czas: %{duration} • Pętla: %{loop} • Głośność: %{volume}%"
+queue_btn_first: "Pierwsza"
+queue_btn_prev: "Poprzednia"
+queue_btn_page: "Strona %{page}/%{pages}"
+queue_btn_next: "Następna~"
+queue_btn_last: "Ostatnia"
+queue_loop_off: "Wyłączone"
+queue_loop_track: "Piosienka"
+queue_loop_queue: "Kowejka"
+queue_only_author: "Tylko %{user} może używać tego menu kowejki!"
+
+### RemoveTrack command!
+removetrack_number_invalid: "Podaj poprawną liczbę~!"
+removetrack_already: "**Nie mogę usunąć piosienki, która już gra!**"
+removetrack_notfound: "**Sowwy %{user}, nie znalazłam piosienki!** :c"
+removetrack_desc: "**Usunięto %{title} z kowejki~!**"
+
+### Replay command!
+replay_msg: "**%{user} włączył powtórkę %{title}**~"
+replay_not_seekable: "Utworku **%{title}** nie da się odtworzyć ponownie... :c"
+
+### Resume command!
+resume_msg: "Odtwarzanie wznowione~ %{title} ♪"
+
+### Rewind command!
+rewind_msg: "**%{user} cofnął %{title} do** `%{duration}`"
+rewind_beyond: "Piosienka dopiero się zaczęła! Nie ma dokąd cofać~"
+
+### Seek command!
+seek_beyond: "Nie możesz przewinąć poza koniec piosienki~!"
+seek_invalid: "Niepoprawny czas przewijania! Podaj czas, np. **1:30**"
+seek_msg: "**Przewinięto %{title} do** `%{duration}`"
+seek_not_seekable: "Utworku **%{title}** nie można przewijać~"
+
+### Skip command!
+skip_notfound: |
+  **Nie ma następnej piosienki do pominięcia! Wygląda na to, że nic nie czeka w kowejce...
+  Dodajmy coś przez /play, żeby muzyczka nie cichła~!**
+skip_msg: "**Pominięto %{title}**~"
+skip_number_invalid: "Podaj poprawną liczbę~!"
+
+### Stop command!
+stop_msg: "**Zatrzymano %{title}**~"
+
+### Shuffle command!
+shuffle_title: "Tasuję kowejkę~"
+
+### Volume command!
+volume_number_invalid: "Podaj poprawną liczbę~!"
+volume_invalid: "Niepoprawna głośność! Podaj liczbę od **1** do **100**~"
+volume_msg: "**Głośność ustawiona na %{volume}%, miłego słuchanka, %{user}~** UwU"
+volume_max: "**Głośność już jest maksymalna: 100%**~"
+
+### play source commands
+url_no_allowed: "Podaj nazwę piosienki lub artysty (adresy URL nie są dozwolone)~"
+play_arg_source: "Podaj poprawną nazwę piosienki lub artysty~!"
+
+## Temporarily disabled commands
+youtube_disabled: "Obsługa YouTube jest chwilowo niedostępna~"
+autoplay_disabled: "Autoodtwarzanie jest chwilowo wyłączone~"
+
+### Trivia command!
+trivia_not_server: "Tej komendy można używać tylko na serwerku~"
+trivia_no_voice: "Aby zagrać w Muzyczny Quiz, musisz być na **kanale głosowym**! Bot będzie puszczał fragmenty piosienek do zgadywania~ UwU"
+trivia_music_playing: "Na tym serwerku już gra muzyczka! Zatrzymaj ją, zanim rozpoczniesz Muzyczny Quiz~"
+trivia_active_session: "Na tym kanale trwa już Muzyczny Quiz. Poczekaj, aż się skończy~!"
+trivia_failed_start: "Nie udało się rozpocząć Muzycznego Quizu... Bot nie mógł wejść na kanał głosowy! :c"
+trivia_normal_playing: "Na obecnym kanale głosowym ktoś używa bota do zwykłego odtwarzania. Najpierw zatrzymaj muzyczkę~"
+trivia_lobby_title: "# Poczekalnia Muzycznego Quizu"
+trivia_lobby_waiting: "Czekam na graczy... nya~ mrrreow~"
+trivia_lobby_warning: "Gra zostanie automatycznie anulowana, jeśli nikt nie dołączy! :c"
+trivia_lobby_footer_multi: "-# Tryb: wieloosobowy | Prowadzący: %{host}"
+trivia_lobby_footer_single: "-# Tryb: jednoosobowy | Prowadzący: %{host}"
+trivia_join_btn: "Dołącz do gry~"
+trivia_start_btn: "Zacznij grę~"
+trivia_cancel_btn: "Anuluj"
+trivia_already_in: "Już jesteś w grze~!"
+trivia_not_same_voice: "Aby dołączyć, musisz być na tym samym kanale głosowym~"
+trivia_joined: "Dołączono do quizu~! UwU ;3"
+trivia_left: "Opuszczono quiz~"
+trivia_not_host_start: "Tylko prowadzący może rozpocząć grę~!"
+trivia_not_enough_players: "Za mało graczy! W trybie wieloosobowym potrzeba co najmniej 2 osób~"
+trivia_starting: "Zaczynamy zabawę... njuuum njuuum~"
+trivia_not_host_cancel: "Tylko prowadzący może anulować grę~!"
+trivia_cancelled_host: "Poczekalnia Muzycznego Quizu została zamknięta~"
+trivia_countdown_title: "# Muzyczny Quiz! Szykuj się~!"
+trivia_countdown_desc: "**Tryb:** %{mode}\n**Rundy:** %{rounds} | **Czas:** %{time}s\n**Gatunek:** %{genre}\n\n- Bot dołączył na kanał głosowy!\n- Gra zaczyna się za **%{seconds}** sekund... UwU"
+trivia_countdown_players: "-# Gracze: %{players}"
+trivia_no_questions: "Nie mogłam wygenerować wystarczającej liczby pytań... Spwóbuj innego gatunku albo poziomu trudności~"
+trivia_round_title: "# Muzyczny Quiz — runda %{round}/%{rounds}"
+trivia_round_desc: "**Posłuchaj grającej piosienki i zgadnij jej tytuł~!**\nKoniec <t:%{time}:R>"
+trivia_round_footer_multi: "-# Odpowiedzi: %{answered}/%{total} graczy | Czas: %{time}s | Gatunek: %{genre}"
+trivia_round_footer_single: "-# Tryb: jednoosobowy | Punkty: %{score} | Czas: %{time}s | Gatunek: %{genre}"
+trivia_skip_btn: "Pomiń~"
+trivia_not_in_game: "Nie uczestniczysz w tej grze! Nyope~"
+trivia_already_answered: "Już odpowiedziałeś~!"
+trivia_skipped_msg: "Pominąłeś tę rundę~"
+trivia_cancelled_user: "Quiz anulowany~"
+trivia_answer_recorded: "%{emoji} Odpowiedź zapisana~! UwU"
+trivia_ended_cancelled: "**Quiz anulowany przez użytkownika.**"
+trivia_ended_disconnect: "**🔌 Quiz zakończony po rozłączeniu bota.**"
+trivia_result_title: "# Wynik rundy %{round}/%{rounds}"
+trivia_result_correct: "**Brawo, poprawnie~!**\n**%{title}** od **%{artist}**\n\n**+%{points} pkt** %{streak}\nŁącznie: **%{totalPts} pkt**"
+trivia_result_skipped: "**Pominięto~!**\nOdpowiedź: **%{title}** od **%{artist}**\n\nŁącznie: **%{totalPts} pkt**"
+trivia_result_wrong: "**Ojoj, źle~!**\nPoprawna odpowiedź: **%{title}** od **%{artist}**\n\nŁącznie: **%{totalPts} pkt**"
+trivia_result_timeout: "**Czas minął~!**\nOdpowiedź: **%{title}** od **%{artist}**\n\nŁącznie: **%{totalPts} pkt**"
+trivia_result_next: "-# Kolejna runda za 3 s... njuuum~"
+trivia_final_title: "# Muzyczny Quiz — wyniki końcowe"
+trivia_final_performance: "**Jak ci poszło~:**"
+trivia_final_correct: "Poprawne: **%{correct}/%{rounds}** (%{accuracy}%)"
+trivia_final_skipped: "Pominięte: **%{skipped}** | Koniec czasu: **%{timeouts}**"
+trivia_final_streak: "Najdłuższa seria: **%{streak}**"
+trivia_final_points: "Łącznie punktów: **%{points}**"
+trivia_final_badges: "**Zdobyte nowe odznaczki~:**"
+trivia_view_stats_btn: "Zobacz postępy i statystyki"
+trivia_final_footer: "-# Tryb: %{mode} | Rundy: %{rounds} | Gatunek: %{genre}"
+trivia_prev_btn: "Poprzednia"
+trivia_next_btn: "Następna~"
+trivia_profile_not_found: "Nie znalazłam profilu. Najpierw zagraj w quiz~!"
+trivia_no_badges: "-# Nie masz jeszcze odznaczek~"
+trivia_profile_title: "# Profil Muzycznego Quizu\n-# <@%{user}>"
+trivia_profile_stats: "## Statystyki globalne\n**Łącznie punktów:** %{points}\n**Rozegrane gry:** %{games} (solo: %{single} | multi: %{multi})\n**Celność:** %{accuracy}% (%{correct} poprawnych / %{missed} błędnych)\n**Najdłuższa seria:** %{streak}"
+trivia_profile_achievements: "## Osiągnięcia (%{count})"
+trivia_final_player_stats: "-# %{medal} <@%{userId}> — **%{points} pkt** (%{correct}/%{rounds} poprawnych)"
+trivia_lobby_host_tag: "👑 Prowadzący"
+trivia_lobby_player_tag: "👤 Gracz"
+trivia_lobby_desc: "**%{user}** prowadzi Muzyczny Quiz~!\n\n## Gracze (%{count})\n%{list}"
+trivia_result_answer_multi: "Prawidłowa odpowiedź: **%{title}** od **%{artist}**\n\n"
+
+### Fix command!
+fix_title: "### Napraw połączenie audio"
+fix_desc: "Wybierz jedną z opcji, by naprawić problemy z dźwięczkiem~:"
+fix_option_region: "Zmień region kanału głosowego, aby zmniejszyć opóźnienia."
+fix_option_reconnect: "Zerwij połączenie głosowe, usuń wszystkie utwówki i wyczyść kowejkę, a potem połącz się ponownie."
+fix_option_recreate: "Całkowicie zresetuj i odtwórz odtwarzacz, zachowując wszystkie utwówki."
+fix_btn_region: "Zmień region"
+fix_btn_reconnect: "Połącz ponownie"
+fix_btn_recreate: "Utwórz od nowa"
+fix_region_success: "Region głosowy zmieniono na **%{region}**~!\nMoże to pomóc w problemach z opóźnieniem."
+fix_region_fail: "Nie udało się zmienić regionu głosowego. Spwóbuj ponownie lub sprawdź uprawnienia bota~"
+fix_region_no_perm: "Nie mam uprawnienia **Manage Channels** do zmiany regionu głosowego! :c"
+fix_reconnect_success: "Połączenie głosowe zresetowano i nawiązano ponownie~! Kowejka została wyczyszczona."
+fix_reconnect_fail: "Nie udało się połączyć ponownie z kanałem głosowym. Spwóbuj jeszcze raz~"
+fix_recreate_success: "Odtwarzacz utworzony od nowa~!\nMożesz użyć %{play}, aby włączyć muzyczkę."
+fix_recreate_fail: "Nie udało się odtworzyć odtwarzacza. Spwóbuj ponownie~"
+fix_no_player: "Nie ma aktywnego odtwarzacza do naprawienia~!"
+fix_no_voice: "Musisz być na kanale głosowym, by użyć tej opcji~!"
+fix_no_bot_voice: "Bot nie jest tewaz na kanale głosowym!"
+fix_no_permission: "Tylko osoba, która uruchomiła tę komendę, może klikać te pwyciski~"
+
+### Spotify command!
+spotify_integration_title: "### Integracja ze Spotify"
+spotify_integration_desc: "Połącz swoje konto Spotify, by przeglądać i odtwarzać playlisty przez bota~ UwU"
+spotify_integration_help_title: "### Co możesz zrobić~?"
+spotify_integration_help_desc: "• Przeglądać publiczne playlisty Spotify\n• Dodawać całe playlisty do kowejki bezpośrednio z Discorda"
+spotify_connect_title: "### Połącz konto"
+spotify_connect_desc: "-# Połącz Spotify przez panel, by korzystać z funkcji playlist~"
+spotify_connect_btn: "Połącz Spotify~"
+spotify_dashboard_title: "### Panel Spotify"
+spotify_dashboard_desc: "Twoje konto Spotify zostało połączone i jest gotowe~! UwU ;3"
+spotify_dashboard_account_title: "### Szczegóły konta:"
+spotify_dashboard_account_details: "• Nazwa użytkownika: **%{displayName}**\n• Playlisty: **%{totalPlaylists}**"
+spotify_manage_title: "### Zarządzaj playlistami"
+spotify_manage_desc: "-# Przeglądaj swoje playlisty Spotify i dodawaj je do kowejki~"
+spotify_manage_btn: "Zobacz playlisty"
+spotify_unlink_title: "### Odłącz konto"
+spotify_unlink_desc: "-# Odłącz konto Spotify, klikając poniższy pwycisk~"
+spotify_unlink_btn: "Odłącz konto"
+spotify_unlink_success_title: "### Konto Spotify odłączone"
+spotify_unlink_success_desc: "Twoje konto Spotify zostało pomyślnie odłączone~"
+spotify_playlist_title: "### Twoje playlisty Spotify"
+spotify_playlist_desc: "-# Znaleziono %{count} playlist gotowych do dodania~! Kliknij pwycisk odtwarzania, by dorzucić je do kowejki."
+spotify_playlist_tracks: "%{count} utworków"
+spotify_playlist_no_public: "Nie znalazłam publicznych playlist na twoim Spotify. Upewnij się, że masz widoczne publiczne playlisty~"
+spotify_playlist_not_found: "❌ Nie znaleziono playlisty albo jest niepoprawna~"
+spotify_no_voice: "❌ Aby odtwarzać muzyczkę, musisz być na kanale głosowym~"
+spotify_not_same_voice: "❌ Musisz być ze mną na tym samym kanale głosowym~"
+spotify_player_failed: "❌ Nie udało się uruchomić odtwarzacza. Spwóbuj później~"
+spotify_no_tracks_title: "### Nie znaleziono utworków"
+spotify_no_tracks_desc: "W tej playliście nie ma utworków, które mogę odtworzyć~"
+spotify_queued_title: "### Playlista dodana do kowejki~"
+spotify_queued_desc: "Dodano **%{added} utworków** z **%{playlist}** do kowejki~!"
+spotify_queue_failed_title: "### Nie udało się dodać do kowejki"
+spotify_queue_failed_desc: "Nie mogłam dodać żadnego utworku z tej playlisty... :c"
+spotify_not_owner: "❌ Nie masz dostępu do tej sesji. Tylko osoba, która użyła komendy, może z niej korzystać~"
+spotify_btn_back: "◀ Wróć"
+spotify_btn_prev: "Poprzednia"
+spotify_btn_next: "Następna~"
+
+### Radio command!
+radio_fetch_countries_error: "Nie udało się pobrać listy krajów radia z serwerka... :c"
+radio_no_countries: "Nie znalazłam żadnych krajów~"
+radio_global_title: "## 📻 Radio na całym świecie"
+radio_global_desc: "Witaj w odtwarzaczu światowego radia~!\nWybierz kraj z menu poniżej, aby zobaczyć popularne stacje.\n\n-# 🌍 Strona %{page} z %{totalPages}"
+radio_stations_count: "📻 Dostępnych stacji: %{count}"
+radio_select_country: "Wybierz kraj..."
+radio_prev: "Poprzednia"
+radio_next: "Następna~"
+radio_country_title: "## 📻 Stacje radiowe w %{country}"
+radio_country_desc: "Naciśnij pwycisk odtwarzania, by posłuchać stacji radiowej~!\n\n-# 📑 Strona %{page} z %{totalPages}"
+radio_play_btn: "▶ Odtwórz"
+radio_back_btn: "Wróć~"
+radio_no_stations: "Nie znalazłam działających stacji w tym kraju~"
+radio_fetch_stations_error: "Nie udało się pobrać stacji... :c"
+radio_offline: "Nie mogłam odnaleźć strumienia radiowego~"
+radio_now_playing: "Tewaz gra stacja radiowa: **%{station}** ♪ mrrreow~"
+radio_error_playing: "Upsik~ Błędzik odtwarzania stacji radiowej! :c"
+
+### Remove Tracks command!
+removetracks_command_desc: "Usuń utwówki wybranych osób z kowejki"
+removetracks_title: "Usuń utwówki"
+removetracks_desc: "Wybierz osobę, aby usunąć wszystkie jej utwówki oczekujące w kowejce~"
+removetracks_track_single: "%{count} utwówek"
+removetracks_track_multiple: "%{count} utworków"
+removetracks_btn_delete: "Usuuń"
+removetracks_btn_prev: "Poprzednia"
+removetracks_btn_next: "Następna~"
+removetracks_page_indicator: "%{page} / %{pages}"
+removetracks_empty_title: "Usuń utwówki"
+removetracks_empty_desc: "W kowejce nie ma tewaz utworków, które można usunąć~"
+removetracks_expired: "To menu wygasło. Użyj ponownie `/removetracks`~"
+removetracks_success: "Usunięto wszystkie **%{count}** utwówki dodane przez **%{user}** z kowejki~!"
+removetracks_no_tracks_left: "**%{user}** nie ma już utworków w kowejce~"
+removetracks_unknown_user: "Nieznana osoba dodająca"
+removetracks_not_author: "Nie możesz używać tego menu! Jest tylko dla osoby, która uruchomiła komendę~"
+removetracks_no_same_voice: "Musisz być na tym samym kanale głosowym, aby użyć tego menu~!"
+
+### Sleep Timer command!
+sleeptimer_command_desc: "Ustaw, sprawdź lub anuluj wyłącznik czasowy muzyczki"
+sleeptimer_title: "Muzyczna usypiajka"
+sleeptimer_desc: "Ustaw automatyczny licznik czasu słuchania~ Po jego upływie odtwarzanie zatrzyma się, a kowejka zostanie wyczyszczona, aby można było spokojnie odpocząć lub zasnąć bez grającego strumienia. UwU"
+sleeptimer_status_active_title: "Aktywna usypiajka"
+sleeptimer_status_active_desc: "**Status:** Aktywny\n**Czas trwania:** %{duration} min\n**Koniec:** <t:%{timestamp}:R> (<t:%{timestamp}:T>)\n**Ustawił(a):** %{user}"
+sleeptimer_status_inactive_title: "Usypiajka nieaktywna"
+sleeptimer_status_inactive_desc: "**Status:** Nieaktywny\n*W tej sesji nie ustawiono jeszcze usypiajki.*"
+sleeptimer_btn_set: "Ustaw czas"
+sleeptimer_btn_cancel: "Anuluj"
+sleeptimer_btn_status: "Odśwież"
+sleeptimer_modal_title: "Ustaw usypiajkę"
+sleeptimer_modal_input_label: "Czas w minutach (1 - 120)"
+sleeptimer_modal_placeholder: "np. 30"
+sleeptimer_modal_invalid: "Podaj poprawną liczbę minut od 1 do 120~"
+sleeptimer_cancel_success: "Aktywna usypiajka została anulowana~"
+sleeptimer_cancel_none: "Nie ma aktywnej usypiajki do anulowania~"
+sleeptimer_set_success: "Usypiajka ustawiona na %{duration} minut~ Odtwarzanie zakończy się <t:%{timestamp}:R>."
+sleeptimer_expired_notification_247: "Czas usypiajki minął~!\nOdtwarzanie zatrzymano i wyczyszczono kowejkę."
+sleeptimer_expired_notification_leave: "Czas usypiajki minął~ Odtwarzanie zatrzymano, a bot opuścił kanał głosowy."
+sleeptimer_menu_expired: "Menu usypiajki wygasło~\nUruchom `/sleeptimer` jeszcze raz, by otworzyć nowe."
+sleeptimer_not_author: "Nie możesz używać tego menu!\nTylko osoba, która uruchomiła komendę, ma do niego dostęp~"
+sleeptimer_no_same_voice: "Musisz być na tym samym kanale głosowym co bot, aby użyć tego menu~!"
+sleeptimer_no_player: "Na tym serwerku nic tewaz nie gra~"
+
+### Remove Dupes command!
+removedupes_command_desc: "Usuń powtarzające się piosienki z kowejki"
+removedupes_title: "Usuń duplikaty utworków"
+removedupes_desc_success: "Posprzątałam kowejkę, usuwając duplikaty bez zmiany pierwotnej kolejności utworków~ UwU"
+removedupes_desc_none: "Kowejka lśni czyściutko~ Nie ma żadnych duplikatów!"
+removedupes_stat_removed: "**Usunięte duplikaty:** %{count}"
+removedupes_stat_remaining: "**Pozostało w kowejce:** %{total} utworków"
+removedupes_empty_queue: "W kowejce nie ma tewaz piosienek do sprawdzenia pod kątem duplikatów~"
+
+### Grab command!
+grab_command_desc: "Wyślij obecnie odtwarzany utwówek w wiadomości prywatnej"
+grab_dm_success: "Wysłałam ci szczegóły obecnie grającego utworku na DM-y~! UwU"
+grab_dm_failed: "Nie mogłam wysłać ci wiadomości prywatnej... Sprawdź ustawienia prywatności serwerka i zezwól na wiadomości od jego członków~"
+grab_field_title: "Tytuł"
+grab_field_duration: "Czas trwania"
+grab_field_requested_by: "Poprosił(a)"
+grab_field_source: "Źródło"
+grab_btn_favorite: "Dodaj do ulubionych"
+grab_btn_saved: "Zapisano w ulubionych~"
+grab_btn_already_saved: "Już w ulubionych"
+grab_fav_success: "Dodano **%{title}** do ulubionych~! <3 ;3"
+grab_fav_already_exists: "**%{title}** już jest w twoich ulubionych~"
+grab_fav_error: "Upsik~ Błądzik przy zapisywaniu piosienki do ulubionych... :c"

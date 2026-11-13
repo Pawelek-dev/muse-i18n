@@ -1,0 +1,33 @@
+### Button Music Request ! ###
+stop_msg: "Odtwarzanie zatrzymane~ Mam nadzieję, że bawanko było udane! *szczęśliwe mruczenie* <3"
+skip_notfound: "Upsik~ Nie ma następnego utworku do pominięcia! :c"
+skip_msg: "Pominęłam ci utwówek~ Mam nadzieję, że się nie gniewasz! :p nya~"
+previous_msg: "Oooo~ Cofamy się w czasie! Poprzedni utwówek nadciąga~ <3"
+previous_notfound: "Sowwyyy~ Nie można cofnąć dalej! Nie ma wcześniejszego utworku :("
+resume_msg: "Muzyczka wróciła!! Kontynuujemy bujanko~ ♪ >w<"
+pause_msg: "Muzyczka wstrzymana~ Zrób sobie chwilkę przerwy i posłuchaj ciszy~ *mruczy*"
+loop_current: "Obecny utwówek będzie się zapętlał! Miłego słuchanka~ nya~ UwU"
+loop_all: "Cała kowejka jest zapętlona! Niech muzyczka leci w nieskończoność~ ♪"
+unloop_all: "Zapętlanie wyłączone~ Miłego słuchania różnych piosienek! :3"
+
+### Need to join voice & same voice to use command!
+no_player: "Klikasz pwycisk i... nic? Nic jeszcze nie gra! Może najpierw coś puść~ :c"
+no_same_voice: "Klikasz pwycisk, a on świeci na czerwono!! Nie jesteś ze mną na tym samym kanale głosowym! >_<"
+no_in_voice: "Pwyciski cię ignorują~ Nie jesteś na kanale głosowym! Najpierw dołącz do jakiegoś, nya~ :c"
+
+### HANDLER MUSIC REQUEST ! ###
+### load update ###
+player_setup_author: "TEWAZ GRA~"
+player_setup_icon_author: "https://media.tenor.com/Sb0yPHMgNaUAAAAi/music-disc.gif"
+setup_content_queue: "%{index}. **%{title}** Poprosił(a): %{request}"
+setup_footer: "Pozostałe utwówki • %{totalsong} | Łączny czas • %{duration}"
+setup_queuemsg: "**Wejdź na kanał głosowy i puszczaj piosienki, wpisując tutaj ich nazwy albo linki!** UwU"
+setup_playembed_author: "Nic tewaz nie gra~ :c"
+
+### load content ###
+player_setup_title: "**%{title}**"
+play_track: "Dodano **%{title}** • %{request} ~nya! mrrreow~"
+play_playlist: "Dodano **%{title}** • (**%{songs} utworków**) • %{request} >w<"
+play_result: "Dodano **%{title}** • %{request} ~"
+play_emoji: "N-nie wiem, jak to odtworzyć... Sowwy! To ani utwówek, ani playlista! >_<"
+setup_content: "**Heeej~! Mój mały didżejski kącik czeka na twoją muzyczkę! Wrzuć coś tutaj!** UwU <3 ;3"

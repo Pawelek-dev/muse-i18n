@@ -1,0 +1,39 @@
+### privacy policy commands
+privacy_title: "Polityka prywatności %{bot}"
+privacy_label: Polityka prywatności
+privacy_desc: |
+  **Zgoda użytkownika**
+  Korzystanie z [%{bot}](%{serversupport}) („bot”) na serwerku wymaga zbierania określonych danych użytkowników, nya~ Są to między innymi identyfikator Discord, nazwa użytkownika Discord oraz role na serwerku. Korzystanie z bota oznacza akceptację warunków niniejszej polityki.
+
+  **Dostęp do danych**
+  Dostęp do danych mają wyłącznie twórcy bota i dostawcy hostingu, tylko w zakresie niezbędnym do rozwoju, testowania i wdrażania funkcji. Dane nie są sprzedawane, przekazywane ani udostępniane osobom trzecim, chyba że wymagają tego przepisy prawa lub warunki korzystania z usług. Możesz uzyskać wgląd do swoich danych, zwracając się do [twórcy](%{developer}).
+
+  **Przechowywanie danych**
+  Dane przechowywane są w bazie [PostgreSQL](https://www.postgresql.org/). Baza jest zabezpieczona przed dostępem z zewnątrz. Nie da się jednak zagwarantować pełnego bezpieczeństwa; właściciel bota nie ponosi odpowiedzialności za nieumyślne lub złośliwe naruszenia ochrony danych. W przypadku nieuprawnionego dostępu do danych zespół poinformuje użytkowników za pośrednictwem serwerka pomocy.
+
+  **Prawa użytkownika**
+  W każdej chwili możesz poprosić o dostęp do danych swojego konta Discord. Masz także prawo zażądać usunięcia odpowiednich danych. W tym celu prześlij zgłoszenie przez serwerek pomocy, plosię~
+
+  **Pytania**
+  Jeśli masz pytania lub wątpliwości dotyczące przechowywanych danych, skontaktuj się z [obsługą](%{serversupport}). Więcej informacji znajdziesz w regulaminie Discorda, nya~
+
+### The fowwowing tewms and conditions appwy to the use of the bot.
+### terms of services commands
+termsofservice_title: "Warunki korzystania z %{bot}"
+tos_label: "Warunki korzystania z usługi"
+termsofservice_desc: |
+  **Umowa dotycząca korzystania**
+  Zapraszając [%{bot}](%{serversupport}) („bot”) i używając jego funkcji, akceptujesz warunki korzystania z bota i jego politykę prywatności.
+
+  Przyjmujesz do wiadomości, że możesz swobodnie korzystać z bota na dowolnym serwerku Discord, którego jesteś członkiem. Możesz zaprosić go na serwerek, na którym masz uprawnienie „Zarządzanie serwerkiem”. Prawo to może zostać cofnięte w przypadku naruszenia warunków korzystania z bota, jego polityki prywatności albo regulaminu, polityki prywatności bądź wytycznych społeczności Discord Inc.
+
+  Zapraszając bota, zgadzasz się, że może on zbierać określone dane opisane w polityce prywatności. Dane te są wykorzystywane do podstawowych funkcji bota, takich jak wykonywanie komend.
+
+  **Powiązania**
+  Bot nie jest powiązany z Discord Inc., nie jest przez tę firmę wspierany ani tworzony. Wszelkie bezpośrednie podobieństwa do Discorda lub jego znaków towarowych są przypadkowe. Nie rościmy sobie praw do zasobów Discorda, jego znaków towarowych ani innej własności intelektualnej.
+
+  **Użytkownicy niepełnoletni**
+  Z bota nie mogą korzystać osoby poniżej 13. roku życia ani osoby poniżej wieku wymaganego prawem do wyrażenia zgody w ich kraju. Jest to zgodne z regulaminem Discorda. Nie gromadzimy świadomie danych osób poniżej wymaganego wieku. Jeśli wykryjemy taki przypadek, podejmiemy niezbędne działania w celu usunięcia zgromadzonych danych.
+
+  **Odpowiedzialność**
+  Twórcy i właściciel bota nie ponoszą odpowiedzialności za osoby naruszające niniejsze warunki. Zastrzegamy sobie prawo do ich aktualizacji, z tygodniowym (7 dni) okresem na rezygnację z nowych warunków. Użytkownik może zrezygnować, usuwając bota z każdego serwerka, na którym ma do tego uprawnienia.

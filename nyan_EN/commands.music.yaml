@@ -1,0 +1,417 @@
+### Search command!
+search_placeholder: "Check my wittwe picks fow you~! UwU"
+search_desc: "### HEWWO! Found wesuwts fow youw wequest~"
+search_end_desc2: "### OMG! %{user}, you didn't pick a songie in time!\n**Give it anothew go~!** >_<"
+search_footer: "%{countSong} twackies found~"
+search_end_desc1: "## [`%{title}`](%{url}) `%{author}` enjoy it~ ♥"
+
+search_active: "You awweady have an active seawch menu wunning in this sewvew.\nPwease cwose it (✖) ow wait fow it to expiwe~"
+search_no_result: "Nyo wesuwts found fow youw seawch... :c"
+search_cooldown: "Pwease wait **%{time}s** befowe using `/search` again~ nya!"
+search_tab_songs: "Songies"
+search_tab_artists: "Awtists"
+search_tab_albums: "Awbums"
+search_tab_playlists: "Pwaywists"
+search_btn_add: "+ Add~"
+search_btn_add_tracks: "+ Add Twackies"
+search_btn_add_album: "+ Add Awbum"
+search_btn_add_playlist: "+ Add Pwaywist"
+search_btn_first: "Fiwst"
+search_btn_prev: "Pwevious"
+search_btn_next: "Next~"
+search_btn_last: "Wast"
+search_btn_page: "Page %{page}/%{pages}"
+search_empty_category: '*Nyo %{category} found fow "%{query}"... :c*'
+search_duration_artist: "-# Duwwation: %{duration} • %{artist}"
+search_artist_sub: "-# Type: Awtist%{followers}"
+search_followers: " • %{count} fowwowews"
+search_album_sub: "-# Type: Awbum • Awtist: %{artist}"
+search_playlist_sub: "-# Type: Pwaywist • Twacks: %{tracks} • By: %{owner}"
+search_closed: "Seawch cwosed~"
+search_only_author: "Onwy %{user} can intewact with this seawch menu!"
+search_item_expired: "Item not found ow has expiwed~"
+search_load_failed: "Couldn't woad audio fow **%{title}**... :c"
+search_added_single: "Added **%{title}** to the quewie~! >w<"
+search_added_multi: "Added **%{count} twackies** fwom **%{title}** to the quewie~! >w<"
+search_join_failed: "Faiwed to join voice channew: %{reason}"
+search_processing: "Adding to the quewie, pwease wait... nya~"
+play_search_track: "## [`%{title}`](%{url}) `%{author}` enjoy it~ ♥"
+no_songs_playing: "Nyo songie is cuwwentwy pwaying!"
+card_error: "Faiwed to genewate the cawd... Pwease twy again watew! :c"
+
+### Autoplay command!
+autoplay_off: "Autopway is now **Disabwed**~"
+autoplay_on: "Autopway is now **Enabwed**~ UwU"
+autoplay_no_songs_playing: "Nyo songies awe pwaying!"
+
+### ClearQueue command!
+clearqueue_msg: "The quewie has been **Cweawed**~! >w<"
+
+### Forward command!
+forward_msg: "**%{user} Fowwawded %{title} to** `%{duration}`"
+forward_beyond: "The songie is awmost ovew! You can't fowwawd any fuwthew~"
+
+### PlayNext command!
+playnext_desc: "### %{name} Next To Pway ♪"
+playnext_queue_empty: "The quewie is empty... Pwease add some songies fiwst~"
+playnext_notfound: "Songie not found! :c"
+
+# Execute when invalid
+no_node: "**Audio nodes awe cuwwentwy unavaiwabwe. Pwease wait a wittwe and twy youw command again~**"
+
+### Join command!
+join_msg: "The pwayew has been successfuwwy cweated and joined %{channel}~!\nIf the bot hasn't joined the voice channew, pwease use /forcejoin."
+join_already: "I'm awweady in %{channel}~"
+join_no_in_voice: "You'we not in a voice channew! >_<"
+join_no_same_voice: "You'we not in the same voice channew as me! Nyope~"
+join_fail: "Couldn't connect to the voice channew... :c\nWeason: `%{reason}`\n\n-# Tip: Check channew pewmissions ow use %{fix} to wesowve connection issues~"
+
+### Leave command!
+leave_msg: "**Weft the voice channew %{channel}**~"
+leave_no_bot_voice: "The bot isn't cuwwentwy in a voice channew!"
+
+### Loop command!
+loop_current: "Now wooping %{title}~! UwU"
+loop_all: "**Has been wooping QUEUE mode**~"
+unloop_all: "**Wooping mode has been DISABLED**~"
+loop_invalid: "Invawid Woop mode! Pwease use **Disabled**~"
+loop_already: "Woop mode is awweady **%{mode}**!"
+
+### Lyrics command!
+provide_lyrics: "Pwease pwovide a vawid **Song Name**~ nya!"
+lyrics_title: "Wyrics fow **%{song}**~ ♪"
+lyrics_notfound: "**Couldn't find the wyrics fow this songie!** :c"
+lyrics_toolong: "**Wyrics too wong! Max 4048 chawactews awwowed!** >_<"
+lyrics_disable: " **Wyrics awe cuwwentwy disabwed!**"
+lyrics_noquery: "**Pwease pwovide a vawid **Song Name**~"
+lyrics_error: "**Ewwow: %{error}**"
+lyrics_session_closed: "### Wyrics session cwosed~"
+lyrics_session_timeout: "-# ⏱️ Wyrics session timed out. Use `/lyrics` again to westawt~"
+
+### Nowplaying command!
+nowplaying_stats: "-# - Duwwation: %{duration}\n-# - Wequested by: %{requester}\n-# - Wisten on: %{source}"
+nowplaying_currently_playing: "### Cuwwentwy Pwaying ♬"
+nowplaying_up_next: "**♬ Up next:**\n[%{title}](%{uri}) by %{author}"
+nowplaying_grab_content: "♬ **%{title}** by **%{author}**\n%{uri}"
+nowplaying_saved_dm: "✅ Saved to youw DMs~!"
+nowplaying_saved_dm_failed: "I-I couldn't send you a DM... Pwease check youw pwivacy settings! :c"
+nowplaying_already_liked: "**%{title}** is awweady in youw wiked songies~"
+nowplaying_liked: "🤍 Added **%{title}** to youw Wiked Songies~!\nYou can pway youw wiked songies using the `/play` command! >w<"
+nowplaying_like_error: "Oopsie~ Thewe was an ewwow saving youw wiked songie. Pwease twy again watew! :c"
+
+### Pause command!
+pause_msg: "The twack %{title} is cuwwentwy paused~"
+
+### Play command!
+play_no_same_voice: "You'we not in the same voice channew as me! Nyope~"
+play_no_in_voice: "You'we not in a voice channew! >_<"
+play_arg: "Pwease pwovide a vawid song name ow URL~!"
+play_emoji: "**Oopsie! That's an emoji! You can't pway songies using emojis~**"
+play_match: "**Couldn't find this songie... Twy anothew souwce ow a diffewent seawch!** :c"
+play_fail: "Couldn't connect to the voice channew... :c\nWeason: `%{reason}`\n\n-# Tip: Make suwe the voice channew's WTC Wegion is wowking pwopewwy, ow use %{fix} to we-initiawize the connection~"
+play_track: "### %{title}"
+play_result: "### %{title}"
+play_playlist: |
+    ## That was easy~! UwU
+    ### Youw %{title} was added to the quewie~!
+
+play_queue_max: |
+    OMG!>,.,< The quewie is way too wong! Max %{limitqueue} songies.
+    Upgwade to [**pwemium**](%{premium}) fow unwimited quewie access~!
+
+play_playlist_max: |
+    OMG!>,.,< The pwaywist is way too wong! Max %{limitqueue} songies.
+    Upgwade to [**pwemium**](%{premium}) fow unwimited pwaywist access~!
+
+### Previous command!
+previous_notfound: |
+    **Nyo pwevious songie found in the quewie!
+    Why not /play some mowe twackies and keep the music going~?**
+previous_msg: |
+    **Back to the pwevious songie~!
+    Now pwaying %{title} ♪**
+
+### Queue command!
+queue_number_invalid: "Pwease pwovide a vawid numbew~!"
+queue_notnumber: "Pwease pwovide a vawid page numbew~!"
+queue_page_notfound: "Thewe awe onwy **%{page} Pages**~"
+queue_now_playing_title: "### Now Pwaying~"
+queue_up_next_title: "### Up Next (%{count} twackies)"
+queue_up_next_single: "### Up Next (1 twack)"
+queue_empty_rest: "-# Nyo upcoming twackies in the quewie. Use `/play` to add some mowe~!"
+queue_track_sub: "-# Duwwation: %{duration} • %{artist} • Wequested by: %{requester}"
+queue_summary_footer: "-# Totaw: %{total} twackies • Duwwation: %{duration} • Woop: %{loop} • Vowume: %{volume}%"
+queue_btn_first: "Fiwst"
+queue_btn_prev: "Pwevious"
+queue_btn_page: "Page %{page}/%{pages}"
+queue_btn_next: "Next~"
+queue_btn_last: "Wast"
+queue_loop_off: "Off"
+queue_loop_track: "Songie"
+queue_loop_queue: "Quewie"
+queue_only_author: "Onwy %{user} can intewact with this quewie menu!"
+
+### RemoveTrack command!
+removetrack_number_invalid: "Pwease pwovide a vawid numbew~!"
+removetrack_already: "**I can't wemove a songie that's awweady pwaying!**"
+removetrack_notfound: "**Sowwy %{user}, songie not found!** :c"
+removetrack_desc: "**Wemoved %{title} fwom the quewie~!**"
+
+### Replay command!
+replay_msg: "**%{user} Hit Weplay on %{title}**~"
+replay_not_seekable: "The twack **%{title}** can't be wepwayed... :c"
+
+### Resume command!
+resume_msg: "Pwayback wesumed~ %{title} ♪"
+
+### Rewind command!
+rewind_msg: "**%{user} Wewound %{title} to** `%{duration}`"
+rewind_beyond: "The songie just stawted! You can't wewind any fuwthew~"
+
+### Seek command!
+seek_beyond: "You can't seek beyond the song's duwwation~!"
+seek_invalid: "Invawid seek duwwation! Pwease use a vawid timestamp. Exampwe: **1:30**"
+seek_msg: "**Seeked %{title} to** `%{duration}`"
+seek_not_seekable: "The twack **%{title}** can't be wewound ow fowwawded~"
+
+### Skip command!
+skip_notfound: |
+    **Nyo songie was found to skip to! Seems wike thewe's nuffin' to skip to...
+    Wet's /play some mowe twackies and keep the music going~!**
+skip_msg: "**%{title} Has been Skipped**~"
+skip_number_invalid: "Pwease pwovide a vawid numbew~!"
+
+### Stop command!
+stop_msg: "**%{title} Has been stopped**~"
+
+### Shuffle command!
+shuffle_title: "Shuffwes the Quewie~"
+
+### Volume command!
+volume_number_invalid: "Pwease pwovide a vawid numbew~!"
+volume_invalid: "Invawid vowume! Pwease use a numbew between **1** and **100**~"
+volume_msg: "**Vowume set to %{volume}%, enjoy, %{user}~** UwU"
+volume_max: "**Vowume is awweady at max 100%**~"
+
+### play source commands
+url_no_allowed: "Pwease use a song name/awtist name (URLs not awwowed)~"
+play_arg_source: "Pwease pwovide a vawid song name/awtist~!"
+
+## Temporarily disabled commands
+youtube_disabled: "YouTube suppowt is tempowawiwy unavaiwabwe~"
+autoplay_disabled: "Autopway is tempowawiwy disabwed~"
+
+### Trivia command!
+trivia_not_server: "This command can onwy be used in a sewvew~"
+trivia_no_voice: "You must be in a **voice channew** to pway Music Twivia! The bot needs to pway wittwe song snippets fow you to guess~ UwU"
+trivia_music_playing: "Music is awweady pwaying in this sewvew! Pwease stop the cuwwent music befowe stawting Music Twivia~"
+trivia_active_session: "A Music Twivia session is awweady active in this channew. Wait fow it to finish~!"
+trivia_failed_start: "Faiwed to stawt Music Twivia... The bot couldn't join the voice channew! :c"
+trivia_normal_playing: "A pwayew in the cuwwent voice channew is using the bot fow nowmaw music. Pwease stop it fiwst~"
+trivia_lobby_title: "# Music Twivia Wobby"
+trivia_lobby_waiting: "Waiting fow pwayews to join... nya~"
+trivia_lobby_warning: "The game wiww automaticawwy cancew if nobody joins! :c"
+trivia_lobby_footer_multi: "-# Mode: Muwtipwayew | Host: %{host}"
+trivia_lobby_footer_single: "-# Mode: Singwe Pwayew | Host: %{host}"
+trivia_join_btn: "Join Game~"
+trivia_start_btn: "Stawt Game~"
+trivia_cancel_btn: "Cancew"
+trivia_already_in: "You're awweady in the game~!"
+trivia_not_same_voice: "You must be in the same voice channew to join~"
+trivia_joined: "Joined the twivia game~! UwU"
+trivia_left: "Weft the twivia game~"
+trivia_not_host_start: "Onwy the host can stawt the game~!"
+trivia_not_enough_players: "Not enough pwayews! At weast 2 pwayews awe needed fow Muwtipwayew~"
+trivia_starting: "Stawting the game now... nyoom nyoom~"
+trivia_not_host_cancel: "Onwy the host can cancew the game~!"
+trivia_cancelled_host: "Music Twivia wobby was cancewwed~"
+trivia_countdown_title: "# Music Twivia! Get Weady~!"
+trivia_countdown_desc: "**Mode:** %{mode}\n**Wounds:** %{rounds} | **Time:** %{time}s\n**Genwe:** %{genre}\n\n- Bot has joined youw voice channew!\n- Game stawts in **%{seconds}** seconds... UwU"
+trivia_countdown_players: "-# Pwayews: %{players}"
+trivia_no_questions: "Couldn't genewate enough questions... Twy a diffewent genwe ow difficuwty~"
+trivia_round_title: "# Music Twivia Wound %{round}/%{rounds}"
+trivia_round_desc: "**Wisten to the songie pwaying and guess which one it is~!**\nEnds <t:%{time}:R>"
+trivia_round_footer_multi: "-# %{answered}/%{total} pwayews answewed | Time: %{time}s | Genwe: %{genre}"
+trivia_round_footer_single: "-# Mode: Singwe Pwayew | Scowe: %{score} pts | Time: %{time}s | Genwe: %{genre}"
+trivia_skip_btn: "Skip~"
+trivia_not_in_game: "You're not in this game! Nyope~"
+trivia_already_answered: "You awweady answewed~!"
+trivia_skipped_msg: "You skipped this wound~"
+trivia_cancelled_user: "Twivia Cancewwed~"
+trivia_answer_recorded: "%{emoji} Answew wecowded~! UwU"
+trivia_ended_cancelled: "**Twivia Cancewwed by usew.**"
+trivia_ended_disconnect: "**🔌 Twivia Ended due to bot disconnect.**"
+trivia_result_title: "# Wound %{round}/%{rounds} Wesuwt"
+trivia_result_correct: "**Cowwect~!**\n**%{title}** by **%{artist}**\n\n**+%{points} pts** %{streak}\nTotaw: **%{totalPts}** pts"
+trivia_result_skipped: "**Skipped~!**\nThe answew was: **%{title}** by **%{artist}**\n\nTotaw: **%{totalPts}** pts"
+trivia_result_wrong: "**Wwong~!**\nThe cowwect answew was: **%{title}** by **%{artist}**\n\nTotaw: **%{totalPts}** pts"
+trivia_result_timeout: "**Time's up~!**\nThe answew was: **%{title}** by **%{artist}**\n\nTotaw: **%{totalPts}** pts"
+trivia_result_next: "-# Next wound in 3s... nyoom~"
+trivia_final_title: "# Music Twivia Finaw Wesuwts"
+trivia_final_performance: "**Pewfowmance~:**"
+trivia_final_correct: "Cowwect: **%{correct}/%{rounds}** (%{accuracy}%)"
+trivia_final_skipped: "Skipped: **%{skipped}** | Timeouts: **%{timeouts}**"
+trivia_final_streak: "Best Stweak: **%{streak}**"
+trivia_final_points: "Totaw Points: **%{points}**"
+trivia_final_badges: "**New Badgies Eawned~:**"
+trivia_view_stats_btn: "View Pwogwess & Stats"
+trivia_final_footer: "-# Mode: %{mode} | Wounds: %{rounds} | Genwe: %{genre}"
+trivia_prev_btn: "Pwev"
+trivia_next_btn: "Next~"
+trivia_profile_not_found: "Pwofiwe not found. Pway a game fiwst~!"
+trivia_no_badges: "-# Nyo badgies eawned yet~"
+trivia_profile_title: "# Music Twivia Pwofiwe\n-# <@%{user}>"
+trivia_profile_stats: "## Gwobaw Stats\n**Totaw Points:** %{points}\n**Games Pwayed:** %{games} (Singwe: %{single} | Muwti: %{multi})\n**Accuwacy:** %{accuracy}% (%{correct} Cowwect / %{missed} Missed)\n**Best Stweak:** %{streak}"
+trivia_profile_achievements: "## Achievements (%{count})"
+trivia_final_player_stats: "-# %{medal} <@%{userId}> — **%{points}** pts (%{correct}/%{rounds} cowwect)"
+trivia_lobby_host_tag: "👑 Host"
+trivia_lobby_player_tag: "👤 Pwayew"
+trivia_lobby_desc: "**%{user}** is hosting a Music Twivia game~!\n\n## Pwayews (%{count})\n%{list}"
+trivia_result_answer_multi: "The answew was: **%{title}** by **%{artist}**\n\n"
+
+### Fix command!
+fix_title: "### Fix Audio Connection"
+fix_desc: "Choose one of the fowwowing options to wesowve audio issues~:"
+fix_option_region: "Switch voice channew wegion to fix watency issues."
+fix_option_reconnect: "Destwoys the voice connection, cweaws aww twacks and the quewie, then automaticawwy wejoins."
+fix_option_recreate: "Fuwwy wesets and wecweates the audio pwayew, keeping aww twacks."
+fix_btn_region: "Change Wegion"
+fix_btn_reconnect: "Weconnect"
+fix_btn_recreate: "Wecweate"
+fix_region_success: "Voice wegion has been changed to **%{region}**~!\nThis may hewp wesowve watency issues."
+fix_region_fail: "Faiwed to change voice wegion. Pwease twy again ow check bot pewmissions~"
+fix_region_no_perm: "I don't have **Manage Channels** pewmission to change the voice wegion! :c"
+fix_reconnect_success: "Voice connection has been weset and wejoined successfuwwy~! The quewie has been cweawed."
+fix_reconnect_fail: "Faiwed to weconnect to the voice channew. Pwease twy again~"
+fix_recreate_success: "Pwayew has been wecweated successfuwwy~!\nYou can now use %{play} to stawt pwaying."
+fix_recreate_fail: "Faiwed to wecweate the pwayew. Pwease twy again~"
+fix_no_player: "Thewe's no active pwayew to fix~!"
+fix_no_voice: "You must be in a voice channew to use this action~!"
+fix_no_bot_voice: "The bot isn't cuwwentwy in a voice channew!"
+fix_no_permission: "Onwy the pewson who wan this command can use these buttonies~"
+
+### Spotify command!
+spotify_integration_title: "### Spotify Integwation"
+spotify_integration_desc: "Wink youw Spotify account to access and pway youw pwaywists diwectwy thwough the bot~ UwU"
+spotify_integration_help_title: "### What can you do~?"
+spotify_integration_help_desc: "• Bwowse youw pubwic Spotify pwaywists\n• Queue fuww pwaywists diwectwy fwom Discowd"
+spotify_connect_title: "### Wink Youw Account"
+spotify_connect_desc: "-# Connect youw Spotify account via the dashboawd to use pwaywist featuwes~"
+spotify_connect_btn: "Connect Spotify~"
+spotify_dashboard_title: "### Spotify Dashboawd"
+spotify_dashboard_desc: "Youw Spotify account is connected and weady to go~! UwU"
+spotify_dashboard_account_title: "### Account Detaiws:"
+spotify_dashboard_account_details: "• Usewname: **%{displayName}**\n• Pwaywists: **%{totalPlaylists}**"
+spotify_manage_title: "### Manage Pwaywists"
+spotify_manage_desc: "-# Bwowse and queue youw Spotify pwaywists~"
+spotify_manage_btn: "View Pwaywists"
+spotify_unlink_title: "### Unwink Youw Account"
+spotify_unlink_desc: "-# Unwink youw Spotify account by pwessing this button~"
+spotify_unlink_btn: "Unwink Account"
+spotify_unlink_success_title: "### Spotify Account Unwinked"
+spotify_unlink_success_desc: "Youw Spotify account has been successfuwwy unwinked~"
+spotify_playlist_title: "### Youw Spotify Pwaywists"
+spotify_playlist_desc: "-# Found %{count} pwaywists weady to queue~! Cwick the pway button to add dem to youw quewie."
+spotify_playlist_tracks: "%{count} twackies"
+spotify_playlist_no_public: "Nyo pubwic pwaywists found on youw Spotify account. Make suwe you have pubwic pwaywists visibwe~"
+spotify_playlist_not_found: "❌ Pwaywist not found ow invawid~"
+spotify_no_voice: "❌ You need to be in a voice channew to pway music~"
+spotify_not_same_voice: "❌ You need to be in the same voice channew as me~"
+spotify_player_failed: "❌ Faiwed to cweate a music pwayew. Pwease twy again watew~"
+spotify_no_tracks_title: "### Nyo Twacks Found"
+spotify_no_tracks_desc: "Nyo pwayabwe twacks found in this pwaywist~"
+spotify_queued_title: "### Pwaywist Queued~"
+spotify_queued_desc: "Added **%{added}** twackies fwom **%{playlist}** to the quewie~!"
+spotify_queue_failed_title: "### Quewie Faiwed"
+spotify_queue_failed_desc: "Couldn't add any twackies fwom this pwaywist to the quewie... :c"
+spotify_not_owner: "❌ You don't have access to this session. Onwy the pewson who wan this command can intewact with it~"
+spotify_btn_back: "◀ Back"
+spotify_btn_prev: "Pwevious"
+spotify_btn_next: "Next~"
+
+### Radio command!
+radio_fetch_countries_error: "Faiwed to fetch wadios fwom the sewvew... :c"
+radio_no_countries: "Nyo countwies found~"
+radio_global_title: "## 📻 Gwobaw Wadio"
+radio_global_desc: "Wewcome to the Gwobaw Wadio pwayew~!\nPwease sewect a countwy fwom the menu bewow to view popuwaw wadios.\n\n-# 🌍 Showing page %{page} of %{totalPages}"
+radio_stations_count: "📻 %{count} stations avaiwabwe"
+radio_select_country: "Sewect a countwy..."
+radio_prev: "Pwevious"
+radio_next: "Next~"
+radio_country_title: "## 📻 Wadio Stations in %{country}"
+radio_country_desc: "Pwess the Pway button to wisten to a wadio station~!\n\n-# 📑 Page %{page} of %{totalPages}"
+radio_play_btn: "▶ Pway"
+radio_back_btn: "Back~"
+radio_no_stations: "Nyo vawid stations found fow this countwy~"
+radio_fetch_stations_error: "Faiwed to fetch stations... :c"
+radio_offline: "Couldn't wesowve the wadio stweam~"
+radio_now_playing: "Now pwaying wadio station: **%{station}** ♪"
+radio_error_playing: "Oopsie~ Ewwow pwaying the wadio station! :c"
+
+### Remove Tracks command!
+removetracks_command_desc: "Wemove twacks by wequestew"
+removetracks_title: "Wemove Twacks"
+removetracks_desc: "Sewect a wequestew to wemove aww of theiw queued twacks~"
+removetracks_track_single: "%{count} Twack"
+removetracks_track_multiple: "%{count} Twackies"
+removetracks_btn_delete: "Deweete"
+removetracks_btn_prev: "Pwevious"
+removetracks_btn_next: "Next~"
+removetracks_page_indicator: "%{page} / %{pages}"
+removetracks_empty_title: "Wemove Twacks"
+removetracks_empty_desc: "Thewe awe cuwwentwy no wemovabwe twacks in the quewie~"
+removetracks_expired: "This menu has expiwed. Pwease wun `/removetracks` again~"
+removetracks_success: "Wemoved aww **%{count}** twacks wequested by **%{user}** fwom the quewie~!"
+removetracks_no_tracks_left: "**%{user}** doesn't have any twacks weft in the quewie~"
+removetracks_unknown_user: "Unknown Wequestew"
+removetracks_not_author: "You can't use this menu! Onwy the command authow can~"
+removetracks_no_same_voice: "You must be in the same voice channew to use this menu~!"
+
+### Sleep Timer command!
+sleeptimer_command_desc: "Set, check, ow cancew a sweep timew fow music pwayback"
+sleeptimer_title: "Sweep Timew"
+sleeptimer_desc: "Scheduwe an automatic countdown timew fow youw wistening session~ Once the duwwation ewapses, pwayback wiww stop cweanwy and the quewie wiww be cweawed, so you can wewax ow sweep without keeping the music stweam wunning. UwU"
+sleeptimer_status_active_title: "Active Sweep Timew"
+sleeptimer_status_active_desc: "**Status:** Active\n**Duwwation:** %{duration} minutes\n**Ends:** <t:%{timestamp}:R> (<t:%{timestamp}:T>)\n**Wequested by:** %{user}"
+sleeptimer_status_inactive_title: "Nyo Sweep Timew Active"
+sleeptimer_status_inactive_desc: "**Status:** Inactive\n*No sweep timew is cuwwentwy configuwed fow this session.*"
+sleeptimer_btn_set: "Set Timew"
+sleeptimer_btn_cancel: "Cancew"
+sleeptimer_btn_status: "Wefwesh"
+sleeptimer_modal_title: "Set Sweep Timew"
+sleeptimer_modal_input_label: "Duwwation in minutes (1 - 120)"
+sleeptimer_modal_placeholder: "e.g. 30"
+sleeptimer_modal_invalid: "Pwease entew a vawid numbew of minutes between 1 and 120~"
+sleeptimer_cancel_success: "The active sweep timew has been cancewwed~"
+sleeptimer_cancel_none: "Thewe's no active sweep timew to cancew~"
+sleeptimer_set_success: "Sweep timew set fow %{duration} minutes~ Pwayback wiww stop <t:%{timestamp}:R>."
+sleeptimer_expired_notification_247: "Sweep Timew Expired~!\nPwayback has stopped and the quewie has been cweawed."
+sleeptimer_expired_notification_leave: "Sweep Timew Expired~ Pwayback has stopped and the bot has weft the voice channew."
+sleeptimer_menu_expired: "This sweep timew menu has expiwed~\nWun `/sleeptimer` again to open a new one."
+sleeptimer_not_author: "You can't intewact with this menu!\nOnwy the command authow can~"
+sleeptimer_no_same_voice: "You must be in the same voice channew as the bot to use this menu~!"
+sleeptimer_no_player: "Nyo music is cuwwentwy pwaying on this sewvew~"
+
+### Remove Dupes command!
+removedupes_command_desc: "Wemove dupwicate songies fwom the quewie"
+removedupes_title: "Wemove Dupwicate Twacks"
+removedupes_desc_success: "Cweaned up the quewie by wemoving dupwicate twacks whiwe keeping youw pwaywist's owiginaw owdew~ UwU"
+removedupes_desc_none: "The quewie is spwotwess~ Nyo dupwicate twacks found!"
+removedupes_stat_removed: "**Dupwicates Wemoved:** %{count}"
+removedupes_stat_remaining: "**Wemaining Quewie:** %{total} twackies"
+removedupes_empty_queue: "Thewe awe cuwwentwy no songies in the quewie to check fow dupwicates~"
+
+### Grab command!
+grab_command_desc: "Send the cuwwentwy pwaying twack to youw diwect messages"
+grab_dm_success: "I've sent the detaiws of the cuwwentwy pwaying twack to youw diwect messages~! UwU"
+grab_dm_failed: "Couldn't send you a diwect message... Pwease check youw sewvew pwivacy settings and awwow diwect messages fwom sewvew membews~"
+grab_field_title: "Titwe"
+grab_field_duration: "Duwwation"
+grab_field_requested_by: "Wequested by"
+grab_field_source: "Souwce"
+grab_btn_favorite: "Add to Favowites"
+grab_btn_saved: "Saved to Favowites~"
+grab_btn_already_saved: "Awweady in Favowites"
+grab_fav_success: "Added **%{title}** to youw favowites~! <3"
+grab_fav_already_exists: "**%{title}** is awweady in youw favowites~"
+grab_fav_error: "Oopsie~ Thewe was an ewwow saving this songie to youw favowites... :c"

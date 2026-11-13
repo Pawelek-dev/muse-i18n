@@ -1,0 +1,41 @@
+### PLAYER MUSIC ###
+track_author: "Tewaz odtwarzam"
+track_author_v2: "### <a:nowplaying:1332785646804402258> Tewaz odtwarzam"
+track_author_icon: "https://media.tenor.com/Sb0yPHMgNaUAAAAi/music-disc.gif"
+track_song_author: "Autor"
+track_requested_by: "Na życzenie"
+track_duration: "Czas trwania"
+no_same_voice: "Nie jesteś ze mną na tym samym kanale głosowym! >_<"
+filter_already: "**Filtr %{name} jest już włączony**"
+filter_reset_on: "**Filtr został zresetowany~**"
+filter_reset_already: "**Filtr został już zresetowany**"
+no_player_filter: "**Nie mogę zastosować filtra!**"
+filter_menu_on: "**Filtr %{name} włączony! UwU**"
+
+player_get_exception: "Ojejku! Wygląda na to, że utwówek ma czkawkę. Spróbujemy jeszcze raz? >w<"
+player_track_error: "Utwówek napotkał problem. Możesz spwóbować ponownie, plosię?"
+player_track_stuck: "Tak mi smutno :c Utwówek się zaciął... Może kolejna próba pomoże?"
+queue_end_desc: "Wszystkie piosienki już zagrane! Chcesz więcej muzyczki?\nUżyj **/play**, żeby zabawa trwała dalej, nya~"
+
+leave_pause: "Skoro wszyscy zostawili mnie samą... :c Wstrzymałam odtwarzanie."
+leave_resume: "Ooo, ktoś do mnie dołączył! Wznawiam odtwarzanko~ UwU mrrreow~"
+
+player_end: "Kanał był pusty prawie 15 minut, więc sobie poszłam... Nie lubię samotności! :c"
+
+### Last FM Scrobble ###
+lastfm_session_expired_title: "Sesja Last.fm wygasła"
+expired_login_session: "Sesja Last.fm użytkownika %{user} wygasła lub jest niepoprawna.\nKliknij pwycisk poniżej, by zalogować się ponownie i kontynuować scrobblowanie, nya~"
+lastfm_session_expired_footer: "Konto: %{user} • Połącz ponownie, by kontynuować scrobblowanie"
+lastfm_login_button: "Zaloguj do Last.fm"
+
+### Milestone Track ###
+milestone_track_footer: "%{user} • Kto chce śpiewać, zawsze znajdzie piosienkę ♪"
+milestone_track_desc: |
+  ## O, heeej~
+  Masz już za sobą **%{total}** utworków! Ta playlista jest nieskończona czy po prostu kochasz muzyczkę aż tak mocno? UwU
+
+### Recommendation Select ###
+no_active_player: "Nie ma aktywnego odtwarzacza, do którego można to dodać!"
+recommendation_notfound: "Nie udało się znaleźć polecanego utworku 😔"
+track_added_recommendation: "Dodano **%{title}** od **%{author}** do kowejki! UwU ;3"
+track_recommendation_error: "Wystąpił błędzik przy dodawaniu polecanego utworku, sowwy~"

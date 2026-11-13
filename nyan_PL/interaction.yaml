@@ -1,0 +1,74 @@
+# Mode
+enable: "Włączone"
+disable: "Wyłączone"
+
+# maintenance
+maintenance_title: "Przerwa techniczna"
+maintenance_desc: |
+  %{bot} przechodzi tewaz prace techniczne. Spwóbuj później, nya~
+  Więcej informacji znajdziesz na naszym [serwerku pomocy](%{serversupport}). Dziękujemy!
+
+# Getting error!
+unexpected_error: "Coś poszło nie tak. Spwóbuj ponownie później! >_<"
+
+### Rate limit!
+ratelimit: "Działasz za szybko. Poczekaj **%{time} sekund**, nya~"
+
+# No permission!
+no_perms: "Nie mam uprawnienia **%{perm}**!\nNadaj mi **%{perm}**, żebym mogła wykonać tę komendę, plosię~"
+
+no_manage_guild_perms: "Ta komenda wymaga uprawnienia **%{perm}**!\nNie możesz jej użyć bez tego uprawnienia, nya~"
+
+no_admin_perms: "Ta komenda wymaga uprawnienia **%{perm}**!\nNie możesz jej użyć bez tego uprawnienia, nya~"
+
+# No permission!
+no_perms_channel: "Nie mam uprawnienia **%{perm}** na kanale %{channel}, więc nie wykonam tej komendy!"
+
+# Execute when invalid
+no_node: "**Nie znalazłam serwerka Lavalink. Spwóbuj ponownie za 5 minut**"
+
+# Client owner!
+owner_only: "Tej komendy może użyć tylko **właściciel** bota, nya~"
+
+# Need to join voice & same voice to use command!
+no_player: "Niczego nie odtwarzam! Dodaj piosienkę przez **%{play}**, plosię~"
+no_same_voice: "Nie jesteś ze mną na tym samym kanale głosowym! >_<"
+no_in_voice: "Nie jesteś na kanale głosowym!"
+
+# Blacklist User
+blacklist_user: "Wygląda na to, że jesteś na czarnej liście! Nie możesz używać komend.\nJeśli to pomyłka, skontaktuj się z **[twórcą](%{serversupport})**, nya~"
+
+# Blacklist Guild
+blacklist_guild: "Ten serwerek jest na czarnej liście! Nie możesz tutaj używać komend.\nJeśli to pomyłka, skontaktuj się z **[twórcą](%{serversupport})**, nya~"
+
+### DjRole No Permission ###
+not_dj_role: "Do użycia tej komendy potrzebujesz roli %{role}, nya~"
+
+### Stage Control No Permission ###
+not_stage_control_role: "Aby sterować muzyczką na kanale Stage, potrzebujesz roli %{role}, plosię~"
+
+### Set Channel Restriction ###
+not_command_channel: "Na tym kanale nie można wpisywać komend bota. Przejdź na %{channels}, nya~"
+
+### No Premium Event!
+no_premium_button: "Zdobądź Premium"
+no_premium_author: "Brak Premium"
+no_premium_desc: "Upsik! Wygląda na to, że nie masz planu Premium. :c\nBez niego ta funkcja jest niedostępna, sowwy~"
+
+# Top.gg error
+topgg_error_author: "Błędzik głosowania Top.gg"
+topgg_error_desc: "Nie udało się zweryfikować twojego głosu na Top.gg. Być może serwis ma awarię. Spwóbuj za 5–10 minut, nya~\nJeśli problem nie ustąpi, skontaktuj się z naszym [serwerkiem pomocy](%{serversupport})."
+
+# Top.gg unvote
+topgg_unvote_button: "Zagłosuj, by odblokować"
+premium_button: "Przejdź na Premium"
+topgg_unvote_author: "Wymagany głos"
+topgg_unvote_desc: "Aby użyć tej komendy, musisz zagłosować! To szybkie i darmowe, nya~\nMożesz też kupić Premium na [stronie Premium](%{premium}), by nie widzieć tej wiadomości i odblokować dodatkowe funkcje, UwU."
+
+### Mention Desc ###
+mention_desc1: "### Potrzebujesz pomocy?"
+mention_desc2: "Mój prefiks na tym serwerku to `%{prefix}`"
+mention_desc3: "-# Możesz mnie także oznaczyć, by używać komend, albo wpisać %{help}, żeby zobaczyć komendy ukośnikowe, nya~"
+mention_button_desc1: "Dołącz na serwerek pomocy, jeśli potrzebujesz wsparcia~"
+mention_button_desc2: "Poznaj pełną dokumentację i zaawansowane możliwości~"
+mention_button_desc3: "Steruj muzyczką przez panel, nya~"

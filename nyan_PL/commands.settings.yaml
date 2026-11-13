@@ -1,0 +1,291 @@
+### 24/7 command!
+247_on: "Tryb 24/7 został **włączony**~ UwU ;3"
+247_off: "Tryb 24/7 został **wyłączony**~"
+247_already: "Tryb 24/7 jest już **%{mode}**, nya~"
+247_arg_error: "Niepoprawny tryb 24/7. Użyj %{text}"
+247_no_in_voice: "Nie jesteś na kanale głosowym! >_<"
+
+### Set Language command! ###
+provide_lang: "**Niepoprawny język. Wybierz** `%{languages}`"
+lang_set: "**Ustawiono język:** `%{language}`"
+lang_change: "**Zmieniono język na:** `%{language}`"
+
+### Prefix command! ###
+prefix_arg: "Podaj poprawny prefiks!"
+prefix_length: "**Prefiks nie może mieć więcej niż 10 znaków**"
+prefix_set: "**Ustawiono prefiks:** `%{prefix}`"
+prefix_change: "**Zmieniono prefiks na:** `%{prefix}`"
+
+### Control command!
+control_set: "**Tryb sterowania odtwarzaczem ustawiony na %{toggle}**"
+control_arg_error: "Niepoprawny argument. Użyj %{text}"
+control_already: "Powiadomienia o piosienkach mają już status **%{mode}**"
+
+### Setup Music Req command! ###
+setup_arg_error: "Niepoprawne! Użyj %{text}"
+setup_enable: "**Upsik~ System muzyczny już istnieje.**"
+setup_topic: "♪ Twoja muzyczka, gdziekolwiek grasz~ ♪"
+setup_msg: "*`System muzyczny został skonfigurowany na`* %{channel}\n```Uwaga: Nie usuwaj żadnych utworzonych przeze mnie wiadomości, bo mogę przestać działać prawidłowo!```"
+setup_null: "*`Kanał systemu muzycznego został usunięty!`*"
+setup_deleted: "*`Kanał systemu muzycznego został usunięty!`*"
+setup_null_inguild: "**Nie znaleziono systemu muzycznego na tym serwerku! Można wyczyścić dane~**"
+setup_queuemsg: "**Wejdź na kanał głosowy i puść piosienki, wpisując tutaj nazwę lub URL!**"
+setup_playembed_author: "Nic tewaz nie gra"
+
+### Themes command!
+error_themes: "Niepoprawny motyw... Spwóbuj jeszcze raz~"
+succes_themes: "**Zmieniono motyw na %{themes}**"
+
+### Last FM Login command!
+lastfm_login_footer: "Uwaga: Ten link wygaśnie za %{expired}."
+lastfm_login_title: "Logowanie do Last.fm"
+lastfm_login_desc: "Chcesz zezwolić na połączenie z kontem [Last.fm](https://www.last.fm/)?\nJeśli tak, kliknij poniższy pwycisk, aby rozpocząć autoryzację~ UwU"
+lastfm_not_login_desc: "Nie jesteś zalogowany do Last.fm, nya~"
+lastfm_view_dashboard: "### Panel Last.fm"
+lastfm_view_account_details: "### Szczegóły konta"
+lastfm_view_username: "**Nazwa użytkownika**"
+lastfm_view_scrobbling_since: "**Scrobblowanie od**"
+lastfm_view_total_scrobbles: "**Łącznie scrobble'ów**"
+lastfm_view_total_artists: "**Łącznie artystów**"
+lastfm_view_total_albums: "**Łącznie albumów**"
+lastfm_view_total_loved_tracks: "**Łącznie polubionych utworków**"
+lastfm_view_no_data: "Nie znalazłam danych dla tego okresu~ :c"
+lastfm_view_top_artists: "Najlepsi artyści"
+lastfm_view_top_albums: "Najlepsze albumy"
+lastfm_view_top_tracks: "Najlepsze utwówki"
+lastfm_view_select_period: "Wybierz okres"
+lastfm_view_period_7d: "7 dni"
+lastfm_view_period_30d: "30 dni"
+lastfm_view_period_1y: "1 rok"
+lastfm_view_period_lifetime: "Od początku"
+lastfm_view_plays: "odtworzeń"
+lastfm_view_by: "od"
+lastfm_view_error: "Wystąpił błędzik przy pobieraniu danych Last.fm. Sowwy! :c"
+
+### Last FM Logout command!
+lastfm_logout_title: "Wylogowanie z Last.fm"
+lastfm_logout_desc: "Wylogowano cię z Last.fm~ mrrreow~"
+
+### Last FM Feature Disable!
+lastfm_feature_disabled_title: "Funkcja Last.fm jest wyłączona."
+lastfm_feature_disabled_desc: "Funkcja Last.fm jest chwilowo wyłączona. Skontaktuj się z administratorem po więcej informacji."
+
+### Temp Voice Feature command!
+tempvoice_setup: "Funkcja tymczasowych kanałów głosowych: %{status}~"
+tempvoice_disabled: "Tymczasowe kanały głosowe zostały wyłączone~"
+
+### Status Voice Channel Feature command!
+status_voice_channel_error: "Niepoprawna opcja... dostępne tylko %{text}."
+status_voice_channel_true: "Status kanału głosowego ustawiony na **%{type}**."
+status_voice_channel_false: "Status kanału głosowego ustawiony na **%{type}**."
+
+### Player Control Embed config command! ###
+player_embed_config_invalid_setting: "Niepoprawne ustawienie. Wybierz: Wyłącz wszystkie kontrolki, Menu filtrów, Nazwa przycisku, Karta muzyczna, Menu polecanych lub Pwyciski odtwarzacza."
+player_embed_config_invalid_value: "Niepoprawna wartość. Wybierz true albo false."
+player_embed_config_already: "**%{setting}** ma już wartość **%{value}** na tym serwerku."
+player_embed_config_set: "Zmieniono **%{setting}** na **%{value}** na tym serwerku~"
+player_embed_config_musiccard_note: "Zmiany karty muzycznej zostaną w pełni zastosowane w następnej wiadomości o utworku."
+player_embed_config_musiccard_disabled: "Funkcja karty muzycznej jest wyłączona."
+player_embed_config_controlmode_note: "Zmiany opcji „Wyłącz wszystkie kontrolki” w pełni zadziałają przy następnym utworku."
+
+### Patreon Claim command!
+not_in_guild: "Tej komendy można używać tylko na serwerku!"
+no_data_patreon: "Nie znaleziono danych Patreona (błędzik bazy danych)"
+no_data_patreon_title: "Nie znaleziono"
+no_data_patreon_desc: |
+  Jeśli masz subskrypcję, sprawdź, czy konto Discord jest połączone z Patreonem!
+no_data_patreon_footer: "Synchronizacja Patreona może chwilkę potrwać. Zajrzyj ponownie~"
+no_patreon_guild_membership: |
+  Heeej~ Twój plan Patreona to **poziom użytkownika**.
+  Przejdź na **poziom serwerka**, by odblokować Premium dla serwerka.
+patreon_guild_membership_full_quota: |
+  Wykorzystałeś wszystkie dostępne miejsca na serwerki! >_<
+  **Status:** zajęte miejsca: %{status}.
+
+  **Rozwiązanko:**
+  1. Zwiększ poziom subskrypcji na Patreonie.
+  2. Albo wyłącz Premium na jednym ze starych serwerków.
+patreon_guild_membership_already_before: "Premium zostało już wcześniej aktywowane na tym serwerku!"
+patreon_guild_membership_already: "**PREMIUM JUŻ AKTYWNE**, bo sponsoruje je ktoś inny.\nZachowaj swoje miejsce na inny serwerek~!"
+patreon_guild_membership_claim_title: "Potwierdzenie aktywacji"
+patreon_guild_membership_claim_desc: |
+  Czy na pewno chcesz aktywować **Premium serwerka** na:
+  **%{guildName}**
+
+  Ta czynność zajmie **1 miejsce serwerka**.
+  Pozostały limit: **%{status}**
+patreon_guild_membership_claim_success: |
+  Udałooo się~! **%{guildName}** to tewaz **serwerek Premium**.
+
+  **Sponsor:** %{user}
+  **Pozostały limit:** %{status}
+  Dziękujemy za wsparcie na Patreonie! <3
+patreon_guild_membership_claim_success_title: "💎 Premium aktywowane!"
+patreon_guild_membership_claim_cancel: "Aktywacja Premium anulowana~"
+patreon_guild_membership_claim_norespon: "Nie było odpowiedzi, więc aktywacja została automatycznie anulowana."
+
+### Patreon Claim command Logs!
+patreon_guild_membership_claim_logs_title: "🏰 Premium przypisane do serwerka (Patreon)"
+patreon_guild_membership_claim_logs_desc: |
+  **Sponsor:** %{sponsorTag} %{sponsorId}
+  **Serwerek docelowy:** %{guildName} %{guildId}
+  **Stan limitu:** %{status}
+
+### Patreon UNClaim command!
+patreon_guild_not_owned_by_user: "Nie możesz odebrać temu serwerkowi Premium, bo to nie ty je przypisałeś."
+patreon_guild_unclaim_title: "Potwierdzenie wyłączenia Premium"
+patreon_guild_unclaim_desc: |
+  Na pewno chcesz **WYŁĄCZYĆ** Premium na serwerku **%{guildName}**?
+  **Skutek:** Funkcje Premium na tym serwerku przestaną działać.
+  Odzyskasz jedno miejsce w limicie serwerków (+1).
+  Obecny pozostały limit: **%{status}**
+patreon_guild_unclaim_success_title: "Premium odebrane"
+patreon_guild_unclaim_success: |
+  Premium na **%{guildName}** zostało wyłączone.
+  **Odzyskano limit:** 1 serwerek
+  **Nowy pozostały limit:** %{status}
+patreon_guild_unclaim_cancel: "Wyłączanie Premium anulowane~"
+patreon_guild_unclaim_norespon: "⏱️ Czas minął. Operacja anulowana."
+
+### Patreon UNClaim command Logs!
+patreon_guild_unclaim_logs_title: "Serwerki z odłączonym Premium (Patreon)"
+patreon_guild_unclaim_logs_desc: |
+  **Użytkownik:** %{sponsorTag} %{sponsorId}
+  **Serwerek:** %{guildName}} %{guildId}
+  **Odzyskany limit:** %{status}
+
+patreon_kofi_claim_log_desc: |
+  **Użytkownik:** %{userTag} (%{userId})
+  **Serwerek:** %{guildName} (%{guildId})
+  **Limit:** %{quota}
+  **Wygasa:** %{expires}
+
+patreon_kofi_claim_log_title: "🏗️ Operacja %{platform}: %{action}"
+
+### Kofi Claim command!
+no_data_kofi: "Nie znaleziono ID transakcji albo zostało już wykorzystane."
+kofi_linked_success_title: "Płatność połączona pomyślnie!"
+kofi_linked_success_desc: "Możesz już użyć `/premium claim <kofi>` bez identyfikatora transakcji~"
+kofi_no_data_title: "Nie znaleziono danych!"
+kofi_no_data_desc: |
+  Jeśli zapłaciłeś, ale nie połączyłeś konta Discord z Ko-fi,
+  użyj: `/premium claim <kofi> <transaction_id>`
+kofi_no_server_quota_desc: "Brak miejsc na serwerki, ale nadal masz Premium jako użytkownik~"
+kofi_full_server_quota_title: "Limit wyczerpany!"
+kofi_full_server_quota_desc: "Wykorzystano **%{quota}** miejsc na serwerki."
+kofi_server_already_claim_desc: "**Już aktywowano!**\nPremium zostało wcześniej przypisane do tego serwerka~"
+kofi_server_already_active_desc: "**Premium już działa!**\nKtoś inny aktywował je już na tym serwerku."
+kofi_guild_membership_claim_success: |
+  Premium zostało aktywowane~!
+  **Wykorzystany limit:** %{quota}
+  **Wygasa za:** %{expires}
+kofi_guild_membership_claim_footer: "Dziękuję za wsparcie~! <3"
+kofi_action_title: "🏗️ Operacja Ko-fi: %{type}"
+kofi_action_description: "**Użytkownik:** %{userTag} (`%{userId}`)\n**Serwerek:** %{guildName} (`%{guildId}`)\n**Działanie:** %{action}\n**Limit:** %{quota}"
+kofi_action_activation: "Aktywowano serwerek"
+kofi_action_manual_link: "Płatność połączona ręcznie"
+
+## Premium Kofi UnClaim
+kofi_guild_unclaim_success_title: "Premium odebrane"
+kofi_guild_unclaim_success_desc: |
+  Premium na **%{guildName}** zostało wyłączone.
+  **Odzyskano limit:** 1 serwerek
+kofi_guild_not_owned_by_user: "Nie możesz odebrać temu serwerkowi Premium, bo to nie ty je przypisałeś."
+## Premium UnClaim logs
+premium_unclaim_log_title: "Serwerki z odłączonym Premium %{platform}"
+premium_unclaim_log_desc: |
+  **Użytkownik:** %{userTag} %{userId}
+  **Serwerek:** %{guildName}} %{guildId}
+  **Odzyskany limit:** %{quota}
+
+### DjRole ###
+dj_role_disabled: "System roli DJ został **wyłączony**."
+dj_role_missing_role: "Podaj rolę, aby użyć akcji `set`."
+dj_role_set: |
+  Rolę DJ ustawiono na %{role}.
+  Status: **Włączony**
+  **Dotyczy komend:**
+  %{commands}
+
+### Stage Control ###
+stage_control_disabled: "Sterowanie kanałami Stage zostało **wyłączone**. Każdy może sterować tam muzyczką."
+stage_control_missing_role: "Podaj rolę, aby użyć akcji `set`."
+stage_control_set: "Rola sterująca kanałami Stage została ustawiona na %{role}. Tylko posiadacze tej roli mogą tam sterować muzyczką."
+
+### Set Channel ###
+set_channel_added: "Kanał %{channel} dodano do dozwolonych kanałów komend~"
+set_channel_already_exists: "Kanał %{channel} już należy do dozwolonych kanałów komend."
+set_channel_removed: "Kanał %{channel} usunięto z dozwolonych kanałów komend."
+set_channel_removed_all: "Usunięto wszystkie ograniczenia kanałów. Komend można tewaz używać wszędzie~"
+set_channel_no_channels: "Na tym serwerku nie skonfigurowano kanałów dla komend."
+set_channel_missing_channel: "Podaj kanał tekstowy, aby użyć akcji `add`."
+set_channel_list_title: "Kanały dozwolone dla komend"
+set_channel_page_info: "Skonfigurowane kanały: %{total} · Strona %{page}/%{pages}"
+set_channel_btn_prev: "Poprzednia"
+set_channel_btn_next: "Następna"
+set_channel_btn_remove_all: "Usuń wszystkie"
+set_channel_btn_delete: "✕"
+set_channel_expired: "Ta interakcja wygasła."
+
+### Customize command ###
+customize_view_title: "Dostosowanie profilu bota na serwerku"
+customize_view_status: "Status"
+customize_view_access: "Dostęp"
+customize_view_requirement: "Wymaganie"
+customize_view_cooldown: "Czas oczekiwania"
+customize_view_cooldown_ends: "Koniec czasu oczekiwania"
+customize_view_ready: "Gotowe"
+customize_view_access_allowed: "Dozwolone"
+customize_view_access_denied: "Niedozwolone"
+customize_view_current: "Obecny"
+customize_view_pending: "Oczekuje na sprawdzenie"
+customize_view_nickname: "Pseudonim"
+customize_view_bio: "Opis profilu"
+customize_view_avatar: "Awatarek"
+customize_view_banner: "Banerek"
+customize_view_default: "(domyślne)"
+customize_view_custom: "Własne"
+customize_view_default_state: "Domyślny"
+customize_view_no_pending: "Brak oczekujących zmian~"
+
+customize_status_idle: "Bezczynny"
+customize_status_pending: "Oczekujące"
+customize_status_approved: "Zatwierdzone"
+customize_status_rejected: "Odrzucone"
+
+customize_submit_success: "Profil wysłano do zatwierdzenia~"
+customize_reset_success: "Przywrócono domyślny profil bota~ ;3"
+customize_no_changes: "Nie wykryłam zmian. Podaj przynajmniej jedną nową wartość (pseudonim, opis, awatarek lub banerek)."
+
+customize_error_load: "Nie udało się wczytać profilu bota."
+customize_error_load_current: "Nie udało się wczytać obecnego profilu."
+customize_error_submit: "Nie udało się wysłać profilu do zatwierdzenia."
+customize_error_reset: "Nie udało się zresetować profilu bota."
+customize_error_image_process: "Nie udało się przetworzyć załączonego obrazka."
+customize_error_image_type: "Obsługiwane są tylko obrazki PNG, JPEG, GIF i WebP."
+customize_error_image_size: "Obrazek nie może przekraczać 2 MB."
+customize_error_image_read: "Nie udało się odczytać przesłanego obrazka."
+
+customize_error_guild_required: "Wymagane jest guildId."
+customize_error_guild_not_found: "Nie znaleziono serwerka albo nie ma na nim bota."
+customize_error_access_level: "Dostosowywanie profilu bota wymaga określonego poziomu dostępu."
+customize_error_manage_customize: "Aby zmienić profil bota, potrzebujesz uprawnienia Zarządzanie serwerkiem."
+customize_error_manage_reset: "Aby zresetować profil bota, potrzebujesz uprawnienia Zarządzanie serwerkiem."
+customize_error_nick_max: "Pseudonim może mieć maksymalnie 32 znaki."
+customize_error_bio_max: "Opis profilu może mieć maksymalnie 190 znaków."
+customize_error_avatar_uri: "Awatarek musi być poprawnym adresem URI danych base64 (png/jpeg/gif/webp)."
+customize_error_avatar_size: "Awatarek nie może przekraczać 2 MB."
+customize_error_banner_uri: "Banerek musi być poprawnym adresem URI danych base64 (png/jpeg/gif/webp)."
+customize_error_banner_size: "Banerek nie może przekraczać 2 MB."
+customize_error_cooldown: "Profil bota można zmieniać tylko raz na 3 dni."
+customize_error_reset_discord: "Nie udało się zresetować profilu na Discordzie."
+
+customize_review_unauthorized: "Nie możesz wykonać tej czynności moderacyjnej."
+customize_review_approve_success: "Profil zatwierdzono i zastosowano~"
+customize_review_approve_failed: "Nie udało się zatwierdzić profilu: %{error}"
+customize_review_reject_title: "Odrzucanie profilu bota"
+customize_review_reject_reason_label: "Powód odrzucenia"
+customize_review_reject_reason_placeholder: "Wyjaśnij, dlaczego odrzucono prośbę..."
+customize_review_reject_reason_required: "Musisz podać powód odrzucenia."
+customize_review_reject_success: "Profil odrzucono."
+customize_review_reject_failed: "Nie udało się odrzucić profilu: %{error}"

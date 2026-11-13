@@ -1,0 +1,24 @@
+### Ticket Events ###
+ticket_reason: "Pwease pwovide a weason fow cweating a ticket"
+ticket_already_open: "You awweady have an open ticket, nya~"
+ticket_already_closed: "Ticket data fow usew %{id} not found ow ticket is awweady cwosed"
+ticket_close_user: "You'we not awwowed to cwose this ticket!"
+ticket_delete_user: "You'we not awwowed to dewete this ticket!"
+ticket_deleting_action: "Deweting tickets... pwease wait~"
+ticket_closed_label: "🔒 Cwosed"
+ticket_delete_label: "🗑️ Dewete"
+ticket_create: "The ticket has been cweated. Go to %{channel}"
+ticket_create_title: "Pwease wait fow staff to wespond~"
+ticket_create_desc: |
+    Thankies fow cweating youw ticket! Pwease wait fow staff to wespond, nya~
+    `NOTE: This ticket has no backup. Pwease make suwe to back up any impowtant infowmation youwself`
+
+### Closed Ticket Events ###
+ticket_closed_title: "🔒 Cwosed Ticket"
+ticket_closed_desc: "The ticket has been cwosed successfuwwy! UwU"
+
+### Closed Ticket DM User ###
+ticket_closed_dm_title: "Youw ticket has been cwosed."
+ticket_closed_dm_desc: |
+    A ticket you opened has just been cwosed. A copy of the twanscwipt is attached to this message as an HTML fiwe.
+    If you wun into any issues ow have mowe questions, feew fwee to open a new ticket. We'we hewe to hewp, nya~ <3

@@ -1,0 +1,41 @@
+### PLAYER MUSIC ###
+track_author: "Now Pwaying"
+track_author_v2: "### <a:nowplaying:1332785646804402258> Now Pwaying"
+track_author_icon: "https://media.tenor.com/Sb0yPHMgNaUAAAAi/music-disc.gif"
+track_song_author: "Authow"
+track_requested_by: "Wequested by"
+track_duration: "Duwwation"
+no_same_voice: "You'we not in the same voice channew as me! >_<"
+filter_already: "**%{name} fiwtew is awweady enabwed**"
+filter_reset_on: "**Fiwtew has been weset~**"
+filter_reset_already: "**Fiwtew has awweady been weset**"
+no_player_filter: "**I can't appwy a fiwtew!**"
+filter_menu_on: "**Fiwtew %{name} tuwned on! UwU**"
+
+player_get_exception: "Uh-oh! Wooks wike the twack hit a wittwe hiccup. Wanna give it anofew shot? >w<"
+player_track_error: "The twack had a wittwe issue. Could you pwease twy once mowe?"
+player_track_stuck: "I'm so sad :c The twack got stuck... Maybe a wetwy wiww cheew us up?"
+queue_end_desc: "Aww songies awe done! Need mowe beats?\nUse **/play** to keep the pawty going, nya~"
+
+leave_pause: "Since evewyone weft me awone... :c The pwayew has been paused."
+leave_resume: "Aww, someone joined me! The pwayew has been wesumed~ UwU"
+
+player_end: "The channew has been empty fow awmost 15 minutes, so I decided to weave... I don't wike being awone! :c"
+
+### Last FM Scrobble ###
+lastfm_session_expired_title: "Last.fm Session Expired"
+expired_login_session: "The Last.fm session fow %{user} has expiwed ow is invawid.\nPwease cwick the button bewow to we-authenticate and continue scwobbwing, nya~"
+lastfm_session_expired_footer: "Account: %{user} • Weconnect to continue scwobbwing"
+lastfm_login_button: "Wogin to Last.fm"
+
+### Milestone Track ###
+milestone_track_footer: "%{user} • Those who wish to sing awways find a song ♪"
+milestone_track_desc: |
+    ## OH Hewwooo~
+    You've listened to **%{total}** twacks! Is youw pwaywist infinite, ow awe you just that musicawwy obsessed? UwU
+
+### Recommendation Select ###
+no_active_player: "Thewe's no active pwayew to add this to!"
+recommendation_notfound: "Couldn't find the wecommended twack 😔"
+track_added_recommendation: "Added **%{title}** by **%{author}** to the quewie! UwU"
+track_recommendation_error: "An ewwow occuwwed whiwe adding the wecommended twack, sowwy~"

@@ -1,0 +1,199 @@
+### HELPDESK EVENTS ###
+disable_helpdesk: "Centrum pomocy zostało wyłączone~"
+invalid_channel_helpdesk: "Podany kanał jest niepoprawny."
+channel_viewable_helpdesk: "Nie widzę podanego kanału."
+setup_helpdesk_succes: "Centrum pomocy skonfigurowano na %{channel}~"
+
+embed1_title: "Witaj na serwerku pomocy %{bot}!"
+embed1_desc: "**Twoja muzyczka, gdziekolwiek grasz~ Słuchaj ze znajomymi na kanałach głosowych,\nuruchamiaj Aktywność Discorda albo korzystaj z odtwarzacza w przeglądarce.**"
+embed1_footer: "Dzięki, że wybierasz %{bot} na swojego muzycznego towarzysza~! <3 ;3"
+
+embed2_title: "Centrum pomocy %{bot}"
+embed2_desc: |
+  **%{button1} Czym jest %{bot}?
+
+  %{button2} Jak zaprosić %{bot} na swój serwerek?
+
+  %{button3} Jak używać %{bot} (głosowe, Aktywność i odtwarzacz WWW)?
+
+  %{button4} Jak włączyć tryb 24/7?
+
+  %{button5} %{bot} nie odpowiada albo jest offline.
+
+  %{button6} Dźwięk laguje albo się zacina.
+
+  %{button7} %{bot} ciągle zgłasza brak uprawnień.
+
+  %{button8} Jak odebrać korzyści Premium?
+
+  %{button9} Czy mogę przenieść Premium na inny serwerek?
+
+  %{button10} Co zrobić, gdy moja subskrypcja Premium wygaśnie?**
+
+embed2_field1_name: "Strona WWW"
+embed2_field1_value: "**[Muse](%{website})**"
+embed2_field2_name: "Rodzaj"
+embed2_field2_value: "**Bot muzyczny i odtwarzacz WWW**"
+embed2_field3_name: "Wesprzyj nas"
+embed2_field3_value: "**[Zagłosuj na Top.gg](%{vote})**"
+
+### BUTTON HELPDESK 1 ###
+helpdesk1_title: "Kto chce śpiewać, zawsze znajdzie piosienkę ♪"
+helpdesk1_desc: |
+  **Twoja muzyczka, gdziekolwiek grasz~ Słuchaj ze znajomymi na kanałach głosowych, uruchamiaj Aktywność Discorda albo korzystaj z odtwarzacza w przeglądarce.**
+
+  **Dlaczego %{bot}?**
+  - **Kilka sposobów słuchania**: Graj ze znajomymi na głosowych, uruchom interaktywną Aktywność Discorda (na serwerkach lub w prywatnych DM-ach) albo steruj wszystkim przez odtwarzacz WWW.
+  - **Nowoczesny panel WWW**: Sterowanie w czasie rzeczywistym, zsynchronizowana kowejka, teksty piosienek, własne playlisty i konfiguracja serwerka.
+  - **Świetny dźwięk i niezawodność**: Zoptymalizowane strumieniowanie, tryb 24/7, autoodtwarzanie, filtry i obsługa popularnych platform.
+  - **Aktualizacje i społeczność**: Ciągle dodajemy funkcje i ulepszenia. Masz pytania lub sugestie? Nasz zespół pomocy chętnie odpowie!
+
+  **Przydatne linki**
+  - %{server}
+  - %{vote}
+  - %{website}
+  - %{premium}
+
+  **Potrzebujesz wsparcia?**
+  - Utwórz zgłoszonko na serwerku pomocy, a postaramy się szybko pomóc~
+
+  **Gotowy na muzyczne szaleństwo? Zaproś %{bot} na swój serwerek Discord już dziś!**
+  **[Kliknij, by zaprosić](%{invite})**
+
+helpdesk2_title: "Zapraszanie %{bot} na serwerek"
+helpdesk2_desc: |
+  **Możesz zaprosić %{bot} przez ten [link zaproszenia](%{invite}).**
+  Wybierz serwerek z listy, zaakceptuj wymagane uprawnienia i kliknij **Autoryzuj**.
+
+  **Przewodnik po uprawnieniach**
+  Aby wszystko działało, %{bot} potrzebuje uprawnień **Wyświetlanie kanałów**, **Wysyłanie wiadomości**, **Osadzanie linków**, **Łączenie** i **Mówienie**. Do automatycznego zarządzania kanałami (np. kanałami próśb o utwówki) zalecamy **Zarządzanie kanałami** lub **Administrator**.
+
+  **Odtwarzacz i panel WWW**
+  Możesz też sterować %{bot} z przeglądarki przez [odtwarzacz WWW %{bot}](%{website}).
+  Zaloguj się kontem Discord, wybierz serwerek i zarządzaj odtwarzaniem, głośnością, kowejką i playlistami w przyjemnym panelu~
+
+helpdesk3_title: "Jak korzystać z %{bot}?"
+helpdesk3_desc: |
+  Słuchanie muzyczki z %{bot} jest proste dzięki trzem sposobom~!
+
+  **1. Kanały głosowe (komendy i pwyciski)**
+  - Wejdź na dowolny kanał głosowy i wpisz `/play <nazwa piosenki lub URL>`.
+  - Pwyciski pod wiadomością z utworkiem pozwalają wstrzymać, pominąć, zapętlić, przetasować lub zmienić głośność.
+  - Wszystkie komendy znajdziesz, wpisując `/` albo `/help`.
+
+  **2. Aktywność Discorda (wspólne słuchanie i DM)**
+  - Uruchom **Aktywność %{bot}** na głosowym, aby słuchać i bawić się razem ze znajomymi.
+  - Możesz też uruchomić ją w **wiadomościach prywatnych (DM)**, by słuchać kameralnie kiedy tylko chcesz~!
+
+  **3. Odtwarzacz i panel WWW**
+  - Wejdź na [odtwarzacz WWW %{bot}](%{website}), by szukać piosienek, zarządzać kowejką, tworzyć playlisty i sterować muzyczką na żywo~
+
+helpdesk4_title: "Jak włączyć tryb 24/7?"
+helpdesk4_desc: |
+  **Dzięki trybowi 24/7 %{bot} pozostanie na twoim kanale głosowym bez rozłączania~!**
+
+  **Aby włączyć tryb 24/7:**
+  1. Wejdź na kanał głosowy, na którym %{bot} ma zostać.
+  2. Wpisz `/247 enable` (lub włącz tryb 24/7 w [panelu WWW](%{website})).
+
+  **Uwaga:** *Aby skonfigurować tryb 24/7, potrzebujesz uprawnienia `Manage Server` (lub roli DJ), a bot musi być połączony z kanałem głosowym.*
+
+helpdesk5_title: "%{bot} nie odpowiada albo jest offline"
+helpdesk5_desc: |
+  Jeśli %{bot} nie reaguje na komendy, spwóbuj tak rozwiązać problem~:
+
+  **1. Używaj komend ukośnikowych Discorda**
+  - Wpisz `/play` albo `/help` i wybierz komendę %{bot} z menu.
+  - Jeśli ich nie widać, zaproś bota ponownie, uwzględniając zakres `applications.commands`, przez [ten link](%{invite}).
+
+  **2. Sprawdź uprawnienia kanału**
+  - Upewnij się, że %{bot} może **Wyświetlać kanał**, **Wysyłać wiadomości** i **Osadzać linki** na kanale tekstowym.
+
+  **3. Status usługi i konserwacja**
+  - Jeśli bot jest offline, możliwa jest aktualizacja lub awaria API Discorda. Sprawdź ogłoszenia na [serwerku pomocy](%{server}) albo utwórz zgłoszonko~
+
+helpdesk6_title: "Dźwięk laguje albo się zacina"
+helpdesk6_desc: |
+  Zacinanie się dźwięku zazwyczaj wynika z tymczasowych problemów z serwerkiem głosowym albo opóźnień sieci. Tak możesz temu zaradzić~:
+
+  **1. Sprawdź stabilność połączenia głosowego**
+  - Kliknij **Połączono z głosem** w lewym dolnym rogu Discorda.
+  - Sprawdź, czy ping jest stabilny i poniżej 200 ms, wahania opóźnienia niewielkie, a utrata pakietów wynosi 0%.
+
+  **2. Zmień region głosowy Discorda**
+  - Moderatorzy mogą zmienić region w **Ustawienia kanału głosowego → Przegląd → Nadpisanie regionu**.
+  - Wybranie innego regionu, bliższego członkom serwerka, często pomaga uzyskać nowe stabilne połączenie~
+
+  **3. Wypróbuj odtwarzacz WWW lub Aktywność Discorda**
+  - Możesz też słuchać przez [odtwarzacz WWW %{bot}](%{website}) lub Aktywność Discorda, aby skorzystać z innego sposobu odtwarzania muzyczki wysokiej jakości~
+
+  Jeśli problem nie ustąpi, napisz na naszym [serwerku pomocy](%{server}).
+
+helpdesk7_title: "%{bot} ciągle zgłasza brak uprawnień"
+helpdesk7_desc: |
+  Gdy %{bot} nie ma wymaganych uprawnień Discorda, nie może dołączyć do kanałów głosowych, wysyłać embedów ani zarządzać panelem odtwarzacza.
+
+  **Wymagane uprawnienia:**
+  - **Głosowe:** `Connect`, `Speak`, `View Channel`, `Use Voice Activity`.
+  - **Tekstowe:** `View Channel`, `Send Messages`, `Embed Links`, `Read Message History`.
+  - **Zarządzanie kanałami:** `Manage Channels` (konieczne do tworzenia i czyszczenia kanałów).
+
+  **Jak to naprawić:**
+  1. Sprawdź rolę bota w **Ustawienia serwerka → Role** i upewnij się, że ma odpowiednie uprawnienia.
+  2. Sprawdź nadpisania uprawnień w **Ustawienia kanału → Uprawnienia**.
+  3. Aby uniknąć konfliktów z uprawnieniami, zalecane jest nadanie `Administrator`~
+
+helpdesk8_title: "Jak odebrać korzyści Premium?"
+helpdesk8_desc: |
+  **Aby aktywować swoją subskrypcję Premium, wykonaj te kroczki~:**
+
+  **1. Najpierw połącz konto Discord**
+  Przed zakupem upewnij się, że twoje konto Discord jest połączone z używaną platformą (Patreon lub Ko-fi). To konieczne, aby system automatycznie wykrył płatność.
+
+  **2. Kup subskrypcję**
+  Po połączeniu Discorda opłać wybrany plan: %{premium}
+
+  **3. Poczekaj na synchronizację**
+  Po udanej płatności odczekaj kilka minut, aż system zsynchronizuje subskrypcję.
+
+  **4. Aktywuj Premium na serwerku**
+  Przejdź na serwerek Discord, na którym chcesz mieć Premium, i wpisz:
+  `/premium claim`
+  Wybierz odpowiednią platformę (Patreon albo Ko-fi), gdy pojawi się pytanie.
+  *Upewnij się, że wykonujesz komendę na serwerku docelowym. Po przypisaniu Premium aktywuje się od razu~*
+
+  Po wykonaniu tych kroków możesz cieszyć się wszystkimi korzyściami Premium. Jeśli coś nie działa albo masz pytanka, skontaktuj się z zespołem pomocy~
+
+helpdesk9_title: "Czy mogę przenieść Premium na inny serwerek?"
+helpdesk9_desc: |
+  **Pewnieee~ Możesz samodzielnie przenieść Premium na inny serwerek! Zrób tak:**
+
+  **1. Odłącz Premium od obecnego serwerka**
+  Wejdź na serwerek, gdzie Premium jest aktywne, i wpisz:
+  `/premium unclaim`
+  Zwolni to miejsce Premium przypisane do tego serwerka.
+
+  **2. Aktywuj Premium na nowym serwerku**
+  Wejdź na serwerek, na który przenosisz Premium, i wpisz:
+  `/premium claim`
+  Wybierz platformę (Patreon lub Ko-fi), a Premium natychmiast aktywuje się na nowym serwerku~
+
+  *Jeśli nie masz już dostępu do poprzedniego serwerka i nie możesz odłączyć Premium, skontaktuj się z obsługą na [serwerku pomocy](%{server}).*
+
+helpdesk10_title: "Co zrobić, gdy subskrypcja Premium wygaśnie?"
+helpdesk10_desc: |
+  **Po wygaśnięciu subskrypcji funkcje Premium na serwerku zostaną automatycznie wyłączone. Aby je przywrócić, wykonaj te kroczki~:**
+
+  **1. Odnów subskrypcję**
+  - [Odnów na Patreonie](https://www.patreon.com/c/)
+  - [Odnów na Ko-fi](https://ko-fi.com/)
+  Upewnij się, że płatność przebiegła pomyślnie, a konto Discord nadal jest połączone.
+
+  **2. Ponownie przypisz Premium**
+  Po odnowieniu przejdź na swój serwerek i wpisz:
+  `/premium claim`
+  Spowoduje to ponowną synchronizację subskrypcji i od razu przywróci funkcje bez utraty wcześniejszych ustawień~
+
+  *Uwaga: Nie musisz czekać na obsługę. System wykryje odnowienie, gdy Patreon lub Ko-fi przetworzy płatność.*
+
+helpdesk10_footer: "Dzięki, że jesteś częścią naszej przygody~ Życzymy super zabawy! <3"

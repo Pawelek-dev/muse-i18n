@@ -1,0 +1,39 @@
+### privacy policy commands
+privacy_title: "Pwivacy Powicy of %{bot}"
+privacy_label: Pwivacy Powicy
+privacy_desc: |
+    **Usew Agweement**
+    Using [%{bot}](%{serversupport}) ("bot") on the sewvew wequiwes the cowwection of cewtain usew data, nya~ The data cowwected incwudes, but is not wimited to, the usew's Discowd ID, Discowd usewname, and sewvew wowes. Using the Bot is considewed acceptance of these powicy tewms.
+
+    **Data Access**
+    Access to data is onwy awwowed fow bot devewopews and hosting sewvices, and onwy within the scope necessawy fow bot devewopment, testing, and featuwe impwementation. Data is not sowd, given to, ow shawed with any thiwd pawty, except as wequiwed by waw ow the Tewms of Sewvice agweement. You can view youw data upon wequest fwom the [devewopew](%{developer}).
+
+    **Data Stowage**
+    Data is stowed in the [PostgreSQL](https://www.postgresql.org/) database. The database is secuwed to pwevent extewnaw access. Howevew, no guawantees awe pwovided, and the Bot ownew is not wesponsibwe fow unintentional ow mawicious data bweaches. If thewe is unauthowized data access, the sewvew staff wiww notify usews thwough the Suppowt Sewvew.
+
+    **Usew Wights**
+    At any time, you have the wight to wequest access to youw Discowd account data. You awso have the wight to wequest the dewetion of wewevant data. To do this, usews must submit a wequest thwough the Suppowt Sewvew, pwease~
+
+    **Questions**
+    If you have questions ow concewns about what data may be stowed fwom youw account, pwease contact [staff](%{serversupport}). Fow mowe infowmation, check the Discowd Tewms of Sewvice, nya~
+
+### The fowwowing tewms and conditions appwy to the use of the bot.
+### terms of services commands
+termsofservice_title: "Tewms of Sewvice of %{bot}"
+tos_label: "Tewms of Sewvice"
+termsofservice_desc: |
+    **Usage Agweement**
+    By inviting [%{bot}](%{serversupport}) ("bot") and using its featuwes, you agwee to the Bot's Tewms of Sewvice and Pwivacy Powicy.
+
+    You acknowwedge that you can use the bot fweewy on any Discowd Sewvew you shawe it with. You can invite it to any Sewvew whewe you have "Manage Server" wights, and this pwiviwege may be wevoked if you awe found to be viowating the Bot's Tewms of Sewvice ow Pwivacy Powicy, ow Discowd Inc.'s Tewms of Sewvice, Pwivacy Powicy, ow Community Guidewines.
+
+    By inviting the bot, you acknowwedge that it may cowwect specific data as descwibed in its Pwivacy Powicy. This data is intended to be used fow the bot's cowe functionawities, such as executing commands.
+
+    **Affiwiation**
+    The bot is not affiwiated with, suppowted by, ow made by Discowd Inc. Any diwect connection to Discowd ow any of its Twademawk objects is puwewy coincidentaw. We do not cwaim copywight ownewship of Discowd's assets, twademawks, ow othew intewwectual pwopewty.
+
+    **Undewage Usews**
+    The bot is not pewmitted fow minows undew the age of 13 ow undew the wegaw age of consent in theiw countwy. This compwies with the Discowd Tewms of Sewvice. No infowmation wiww be knowwingwy stowed fwom an undewage usew. If it is discovewed that a usew is undewage, we wiww take aww necessawy actions to dewete theiw stowed data.
+
+    **Wiabiwity**
+    The bot's devewopews and ownew cannot be hewd wiabwe fow individuaws viowating these Tewms at any time. The wight to update these tewms is wesewved at ouw discwetion, with a 1-Week (7 days) pewiod pwovided to opt out of these tewms. A usew may opt out by wemoving the bot fwom any sewvew whewe they have the wight to wemove it.
