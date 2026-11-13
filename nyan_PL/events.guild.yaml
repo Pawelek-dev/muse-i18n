@@ -1,0 +1,18 @@
+joined_title: "📥 Dołączono do serwerka!"
+leave_title: "📥 Opuszczono serwerek!"
+guild_name: "Nazwa"
+guild_id: "ID"
+guild_owner: "Właściciel"
+guild_member_count: "Liczba członków"
+guild_creation_date: "Data utworzenia"
+guild_join_date: "Data dołączenia"
+current_server_count: "Aktualna liczba serwerków"
+
+### message that the bot will send if it has just joined the server
+join_content_button_label_1: "Potrzebujesz pomocy? Dołącz do naszej społeczności~"
+join_content_button_label_2: "Poznaj wszystkie możliwości muzycznego bocika~"
+join_content_button_label_3: "Zarządzaj ustawieniami i słuchaj przez przeglądarkę~"
+
+join_content_msg_1: "### Dziękujemy za wybranie %{bot}! ;3"
+join_content_msg_2: "**Twój serwerek jest gotowy na najlepsze muzyczne wrażenia~**\nOto jak zacząć, nya~"
+join_content_msg_3: "- Domyślny prefiks: `%{prefix}`\n- Wypróbuj popularne komendy: %{help}, %{play} albo %{autoplay}~\n\n-# Ciesz się muzyczką wysokiej jakości za darmo, bez płacenia i głosowania. UwU"

@@ -1,0 +1,43 @@
+### All filter command!
+filter_on: |
+  Filtr **%{name}** jest włączoony~!
+  M-mam nadzieję, że spodoba ci się jego brzmienie! UwU ♪
+filter_already: "Eeej~ Filtr %{name} VST już działa... Nic tu nie mogę zrobić! :c"
+filter_number: "Nyope! Takiej liczby nie mogę wpisać do korektora EQ... >_<"
+filter_greater: "Liczba musi być większa niż **0**! Spwóbuj ponownie~ nya!"
+filter_less: "Ł-łooo!! To ciut za dużo! Może spróbujesz czegoś poniżej **10**~? >w<"
+
+### Bassboost command!
+bassboost_set: "**Podbicie basu ustawione na %{amount}dB**~ B-bum bum!! >w<"
+bassboost_limit: "Podaj liczbę od **-10** do **10**~ nya!"
+
+### Equalizer command!
+eq_author: "Korektorek EQ~"
+eq_icon: "https://i.pinimg.com/originals/cb/17/b8/cb17b80a942d7c317a35ff1324fae12f.gif"
+eq_desc: |
+  Możesz regulować **10 pasm** w zakresie od **-10** do **10**~!
+  Nie musisz podawać wszystkich, tylko te, które chcesz zmienić!
+  Jeśli chcesz pominąć któreś pasmo, wpisz tam po prostu **0**~ UwU
+eq_field_title: "Przykładzik~:"
+eq_field_value: "%{prefix}eq 2 3 0 8 0 5 0 -5 0 0"
+eq_footer: "Reset korektora • %{prefix}eq reset"
+eq_on: "Korektorek EQ ustawiony na **%{bands}**! Niech dźwięczki brzmią idealnie~ ♪ >w<"
+eq_number: "Podaj poprawną liczbę~! >_<"
+eq_greater: "Liczba musi być większa niż **-10**~!"
+eq_than: "Liczba musi być mniejsza niż **10**~!"
+
+### Pitch command!
+pitch_on: "Okiii~ Wysokość dźwięku to tewaz **%{amount}**! UwU"
+
+### Rate command!
+rate_on: "Dobraaa~ Tempo to tewaz **%{amount}x**! >w<"
+
+### Speed command!
+speed_on: "Pewnieee~ Zmieniam prędkość na **%{amount}x**! Nioooom~!"
+
+### Reset command!
+reset_on: "**Resetuję** wszystkie efekty VST~! Wracamy do oryginalnego brzmienia! UwU ♪"
+reset_already: "Ale... efekty VST są **już wyłączone**! Zapomniałeś, głuptasku? :c"
+
+# Invalid Number
+number_invalid: "Z tą liczbą nie dam rady... Sowwy~ Podaj poprawną liczbę, plosię! >_<"

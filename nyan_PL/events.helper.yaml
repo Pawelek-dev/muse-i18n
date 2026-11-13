@@ -1,0 +1,79 @@
+## Helper setup ##
+setup_helper_content: |
+  ## Witaj na %{guild}
+   *Jesteś nowy? To idealne miejsce dla ciebie~*
+   > **Twoja muzyczka, gdziekolwiek grasz~ Słuchaj ze znajomymi na kanałach głosowych, uruchom Aktywność Discorda albo odtwarzacz internetowy.** UwU
+   Ten serwerek to dom społeczności %{guild}~
+   Możesz rozmawiać, dzielić się piosienkami, szukać wsparcia i odkrywać możliwości %{bot}, nya~
+  ### Szybka nawigacja
+   - Zgłoś błędzik: https://discord.com/channels/
+   - Zaproponuj zmianę: https://discord.com/channels/
+   - Utwórz zgłoszenie: https://discord.com/channels/
+   - Otwórz centrum pomocy (FAQ): https://discord.com/channels/
+  ### Porady społeczności
+   - Szanuj innych i zachowuj przyjazny ton~
+   - Pisz na odpowiednich kanałach.
+   - Potrzebujesz pomocy? Podaj szczegóły, by zespół mógł szybciej pomóc, plosię~
+  Chcesz zaprosić znajomych? Udostępnij link: %{serversupport} <3
+
+disable_helper: "Pomocniczek został wyłączony~"
+invalid_channel_helper: "Podany kanał jest niepoprawny"
+channel_viewable_helper: "Nie widzę wskazanego kanału"
+setup_helper_succes: "Pomocniczek został pomyślnie skonfigurowany na %{channel}! UwU"
+
+## RULES Events ##
+rules_title: "Zasady społeczności serwerka %{guild}!"
+rules_desc: |
+  - **Szanuj innych**
+    Zawsze przestrzegaj [regulaminu](https://discord.com/terms) i [wytycznych](https://discord.com/guidelines) Discorda, nya~
+  - **Pomoc z kodem**
+    Gdy prosisz o pomoc, podaj jak najwięcej szczegółów, w tym komunikaty błędów, plosię~
+  - **Zakaz mowy nienawiści i nękania**
+    Nie wolno nękać osób ani grup ani kierować wobec nich mowy nienawiści.
+  - **Zakaz trollowania i prowokowania kłótni**
+    Nie zakłócaj rozmów ani nie prowokuj celowo konfliktów.
+  - **Szanuj własność intelektualną**
+    Przestrzegaj praw autorskich, praw do znaków towarowych i patentów.
+  - **Nie zdradzaj fabuły bez ostrzeżenia**
+    Oznaczaj spoilery, żeby nie zepsuć innym zabawy, plosię~
+  - **Korzystaj z właściwych kanałów**
+    Dobieraj kanały do tematów i nie rób offtopu tam, gdzie nie pasuje.
+  - **Nie nadużywaj wielkich liter ani spamu**
+    Unikaj pisania wszystkiego WIELKIMI LITERAMI i zasypywania czatu wiadomościami, nya~
+  - **Dbaj o spokój na głosowych**
+    Unikaj przeszkadzającego hałasu i rozmawiaj uprzejmie~
+  - **Bez nieautoryzowanych botów i automatyzacji**
+    Na serwerku mogą działać tylko boty zatwierdzone przez moderację.
+  - **Zgłaszaj naruszenia**
+    Zauważone naruszenia zgłaszaj moderatorom lub administracji, plosię~
+  - **Baw się dobrze!**
+    Najważniejsze, by szanować innych i dbać o pozytywną atmosferkę, nya~ <3
+
+  Dzięki za dołączenie! Życzymy wspaniałej zabawy, UwU~
+
+### SUPPORT US BUTTON ###
+support_us_title: "Jak wesprzeć %{bot}"
+support_us_desc: "Możesz wspierać mnie, głosując na %{bot}, zapraszając %{bot} na swój serwerek albo polecając %{bot} znajomym~ Każda pomoc pozwala mi się rozwijać! UwU"
+support_us_footer: "Dzięki za chęć wsparcia %{bot}! Ogromnie to doceniam, nya~ <3"
+
+## ROLES EVENTS ##
+role_title: "Możesz dodawać i usuwać role z listy poniżej, nya~"
+role_added: "**[Sukces]** Rola %{rolename} została dodana! UwU"
+role_removed: "**[Usunięto]** Rola %{rolename} została odebrana~"
+role_rules_added: "%{user}, mam nadzieję, że będziesz przestrzegać zasad! Masz tewaz dostęp do całego serwerka, nya~"
+role_rules_already: "%{user}, już zaakceptowałeś zasady, głuptasku~"
+role_desc: "Chcemy tylko sprawdzić, czy jesteś człowiekiem, a nie botem, nya~ Wykonaj szybkie zadanko weryfikacyjne, UwU."
+
+### Top gg vote logs event
+vote_desc: |
+  %{voteuser} oddał(a) głos na %{votebot} w **[Top.gg](%{voteurl})**
+  Dzięki za wsparcie! Miłego dzionka, nya~
+vote_footer: "Łącznie głosów: %{count}, możesz sobie pomarzyć! UwU"
+### Top gg vote logs reminder event
+reminder_label_name: "Przypominajka o głosowaniu"
+reminder_label_emoji: "⏰"
+reminder_title: "Przypominajka o głosowaniu"
+reminder_desc: "Już czas~ Możesz znowu zagłosować na **[Top.gg](%{voteurl})**, nya!"
+reminder_set_content: "Przypominajka ustawiona! Przypomnę ci o głosie za 12 godzin~ UwU"
+reminder_cancel_content: "Przypominajka anulowana. Nie będę już przypominać o głosowaniu, nya~"
+reminder_no_vote_warning: "Najpierw musisz oddać głos, dopiero potem możesz ustawić przypominajkę, plosię!"

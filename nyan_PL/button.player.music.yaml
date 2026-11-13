@@ -1,0 +1,40 @@
+### Autoplay command!
+autoplay_on: "Jupiii~~ Autoodtwarzanie jest **włączone**! UwU"
+autoplay_off: "Hmmm~ Autoodtwarzanie jest **wyłączone**. Koniec automatycznego gwanka :c"
+autoplay_no_song: "Nic się tewaz nie odtwarza! *smutne miauknięcie*"
+
+### Loop command!
+loop_current: "Nyaa~ Obecny utwówek będzie leciał w kółeczko! Miłego słuchanka~ >w<"
+loop_all: "Cała kowejka będzie się zapętlać! Niech muzyczka gra bez końca~ ♪ UwU ;3"
+unloop_all: "Zapętlanie wyłączone~ Czas na różne piosienki! :3"
+
+### Pause command!
+pause_msg: "Muzyczka wstrzymana~ Złap oddech i posłuchaj ciszy~ *mruczy*"
+
+### Resume command!
+resume_msg: "Muzyczka wróciła!! Wracamy do bujanka~ ♪ >w< mrrreow~"
+
+previous_notfound: "Sowwyyy~ Nie da się cofnąć dalej! Brak wcześniejszego utwówku :c"
+previous_msg: "Oooo~ Cofamy się w czasie! Poprzedni utwówek nadciąga~ <3 nya! mrrreow"
+
+### Queue command!
+queue_title: "Grająca kowejka~ nya!"
+queue_description: "**%{title} **\n\n**Reszta kowejki %{list_song}**"
+queue_footer: "Strona • %{page}/%{pages} | Piosienki • %{queue_lang} | Łączny czas • %{total_duration}"
+
+### Shuffle command!
+shuffle_msg: "Zgadnij, co zrobiłam~? Pomieszałam ci wszystkie piosienki!! *chichocze* >:3 ;3"
+
+### Skip command!
+skip_msg: "Pominęłam ci utwówek~ Mam nadzieję, że się nie gniewasz! :p nya~"
+skip_notfound: "Upsik~ Nie ma następnego utworku do pominięcia! Bujaj się dalej przy obecnym~ ♪ >w<"
+
+### Stop command!
+stop_msg: "Odtwarzanie zatrzymane~ Mam nadzieję, że bawanko było super!! *przytula* <3"
+
+### Volume command!
+voldown_msg: "Ściszyłam o %{volume}%~ Czas na delikatne dźwięczki! UwU"
+volume_invalid: "Nyope! Niepoprawna głośność~ Zakres to **1**–**100**, nya!"
+volup_msg: "Podgłosiłam o %{volume}%~ DAWAJ GŁOŚNIEJ!! >w<"
+volume_max: "N-nie mogę ustawić więcej niż 100%!! Sowwy~ >_<"
+volume_min: "O nyoo~~ Już jest najciszej jak się da! :c"

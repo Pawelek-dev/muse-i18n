@@ -1,0 +1,24 @@
+### Ticket Events ###
+ticket_reason: "Podaj powód utworzenia zgłoszenia, plosię"
+ticket_already_open: "Masz już otwarte zgłoszonko, nya~"
+ticket_already_closed: "Nie znaleziono zgłoszenia użytkownika %{id} albo zostało już zamknięte"
+ticket_close_user: "Nie możesz zamknąć tego zgłoszenia!"
+ticket_delete_user: "Nie możesz usunąć tego zgłoszenia!"
+ticket_deleting_action: "Usuwam zgłoszenia... sekundkę~"
+ticket_closed_label: "🔒 Zamknięte"
+ticket_delete_label: "🗑️ Usuń"
+ticket_create: "Zgłoszonko utworzone. Przejdź do %{channel}"
+ticket_create_title: "Poczekaj na odpowiedź obsługi~"
+ticket_create_desc: |
+  Dzięki za zgłoszonko! Poczekaj na odpowiedź obsługi, nya~
+  `UWAGA: To zgłoszenie nie ma kopii zapasowej. Koniecznie samodzielnie zabezpiecz wszystkie ważne informacje`
+
+### Closed Ticket Events ###
+ticket_closed_title: "🔒 Zamknięte zgłoszenie"
+ticket_closed_desc: "Zgłoszonko zostało zamknięte! UwU ;3"
+
+### Closed Ticket DM User ###
+ticket_closed_dm_title: "Twoje zgłoszenie zostało zamknięte."
+ticket_closed_dm_desc: |
+  Twoje zgłoszenie właśnie zamknięto. Do wiadomości dołączono zapis rozmowy w pliku HTML.
+  Jeśli masz kolejne pytania lub problemy, śmiało załóż nowe zgłoszonko. Chętnie pomożemy, nya~ <3

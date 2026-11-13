@@ -1,0 +1,165 @@
+### About commands
+about_desc1: "**Twoja muzyczka, gdziekolwiek grasz~ Słuchaj ze znajomymi na kanałach głosowych, uruchom Aktywność Discorda albo korzystaj z odtwarzacza w przeglądarce!** UwU"
+about_desc2: |
+  ・Prefiks bota na tym serwerku to `%{prefix}` nya~
+  ・Puść utwówek, podając link albo hasło wyszukiwania: `%{prefix} play`
+  Zajrzyj na naszą **[stronkę](%{website})** albo użyj `%{prefix} help`, by zobaczyć więcej poleceń~ >w<
+about_desc3: |
+  **Uwaga, przyjacielu~!**
+  Najlepiej dać mi uprawnienia `Administrator`, ale...
+  Nawet bez nich potrafię działać! Po prostu nie wszystko może mi się udać~ Uprzedzam! >_<
+
+  **Pomoc i wsparcie**
+  Dołącz na nasz **[serwerek pomocy](%{serversupport})**, jeśli potrzebujesz wsparcia, wieści o aktualizacjach i problemach albo chcesz pogadać ze społecznością! Nyaa~ <3
+
+### Help command!
+finder_invalid: "Niepoprawna komenda, nya!"
+button_not_author: "Nyope~ Tylko osoba, która użyła komendy, może klikać te pwyciski! >_<"
+finder_example: "N-nie umiem tego znaleźć! Poszukaj *prawdziwej* komendy, głuptasku~!"
+finder_name: "**Komenda:**"
+finder_des: " **Opis:**"
+finder_usage: "**Użycie:**"
+finder_access: "**Dostępna dla:**"
+finder_aliases: "**Aliasy:**"
+finder_slash: "**Komenda ukośnikowa:**"
+finder_des_no: "N-nie znalazłam opisu, wybacz... :c"
+finder_usage_no: "Hmmm~ Nie jestem pewna, jak używać tej komendy..."
+finder_aliases_prefix: "[Tylko z prefiksem]"
+finder_aliases_no: "Ta komenda nie ma aliasów, sowwy~!"
+finder_slash_enable: "Włączona~"
+finder_slash_disable: "Wyłączona~"
+command_not_found: "Nie znam takiej komendy, nya!"
+select_menu: "Baw się muzyczką z Muse~! UwU ;3"
+help_timeout: "Upsik~ Menu pomocy wygasło! Spwóbuj ponownie: **`%{prefix}help`** albo **`/help`**, nya~"
+homepage_title: "**Twoja muzyczka, gdziekolwiek grasz~ Słuchaj ze znajomymi na kanałach głosowych, \nuruchom Aktywność Discorda albo graj muzyczkę w odtwarzaczu internetowym!**"
+homepage_desc: |
+  <:blankers:1332784847961198632><:times:1332786387551916073> **Muzyczka 24/7**
+  <:blankers:1332784847961198632><:spotify1:1332809095522029651> **Integracja ze Spotify**
+  <:blankers:1332784847961198632><:speaker:1332786202545487872> **Dźwięk wysokiej jakości**
+  <:blankers:1332784847961198632><:lastfm:1332808961161695332> **Scrobblowanie z Last.fm**
+  <:blankers:1332784847961198632><:musicplay:1332785497013227520> **Spotify, Apple Music, Deezer i więcej...**
+
+  <:blankers:1332784847961198632><:bbb_sparkler:1549726912769687642> **Potrzebujesz pomocy? Dołącz na [serwerek wsparcia](%{serversupport})~!** UwU
+
+### Rating bot commands! ###
+rating_desc: "Dziękuję, %{user}, za ocenienie naszego muzycznego bocika Discord! <3"
+rating_succes: "Wielkie dzięki za ocenę~!\nUdało się ją wysłać! UwU"
+rating_failure: "O nyoo~ Nie udało się wysłać zgłoszenia! Spwóbuj później. :c"
+
+### Report command #####
+report_provide_desc: "Upsik~ Niepoprawna komenda! Podaj opis zgłoszenia, nya~"
+report_failure: "O nyoo~ Nie udało się wysłać zgłoszenia! Spwóbuj później. :c"
+report_success: "Dziękuję za zgłoszonko~!\nPrzekazałam je do rozpatrzenia! <3"
+
+### Suggestions command #####
+suggestions_provide_desc: "Upsik~ Niepoprawna komenda! Napisz, co proponujesz, nya~"
+suggestions_failure: "O nyoo~ Nie udało się wysłać sugestii! Spwóbuj później. :c"
+suggestions_success: "Dziękuję za pomysł~!\nTwoja sugestia została wysłana! UwU <3"
+
+### Patreon Service Logs ###
+patreon_logs_desc: |
+  **Wynik operacji:**
+  %{desc}
+
+patreon_logs_user_identity_title: "👤 Tożsamość użytkownika"
+patreon_logs_user_identity_value: |
+  **Imię i nazwisko:** %{fullName}
+  **Discord:** <@%{discordId}> (`%{discordId}`)
+  **E-mail:** %{email}
+
+patreon_logs_details_title: "Szczegóły Patreona"
+patreon_logs_details_value: |
+  **Wsparcie:** $%{pledge}
+  **ID Patreona:** `%{patreonId}`
+  **Status:** `%{status}`
+patreon_logs_date_title: "📅 Data"
+### Kofi Service Logs ###
+kofi_logs_user_identity_title: "Tożsamość użytkownika"
+kofi_logs_user_identity_value: "**Imię i nazwisko:** %{fullName}\n**E-mail:** ||%{email}||\n**Publiczne:** %{dataPublic}"
+kofi_logs_discord_identity_title: "Tożsamość Discord"
+kofi_logs_discord_identity_value: "**Użytkownik:** %{discordUser}\n**ID:** %{discordId}"
+kofi_logs_payment_details_title: "Szczegóły płatności"
+kofi_logs_payment_details_value: "**Kwota:** %{currency} %{amount}\n**Próg:** **%{tierName}**\n**Rodzaj:** %{type}"
+kofi_logs_sub_status_title: "Status subskrypcji"
+kofi_logs_sub_status_value: "**Subskrybuje:** %{isSub}\n**Pierwsza wpłata:** %{isFirst}"
+kofi_logs_message_title: "Wiadomość / Powód"
+kofi_logs_tech_title: "Dane techniczne / ID transakcji"
+kofi_logs_tech_value: "**ID transakcji Ko-fi:** %{kofiTxId}\n**ID wiadomości:** %{msgId}\n**Link:** [%{viewDetails}](%{url})\n**Token:** ||%{token}||"
+kofi_logs_view_details: "Zobacz szczegóły"
+
+### Favorites command ####
+fav_title: "### 🤍 Twoje polubione piosienki"
+fav_page_info: "**Polubione: %{total}**\nStrona %{page}/%{pages}"
+fav_playall: "Dodano %{added} ulubionych piosienek do kowejki~! >w< ;3"
+fav_add_song: "Dodano **%{title}** do kowejki~! <3"
+fav_error_player: "O nyoo~ Nie udało się uruchomić odtwarzacza ani dołączyć na kanał głosowy! :c"
+fav_remove_cancel: "Anuluj usuwanko i wróć~"
+fav_remove_placeholder: "Wybierz piosienkę do usunięcia..."
+fav_confirm_clear_title: "## Kontynuować~?"
+fav_confirm_clear_desc: "Na pewno chcesz usunąć wszystkie polubione piosienki?\n\nTa operacja **na zawsze** usunie %{count} piosienek z ulubionych i nie da się jej cofnąć! >_<"
+fav_btn_sure: "Pewnie~"
+fav_btn_no: "Nyo!"
+fav_empty_title: "### 🤍 Twoje polubione piosienki"
+fav_empty_count: "### 0 polubionych piosienek"
+fav_empty_desc: "-# Ulubione czekają na ciebie~\nDodawaj ukochane piosienki i buduj swoją playlistę! <3"
+fav_removed_title: "### Piosienka usunięta"
+fav_removed_desc: "Zrobioneee~ **%{title}** nie ma już w ulubionych! :c"
+fav_btn_back: "Wróć~"
+
+### History command ####
+hist_title: "### Twoja historia słuchania"
+hist_page_info: "**Odtworzone piosienki: %{total}**\nStrona %{page}/%{pages}"
+hist_playpage: "Dodano %{added} piosienek z tej strony do kowejki~! >w<"
+hist_add_song: "Dodano **%{title}** do kowejki~!"
+hist_error_player: "O nyoo~ Nie udało się uruchomić odtwarzacza ani dołączyć na kanał głosowy! :c"
+hist_confirm_clear_title: "## Wyczyścić historię~?"
+hist_confirm_clear_desc: "Na pewno chcesz usunąć swoją historię słuchania?\n\nTa operacja **na zawsze** usunie %{count} piosienek z historii i nie da się jej cofnąć! >_<"
+hist_btn_sure: "Pewnie~"
+hist_btn_no: "Nyo!"
+hist_empty_title: "### Twoja historia słuchania"
+hist_empty_count: "### Odtworzone piosienki: 0"
+hist_empty_desc: "-# Historia jest pusta~\nZacznij słuchać piosienek, a pojawią się tutaj! UwU"
+hist_btn_back: "Wróć~"
+
+### GuildStats command ####
+gstats_empty_title: "📊 Statystyki serwerka"
+gstats_empty_desc: "Brak danych dla tego serwerka~ :c"
+gstats_tracks_title: "### Top 10 utworków na %{guild}"
+gstats_artists_title: "### Top 10 artystów na %{guild}"
+gstats_btn_tracks: "Najlepsze utwówki"
+gstats_btn_artists: "Najlepsi artyści"
+gstats_footer_tracks: "-# Najpopularniejsze utwówki na serwerku w tym miesiącu~"
+gstats_footer_artists: "-# Najpopularniejsi artyści na serwerku w tym miesiącu~"
+gstats_track_item: "%{index}. [**%{title}**](%{url})\n-# Odtworzono %{count} razy~"
+gstats_artist_item: "%{index}. [**%{name}**](%{url})\n-# Odtworzono %{count} razy~"
+gstats_stats_subtext: "-# Czas słuchania: `%{time}` • Liczba odtworzeń: `%{played}`"
+
+### GlobalStats command ####
+glstats_empty_title: "🌍 Statystyki globalne"
+glstats_empty_desc: "Brak danych globalnych~ :c"
+glstats_servers_title: "### Top 10 serwerków na świecie"
+glstats_tracks_title: "### Top 10 utworków na świecie"
+glstats_artists_title: "### Top 10 artystów na świecie"
+glstats_voters_title: "### Top 10 głosujących na świecie"
+glstats_btn_servers: "Najlepsze serwerki"
+glstats_btn_tracks: "Najlepsze utwówki"
+glstats_btn_artists: "Najlepsi artyści"
+glstats_btn_voters: "Najwięcej głosów"
+glstats_footer_servers: "-# Najpopularniejsze serwerki na świecie~"
+glstats_footer_tracks: "-# Najpopularniejsze utwówki na świecie~"
+glstats_footer_artists: "-# Najpopularniejsi artyści na świecie~"
+glstats_footer_voters: "-# Użytkownicy z największą liczbą głosów~"
+glstats_server_item: "%{index}. **%{name}**\n-# Czas słuchania: `%{time}` • Odtworzone utwówki: `%{played}`"
+glstats_track_item: "%{index}. [**%{title}**](%{url})\n-# Odtworzono `%{count}` razy~"
+glstats_artist_item: "%{index}. [**%{name}**](%{url})\n-# Odtworzono `%{count}` razy~"
+glstats_voter_item: "%{index}. **%{name}**\n-# Łącznie głosów: `%{count}`"
+glstats_stats_subtext: "-# Globalny czas słuchania: `%{time}` • Łącznie odtworzeń: `%{played}`"
+
+### Invite command ####
+invite_title: "Zacznij muzyczne szaleństwo na swoim serwerku~"
+invite_desc: "Możesz zaprosić Muse pwyciskiem poniżej~ A jeśli napotkasz błędziki, zajrzyj na serwerek pomocy! UwU mrrreow~"
+invite_activity_text: "Możesz też uruchomić Aktywność Discorda i słuchać muzyczki ze znajomymi~! >w<"
+invite_btn_bot: "Zaproś %{bot}"
+invite_btn_instance: "%{name}"
+invite_btn_support: "Serwerek wsparcia"
+invite_btn_activity: "Uruchom aktywność~"
