@@ -1,0 +1,74 @@
+# Mode
+enable: "Enabwed"
+disable: "Disabwed"
+
+# maintenance
+maintenance_title: "Maintenawce"
+maintenance_desc: |
+    %{bot} is cuwwently undewgoing maintenawce. Pwease twy again watew, nya~
+    Fow mowe infowmation, pwease join ouw [suppowt sewvew](%{serversupport}). Thankies!
+
+# Getting error!
+unexpected_error: "Sofing went wwong. Pwease twy again watew! >_<"
+
+### Rate limit!
+ratelimit: "You'we pewfowming actions too quickwy. Pwease wait fow **%{time} Seconds**, nya~"
+
+# No permission!
+no_perms: "I don't have the **%{perm}** pewmission!\nPwease gwant me the **%{perm}** pewmission so I can execute this command, pwease~"
+
+no_manage_guild_perms: "This command wequiwes the **%{perm}** pewmission!\nYou don't have pewmission to execute this command, nya~"
+
+no_admin_perms: "This command wequiwes the **%{perm}** pewmission!\nYou don't have pewmission to execute this command, nya~"
+
+# No permission!
+no_perms_channel: "I don't have the **%{perm}** pewmission in %{channel} to execute this command!"
+
+# Execute when invalid
+no_node: "**No Wavalink sewvew was found. Pwease twy again aftew 5 Minutes**"
+
+# Client owner!
+owner_only: "This command can onwy be executed by the bot **Ownew**, nya~"
+
+# Need to join voice & same voice to use command!
+no_player: "I'm not pwaying any music! Add a song with **%{play}**, pwease~"
+no_same_voice: "You'we not in the same voice channew as me! >_<"
+no_in_voice: "You'we not in a voice channew!"
+
+# Blacklist User
+blacklist_user: "Wooks wike you'we bwackwisted! You'we not awwowed to use commands.\nPwease contact the **[devewopew](%{serversupport})** if you think this is a mistake, nya~"
+
+# Blacklist Guild
+blacklist_guild: "This sewvew is bwackwisted! You'we not awwowed to use commands hewe.\nPwease contact the **[devewopew](%{serversupport})** if you think this is a mistake, nya~"
+
+### DjRole No Permission ###
+not_dj_role: "You must have the %{role} wole to use this command, nya~"
+
+### Stage Control No Permission ###
+not_stage_control_role: "You must have the %{role} wole to contwow music in this Stage Channew, pwease~"
+
+### Set Channel Restriction ###
+not_command_channel: "This channew can't be used fow bot commands. Pwease head ovew to %{channels}, nya~"
+
+### No Premium Event!
+no_premium_button: "Get Pwemium"
+no_premium_author: "No Pwemium Pwan"
+no_premium_desc: "Oopsie! Wooks wike you don't have a pwemium pwan yet. :c\nThis featuwe isn't accessibwe without one, sowwy~"
+
+# Top.gg error
+topgg_error_author: "Vote Top.gg ewwow"
+topgg_error_desc: "An ewwow occuwwed whiwe vewifying youw vote on Top.gg, possibwy because Top.gg is down. Pwease twy again in 5-10 minutes, nya~\nIf this issue pewsists, pwease contact ouw [suppowt sewvew](%{serversupport}) fow mowe assistance."
+
+# Top.gg unvote
+topgg_unvote_button: "Vote to unwock"
+premium_button: "Upgwade to pwemium"
+topgg_unvote_author: "Vote Wequiwed"
+topgg_unvote_desc: "You need to vote to access this command! It's quick and fwee, nya~\nAwtewnativewy, get pwemium on ouw [Pwemium Page](%{premium}) to skip this message and unwock extwa featuwes, UwU."
+
+### Mention Desc ###
+mention_desc1: "### Need Hewp?"
+mention_desc2: "My pwefix fow this sewvew `%{prefix}`"
+mention_desc3: "-# You can ping me to use commands too, ow type %{help} to view my swash commands, nya~"
+mention_button_desc1: "Join ouw suppowt sewvew fow assistance~"
+mention_button_desc2: "Expwowe the fuww documentation fow advanced usage~"
+mention_button_desc3: "Contwow youw music with the dashboawd, nya~"

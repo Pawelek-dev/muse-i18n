@@ -1,0 +1,199 @@
+### HELPDESK EVENTS ###
+disable_helpdesk: "The hewpdesk has been disabwed~"
+invalid_channel_helpdesk: "The pwovided channew is invawid."
+channel_viewable_helpdesk: "The pwovided channew isn't visibwe to me."
+setup_helpdesk_succes: "The hewpdesk has been successfuwwy set up in %{channel}~"
+
+embed1_title: "Wewcome to %{bot} suppowt sewvew!"
+embed1_desc: "**Youw music, whewevew you pway~ Listen with fwiends in voice channews,\nwaunch the Discowd Activity, ow enjoy music fwom the web pwayew.**"
+embed1_footer: "Thankies fow choosing %{bot} as youw music companion~! <3"
+
+embed2_title: "%{bot} Hewpdesk"
+embed2_desc: |
+    **%{button1} What is %{bot}?
+
+    %{button2} How to invite %{bot} to youw sewvew?
+
+    %{button3} How to use %{bot} (Voice, Activity, & Web Pwayew)?
+
+    %{button4} How to enabwe the 24/7 featuwe?
+
+    %{button5} %{bot} isn't wesponding ow is offwine.
+
+    %{button6} Audio quawity sounds waggy ow stuttewing.
+
+    %{button7} %{bot} keeps saying it's missing pewmissions.
+
+    %{button8} How to wedeem my Pwemium pewks?
+
+    %{button9} Can I twansfew pwemium to anothew sewvew?
+
+    %{button10} What shouwd I do if my Pwemium subscwiption has expiwed?**
+
+embed2_field1_name: "Website"
+embed2_field1_value: "**[Muse](%{website})**"
+embed2_field2_name: "Type"
+embed2_field2_value: "**Music Bot & Web Pwayew**"
+embed2_field3_name: "Suppowt Us"
+embed2_field3_value: "**[Vote on Top.gg](%{vote})**"
+
+### BUTTON HELPDESK 1 ###
+helpdesk1_title: "Those who wish to sing awways find a song ♪"
+helpdesk1_desc: |
+    **Youw music, whewevew you pway~ Listen with fwiends in voice channews, waunch the Discowd Activity, ow enjoy music fwom the web pwayew.**
+
+    **Why %{bot}?**
+    - **Muwtipwe Ways to Listen**: Pway in voice channews with fwiends, waunch the intewactive Discowd Activity (in sewvews ow pwivate DMs), ow contwow evewything fwom the web pwayew UI.
+    - **Modewn Web Dashboawd**: Weaw-time pwayew contwows, synced queues, wywics, custom pwaywists, and sewvew configuwation.
+    - **High-Quawity Audio & Wewiabiwity**: Optimized stweaming engine with 24/7 mode, autopway, audio fiwtews, and suppowt fow majow audio pwatfowms.
+    - **Weguwaw Updates & Community**: Constantwy updated with new featuwes and impwovements. If you have questions ow suggestions, ouw suppowt team is awways hewe to hewp!
+
+    **Usefuw Winks**
+    - %{server}
+    - %{vote}
+    - %{website}
+    - %{premium}
+
+    **Need Suppowt?**
+    - Submit a ticket in ouw suppowt sewvew fow quick assistance~ 
+
+    **Weady to ewevate youw music expewience? Invite %{bot} to youw Discowd sewvew today!**
+    **[Cwick hewe to invite](%{invite})**
+
+helpdesk2_title: "Adding %{bot} to youw sewvew"
+helpdesk2_desc: |
+    **You can invite %{bot} using this [Invite Wink](%{invite}).**
+    Sewect youw sewvew fwom the wist, make suwe the pewmissions awe gwanted, and cwick **Authowize**.
+
+    **Pewmissions Guide**
+    Fow the best expewience, make suwe %{bot} has pewmission to **View Channews**, **Send Messages**, **Embed Winks**, **Connect**, and **Speak**. Fow fuww automated channew management (such as wequest channews), **Manage Channews** ow **Administwatow** is wecommended.
+
+    **Web Music Pwayew & Dashboawd**
+    You can awso contwow %{bot} diwectwy fwom youw bwowser at [%{bot} Web Pwayew](%{website}).
+    Wog in with youw Discowd account, choose youw sewvew, and contwow pwayback, vowume, queues, and pwaywists with a sweek modewn UI~
+
+helpdesk3_title: "How to use %{bot}?"
+helpdesk3_desc: |
+    Enjoying music with %{bot} is easy with thwee fwexibwe ways to listen~!
+
+    **1. Voice Channews (Swash Commands & Buttons)**
+    - Join any voice channew and type `/play <song name or URL>`.
+    - Use the intewactive pwayew buttons bewow the twack message to pause, skip, woop, shuffwe, ow adjust vowume.
+    - Expwowe aww commands by typing `/` ow `/help`.
+
+    **2. Discowd Activity (Listen Togethew & DM Pway)**
+    - Waunch the **%{bot} Activity** in voice channews to stweam and intewact togethew with fwiends.
+    - You can awso waunch the activity in **Diwect Messages (DMs)** fow pwivate, pewsonaw listening any time~!
+
+    **3. Web Pwayew & Dashboawd UI**
+    - Visit [%{bot} Web Pwayew](%{website}) to seawch songies, manage the quewie, cweate custom pwaywists, and contwow pwayback in weaw time~
+
+helpdesk4_title: "How to enabwe the 24/7 featuwe?"
+helpdesk4_desc: |
+    **Keep %{bot} connected in youw voice channew 24/7 without disconnecting~!**
+
+    **To enabwe 24/7 Mode:**
+    1. Join the voice channew whewe you want %{bot} to stay.
+    2. Type `/247 enable` (ow toggwe 24/7 mode in the [Web Dashboawd](%{website})).
+
+    **Note:** *You need the `Manage Server` pewmission (ow DJ wowe) to configuwe 24/7 mode, and the bot must be connected to the voice channew.*
+
+helpdesk5_title: "%{bot} isn't wesponding ow is offwine"
+helpdesk5_desc: |
+    If %{bot} isn't wesponding to youw commands, fowwow these steps to twoubweshoot~:
+
+    **1. Use Discowd Swash Commands**
+    - Type `/play` ow `/help` and pick %{bot}'s command fwom the command menu.
+    - If swash commands don't show up, we-invite the bot with the `applications.commands` scope using [this invite wink](%{invite}).
+
+    **2. Check Channew Pewmissions**
+    - Make suwe %{bot} has pewmission to **View Channew**, **Send Messages**, and **Embed Winks** in youw text channew.
+
+    **3. Sewvice Status & Maintenance**
+    - If the bot appeaws offwine, it might be undewgoing a quick update ow expewiencing Discowd API downtime. Check announcement channews in ouw [Suppowt Sewvew](%{server}) ow open a suppowt ticket~
+
+helpdesk6_title: "Audio quawity sounds waggy ow stuttewing"
+helpdesk6_desc: |
+    Audio stuttew ow wag is typicawwy caused by tempowawy voice sewvew wouting ow netwowk watency. Hewe's how to fix it~:
+
+    **1. Check Voice Connection Stabiwity**
+    - Cwick **Voice Connected** at the bottom-weft of Discowd.
+    - Make suwe youw ping is stabwe and bewow 200ms with wow jittew and 0% packet woss.
+
+    **2. Switch Discowd Voice Wegion**
+    - Sewvew modewatows can change the voice wegion undew **Voice Channew Settings → Ovewview → Wegion Ovewwide**.
+    - Sewecting a diffewent wegion cwoser to youw membews usuawwy gives you a fwesh, stabwe voice connection~
+
+    **3. Twy the Web Pwayew ow Discowd Activity**
+    - You can awso stweam diwectwy using the [%{bot} Web Pwayew](%{website}) ow Discowd Activity fow an awtewnative high-fidewity listening expewience~
+
+    If issues pewsist, pwease wet us know in ouw [Suppowt Sewvew](%{server}).
+
+helpdesk7_title: "%{bot} keeps saying it's missing pewmissions"
+helpdesk7_desc: |
+    When %{bot} wacks wequiwed Discowd pewmissions, it cannot join voice channews, send message embeds, ow manage pwayew setups.
+
+    **Essentiaw Pewmissions:**
+    - **Voice:** `Connect`, `Speak`, `View Channel`, `Use Voice Activity`.
+    - **Text:** `View Channel`, `Send Messages`, `Embed Links`, `Read Message History`.
+    - **Channew Management:** `Manage Channels` (wequiwed fow channew setup and cweanup).
+
+    **How to Fix:**
+    1. Check the bot's wowe in **Sewvew Settings → Woles** and make suwe pewmissions awe gwanted.
+    2. Check channew-specific pewmission ovewwides undew **Channew Settings → Pewmissions**.
+    3. Fow the smoothest opewation without pewmission confwicts, gwanting `Administrator` is wecommended~
+
+helpdesk8_title: "How to wedeem my Pwemium pewks?"
+helpdesk8_desc: |
+    **To activate youw pwemium membewship pewks, pwease fowwow these steps~:**
+
+    **1. Wink youw Discowd account fiwst**
+    Befowe puwchasing, make suwe youw Discowd account is connected to the pwatfowm you're using (Patweon ow Ko-fi). This is wequiwed so the system can detect youw payment automaticawwy.
+
+    **2. Puwchase youw membewship**
+    Aftew winking youw Discowd, compwete the membewship payment based on the pwan you want: %{premium}
+
+    **3. Wait fow synchwonization**
+    Once youw payment is successfuw, pwease wait a few minutes fow the system to sync youw membewship.
+
+    **4. Cwaim pwemium in youw sewvew**
+    Go to the Discowd sewvew you want to upgwade, then use this command:
+    `/premium claim`
+    Choose the cowwect pwatfowm option (Patweon ow Ko-fi) when pwompted.
+    *Make suwe you wun the command inside the sewvew you want to activate pwemium fow. Once cwaimed, pwemium wiww be activated instantwy~*
+
+    By fowwowing these steps, you'll be abwe to activate and enjoy aww the Pwemium benefits offewed. If you wun into any issues ow have mowe questions, feew fwee to weach out to ouw suppowt team~
+
+helpdesk9_title: "Can I twansfew pwemium to anothew sewvew?"
+helpdesk9_desc: |
+    **Yep~ You can twansfew youw pwemium to anothew sewvew youwsewf! Just fowwow these steps:**
+
+    **1. Uncwaim fwom the cuwwent sewvew**
+    Go to the sewvew whewe pwemium is cuwwentwy active, then use the command:
+    `/premium unclaim`
+    This wiww wewease youw pwemium swot fwom that sewvew.
+
+    **2. Cwaim on the new sewvew**
+    Go to the new sewvew you want to upgwade, and use the command:
+    `/premium claim`
+    Choose youw pwatfowm (Patweon ow Ko-fi) and youw pwemium wiww be active on the new sewvew instantwy~
+
+    *If you no wongew have access to the owd sewvew to wun the uncwaim command, pwease contact ouw staff in the [Suppowt Sewvew](%{server}) fow manuaw assistance.*
+
+helpdesk10_title: "What shouwd I do if my Pwemium subscwiption has expiwed?"
+helpdesk10_desc: |
+    **If youw subscwiption has expiwed, the pwemium featuwes in youw sewvew wiww be automaticawwy disabwed. To westowe them, pwease fowwow these steps~:**
+
+    **1. Wenew youw subscwiption**
+    - [Wenew on Patweon](https://www.patreon.com/c/)
+    - [Wenew on Ko-fi](https://ko-fi.com/)
+    Make suwe the payment is successfuw and youw Discowd account is stiww winked.
+
+    **2. We-cwaim the pwemium**
+    Once wenewed, go back to youw sewvew and use the command:
+    `/premium claim`
+    This wiww we-sync youw membewship status and weactivate the featuwes immediatewy without wosing youw pwevious settings~
+
+    *Note: You don't need to wait fow staff. The system wiww wecognize youw wenewaw as soon as the pwatfowm (Patweon/Ko-fi) pwocesses the payment.*
+
+helpdesk10_footer: "Thankies fow being pawt of ouw jouwney~ We hope you have a gweat time hewe! <3"

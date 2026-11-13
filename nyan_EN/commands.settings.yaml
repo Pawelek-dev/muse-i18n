@@ -1,0 +1,291 @@
+### 24/7 command!
+247_on: "24/7 mode is now **Enabwed**~ UwU"
+247_off: "24/7 mode is now **Disabwed**~"
+247_already: "24/7 mode is awweady **%{mode}** nya~"
+247_arg_error: "Invawid 24/7 mode. Pwease use %{text}"
+247_no_in_voice: "You'we not in a voice channew! >_<"
+
+### Set Language command! ###
+provide_lang: "**Invawid Wanguage. Pwease use** `%{languages}`"
+lang_set: "**Wanguage has been set to** `%{language}`"
+lang_change: "**Wanguage has been changed to** `%{language}`"
+
+### Prefix command! ###
+prefix_arg: "Pwease pwovide a vawid Pwefix!"
+prefix_length: "**Pwefix cannot be wongew than 10 Chawactews**"
+prefix_set: "**Pwefix has been set to** `%{prefix}`"
+prefix_change: "**Pwefix has been changed to** `%{prefix}`"
+
+### Control command!
+control_set: "**Pwayew contwow mode has been set to %{toggle}**"
+control_arg_error: "Invawid awgument. Pwease use %{text}"
+control_already: "Song Notifications awe awweady **%{mode}**"
+
+### Setup Music Req command! ###
+setup_arg_error: "Invawid! Pwease use %{text}"
+setup_enable: "**Oopsie~ Music System awweady exists.**"
+setup_topic: "♪ Youw music, whewevew you pway~ ♪"
+setup_msg: "*`Successfuwwy set up Music System in`* %{channel}\n```Note: Do not dewete any message(s) I've cweated, ow I won't be abwe to wowk pwopewwy!```"
+setup_null: "*`Successfuwwy deweted setup channew!`*"
+setup_deleted: "*`Successfuwwy deweted setup channew!`*"
+setup_null_inguild: "**Music System not found in this sewvew! Weady to dewete data~**"
+setup_queuemsg: "**Join a voice channew and pway songies using a name ow URL hewe!**"
+setup_playembed_author: "Nyo Song Is Cuwwentwy Pwaying"
+
+### Themes command!
+error_themes: "Invawid... Pwease twy again~"
+succes_themes: "**Successfuwwy changed theme to %{themes}**"
+
+### Last FM Login command!
+lastfm_login_footer: "Notes: This wink wiww expiwe in %{expired}."
+lastfm_login_title: "Last.fm Wogin"
+lastfm_login_desc: "Wouwd you wike to gwant authowization to youw [Last.fm](https://www.last.fm/) account?\nIf yes, pwease cwick the button bewow to stawt the authowization pwocess~ UwU"
+lastfm_not_login_desc: "You'we not wogged in to Last.fm nya~"
+lastfm_view_dashboard: "### Last.fm Dashboawd"
+lastfm_view_account_details: "### Account Detaiws"
+lastfm_view_username: "**Usewname**"
+lastfm_view_scrobbling_since: "**Scwobbwing since**"
+lastfm_view_total_scrobbles: "**Totaw Scwobbwes**"
+lastfm_view_total_artists: "**Totaw Awtists**"
+lastfm_view_total_albums: "**Totaw Awbums**"
+lastfm_view_total_loved_tracks: "**Totaw Woved Twacks**"
+lastfm_view_no_data: "Nyo data found fow this pewiod~ :c"
+lastfm_view_top_artists: "Top Awtists"
+lastfm_view_top_albums: "Top Awbums"
+lastfm_view_top_tracks: "Top Twacks"
+lastfm_view_select_period: "Sewect Time Pewiod"
+lastfm_view_period_7d: "7 Days"
+lastfm_view_period_30d: "30 Days"
+lastfm_view_period_1y: "1 Yeaw"
+lastfm_view_period_lifetime: "Wifetime"
+lastfm_view_plays: "pways"
+lastfm_view_by: "by"
+lastfm_view_error: "An ewwow occuwwed whiwe fetching Last.fm data. Sowwy! :c"
+
+### Last FM Logout command!
+lastfm_logout_title: "Last.fm Wogout"
+lastfm_logout_desc: "You've successfuwwy wogged out fwom Last.fm~"
+
+### Last FM Feature Disable!
+lastfm_feature_disabled_title: "Last.fm Featuwe is disabwed."
+lastfm_feature_disabled_desc: "The Last.fm featuwe is cuwwentwy disabwed. Pwease contact the administwatow fow mowe infowmation."
+
+### Temp Voice Feature command!
+tempvoice_setup: "Temp Voice featuwe has been %{status}~"
+tempvoice_disabled: "Temp Voice has been disabwed~"
+
+### Status Voice Channel Feature command!
+status_voice_channel_error: "Invawid... onwy %{text}."
+status_voice_channel_true: "Status Voice Channew has been set to **%{type}**."
+status_voice_channel_false: "Status Voice Channew has been set to **%{type}**."
+
+### Player Control Embed config command! ###
+player_embed_config_invalid_setting: "Invawid setting. Pwease choose Disabwe aww contwows, Fiwtew Menu, Button Name, Music Cawd, Wecommended Menu, ow Pwayew Buttons."
+player_embed_config_invalid_value: "Invawid vawue. Pwease choose twue ow fawse."
+player_embed_config_already: "**%{setting}** is awweady set to **%{value}** fow this sewvew."
+player_embed_config_set: "Successfuwwy set **%{setting}** to **%{value}** fow this sewvew~"
+player_embed_config_musiccard_note: "Music Cawd changes wiww fuwwy appwy on the next twack message."
+player_embed_config_musiccard_disabled: "Music Cawd featuwes awe cuwwentwy disabwed."
+player_embed_config_controlmode_note: "Disabwe aww contwows changes wiww fuwwy appwy on the next twack message."
+
+### Patreon Claim command!
+not_in_guild: "This command can onwy be executed on the Sewvew!"
+no_data_patreon: "Patweon data not found (Database Ewwow)"
+no_data_patreon_title: "Not Found"
+no_data_patreon_desc: |
+    If you've awweady subscwibed, make suwe youw Discowd account is winked to Patweon!
+no_data_patreon_footer: "Patweon sync may take a moment, pwease check again showtwy~"
+no_patreon_guild_membership: |
+    Hewwooo~ Youw Patweon pwan is **usew tier**.
+    Pwease upgwade to **sewvew tier** to unwock pwemium sewvew access.
+patreon_guild_membership_full_quota: |
+    You've used aww of youw sewvew quota! >_<
+    **Status:** %{status} sewvews used.
+
+    **Sowution:**
+    1. Upgwade youw tier on Patweon.
+    2. Ow disabwe pwemium on youw owd sewvew.
+patreon_guild_membership_already_before: "You've awweady activated pwemium on this sewvew befowe!"
+patreon_guild_membership_already: "**AWWEADY PWEMIUM** because it's sponsowed by someone ewse.\nSave youw quota fow othew sewvews~!"
+patreon_guild_membership_claim_title: "Activation Confiwmation"
+patreon_guild_membership_claim_desc: |
+    Awe you suwe you wanna activate **pwemium sewvew** fow:
+    **%{guildName}**
+
+    This action wiww use **1 sewvew quota**.
+    Wemaining quota: **%{status}**
+patreon_guild_membership_claim_success: |
+    Success~! **%{guildName}** is now a **pwemium sewvew**.
+
+    **Sponsow:** %{user}
+    **Wemaining quota:** %{status}
+    Thankies fow suppowting us on Patweon! <3
+patreon_guild_membership_claim_success_title: "💎 Pwemium Activated!"
+patreon_guild_membership_claim_cancel: "Pwemium activation cancewed~"
+patreon_guild_membership_claim_norespon: "Activation was automaticawwy cancewed due to no wesponse."
+
+### Patreon Claim command Logs!
+patreon_guild_membership_claim_logs_title: "🏰 Sewvew Wedeemed (Patweon)"
+patreon_guild_membership_claim_logs_desc: |
+    **Sponsow usew:** %{sponsorTag} %{sponsorId}
+    ** Tawget sewvew:** %{guildName} %{guildId}
+    **Quota status:** %{status}
+
+### Patreon UNClaim command!
+patreon_guild_not_owned_by_user: "You cannot wevoke this pwemium sewvew because you didn't wegistew it."
+patreon_guild_unclaim_title: "Pwemium Wevocation Confiwmation"
+patreon_guild_unclaim_desc: |
+    Awe you suwe you wanna **CANCEW** the Pwemium status of the **%{guildName}** sewvew?
+    **Effects:** Pwemium featuwes wiww be disabwed on this sewvew.
+    Youw Sewvew Quota wiww be westowed (+1).
+    Cuwwent wemaining quota: **%{status}**
+patreon_guild_unclaim_success_title: "Pwemium Wevoked"
+patreon_guild_unclaim_success: |
+    Pwemium status fow **%{guildName}** has been successfuwwy wevoked.
+    **Quota Westowed:** 1 Sewvew
+    **New Wemaining Quota:** %{status}
+patreon_guild_unclaim_cancel: "Pwemium wevocation pwocess cancewed~"
+patreon_guild_unclaim_norespon: "⏱️ Timeout. Pwocess cancewed."
+
+### Patreon UNClaim command Logs!
+patreon_guild_unclaim_logs_title: "Uncwaimed Sewvews (Patweon)"
+patreon_guild_unclaim_logs_desc: |
+    **Usew:** %{sponsorTag} %{sponsorId}
+    **Sewvew:** %{guildName}} %{guildId}
+    **Quota Westowed:** %{status}
+
+patreon_kofi_claim_log_desc: |
+    **Usew:** %{userTag} (%{userId})
+    **Sewvew:** %{guildName} (%{guildId})
+    **Quota:** %{quota}
+    **Expwes:** %{expires}
+
+patreon_kofi_claim_log_title: "🏗️ %{platform} Action: %{action}"
+
+### Kofi Claim command!
+no_data_kofi: "Twansaction ID not found ow awweady cwaimed."
+kofi_linked_success_title: "Payment Winked Successfuwwy!"
+kofi_linked_success_desc: "You can now use `/premium claim <kofi>` without a TwID~"
+kofi_no_data_title: "Nyo Data Found!"
+kofi_no_data_desc: |
+    If you've awweady paid but haven't connected youw Discowd account to Ko-fi,
+    use: `/premium claim <kofi> <transaction_id>`
+kofi_no_server_quota_desc: "Nyo quota, but you're a pwemium usew~"
+kofi_full_server_quota_title: "Quota Fuww!"
+kofi_full_server_quota_desc: "You've used **%{quota}** sewvew swots."
+kofi_server_already_claim_desc: "**Awweady Active!**\nYou've awweady activated Pwemium on this sewvew befowe~"
+kofi_server_already_active_desc: "**Awweady Pwemium!**\nThis sewvew has awweady been activated as pwemium by anothew usew."
+kofi_guild_membership_claim_success: |
+    Pwemium has been successfuwwy activated~!
+    **Quota Usage:** %{quota}
+    **Expwes In:** %{expires}
+kofi_guild_membership_claim_footer: "Thankies fow youw suppowt~! <3"
+kofi_action_title: "🏗️ Ko-fi Action: %{type}"
+kofi_action_description: "**Usew:** %{userTag} (`%{userId}`)\n**Sewvew:** %{guildName} (`%{guildId}`)\n**Action:** %{action}\n**Quota:** %{quota}"
+kofi_action_activation: "Sewvew Activated"
+kofi_action_manual_link: "Manuaw Payment Winked"
+
+## Premium Kofi UnClaim
+kofi_guild_unclaim_success_title: "Pwemium Wevoked"
+kofi_guild_unclaim_success_desc: |
+    Pwemium status fow **%{guildName}** has been successfuwwy wevoked.
+    **Quota Westowed:** 1 Sewvew
+kofi_guild_not_owned_by_user: "You cannot wevoke this pwemium sewvew because you didn't wegistew it."
+## Premium UnClaim logs
+premium_unclaim_log_title: "Uncwaimed Sewvews %{platform}"
+premium_unclaim_log_desc: |
+    **Usew:** %{userTag} %{userId}
+    **Sewvew:** %{guildName}} %{guildId}
+    **Quota Westowed:** %{quota}
+
+### DjRole ###
+dj_role_disabled: "The DJ Wowe system has been **Disabwed**."
+dj_role_missing_role: "You need to pwovide a wowe to use the `set` action."
+dj_role_set: |
+    The DJ Wowe has been set to %{role}.
+    Status: **Enabwed**
+    **Affected Commands:**
+    %{commands}
+
+### Stage Control ###
+stage_control_disabled: "Stage Contwow has been **Disabwed**. Anyone can contwow music in Stage Channews."
+stage_control_missing_role: "You need to pwovide a wowe to use the `set` action."
+stage_control_set: "Stage Contwow wowe has been set to %{role}. Onwy usews with this wowe can contwow music in Stage Channews."
+
+### Set Channel ###
+set_channel_added: "Channew %{channel} has been added to the awwowed command channews~"
+set_channel_already_exists: "Channew %{channel} is awweady in the awwowed command channews."
+set_channel_removed: "Channew %{channel} has been wemoved fwom the awwowed command channews."
+set_channel_removed_all: "Aww channew westwictions have been wemoved. Commands can now be used in any channew~"
+set_channel_no_channels: "Nyo command channews awe configuwed fow this sewvew."
+set_channel_missing_channel: "You need to pwovide a text channew to use the `add` action."
+set_channel_list_title: "Awwowed Command Channews"
+set_channel_page_info: "%{total} channew(s) configuwed · Page %{page}/%{pages}"
+set_channel_btn_prev: "Pwevious"
+set_channel_btn_next: "Next"
+set_channel_btn_remove_all: "Wemove Aww"
+set_channel_btn_delete: "✕"
+set_channel_expired: "This intewaction has expiwed."
+
+### Customize command ###
+customize_view_title: "Sewvew Bot Customization"
+customize_view_status: "Status"
+customize_view_access: "Access"
+customize_view_requirement: "Wequiwement"
+customize_view_cooldown: "Coowdown"
+customize_view_cooldown_ends: "Coowdown ends"
+customize_view_ready: "Weady"
+customize_view_access_allowed: "Awwowed"
+customize_view_access_denied: "Not awwowed"
+customize_view_current: "Cuwwent"
+customize_view_pending: "Pending Weview"
+customize_view_nickname: "Nickname"
+customize_view_bio: "Bio"
+customize_view_avatar: "Avataw"
+customize_view_banner: "Bannew"
+customize_view_default: "(defauwt)"
+customize_view_custom: "Custom"
+customize_view_default_state: "Defauwt"
+customize_view_no_pending: "Nyo pending changes~"
+
+customize_status_idle: "Idwe"
+customize_status_pending: "Pending"
+customize_status_approved: "Appwoved"
+customize_status_rejected: "Wejected"
+
+customize_submit_success: "Pwofiwe submitted fow weview~"
+customize_reset_success: "Bot pwofiwe weset to defauwt~"
+customize_no_changes: "Nyo changes detected. Pwease pwovide at weast one new vawue (nickname, bio, avataw, ow bannew)."
+
+customize_error_load: "Faiwed to woad bot pwofiwe."
+customize_error_load_current: "Faiwed to woad cuwwent pwofiwe."
+customize_error_submit: "Faiwed to submit pwofiwe."
+customize_error_reset: "Faiwed to weset bot pwofiwe."
+customize_error_image_process: "Faiwed to pwocess image attachment."
+customize_error_image_type: "Onwy PNG, JPEG, GIF, ow WebP images awe suppowted."
+customize_error_image_size: "Image must be 2 MB ow smawwer."
+customize_error_image_read: "Faiwed to wead upwoaded image."
+
+customize_error_guild_required: "guildId is wequiwed."
+customize_error_guild_not_found: "Guiwd not found ow bot isn't in this guiwd."
+customize_error_access_level: "Bot pwofiwe customization wequiwes the configuwed access wevew."
+customize_error_manage_customize: "You need the Manage Sewvew pewmission to customize the bot pwofiwe."
+customize_error_manage_reset: "You need the Manage Sewvew pewmission to weset the bot pwofiwe."
+customize_error_nick_max: "Nickname must be 32 chawactews ow fewew."
+customize_error_bio_max: "Bio must be 190 chawactews ow fewew."
+customize_error_avatar_uri: "Avataw must be a vawid base64 data URI (png/jpeg/gif/webp)."
+customize_error_avatar_size: "Avataw image must be 2 MB ow smawwer."
+customize_error_banner_uri: "Bannew must be a vawid base64 data URI (png/jpeg/gif/webp)."
+customize_error_banner_size: "Bannew image must be 2 MB ow smawwer."
+customize_error_cooldown: "You can onwy change the bot pwofiwe once evewy 3 days."
+customize_error_reset_discord: "Faiwed to weset pwofiwe on Discowd"
+
+customize_review_unauthorized: "You awe not awwowed to use this weview action."
+customize_review_approve_success: "Pwofiwe appwoved and appwied~"
+customize_review_approve_failed: "Faiwed to appwove pwofiwe: %{error}"
+customize_review_reject_title: "Weject bot pwofiwe weview"
+customize_review_reject_reason_label: "Wejection weason"
+customize_review_reject_reason_placeholder: "Expwain why the wequest was wejected..."
+customize_review_reject_reason_required: "A wejection weason is wequiwed."
+customize_review_reject_success: "Pwofiwe wejected."
+customize_review_reject_failed: "Faiwed to weject pwofiwe: %{error}"

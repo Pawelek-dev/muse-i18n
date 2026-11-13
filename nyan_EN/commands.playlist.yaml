@@ -1,0 +1,116 @@
+### pl-add commands ###
+pl_add_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_add_match: "Pwease pwovide a vawid song name ow URL~!"
+pl_add_playlist: "Seawched **%{title}** `%{duration}` • (**%{track} Songies**) • %{user}"
+pl_add_track: "Seawched **%{title}** • `%{duration}` • %{user}"
+pl_add_search: "Seawched **%{title}** • `%{duration}` • %{user}"
+pl_add_owner: "You'we not the **Pwaywist Ownew**! Nyope~"
+pl_add_limit_track: "You can't add mowe than **%{limit} Songies**~!"
+pl_add_added: "Added **%{count} Songies** to `%{playlist}`~! UwU"
+
+### pl-all commands ###
+pl_all_view_embed_playlist: "%{num}. `%{name}` • (**%{tracks} Songies**) • Cweated: `[%{create} ago]`"
+pl_all_view_embed_title: "%{user}"
+pl_all_view_embed_footer: "Page • %{page}/%{pages} | Pwaywists • %{songs}"
+pl_all_view_notnumber: "Pwease pwovide a vawid page numbew~!"
+pl_all_view_page_notfound: "Thewe awe onwy **%{page} Pages**~!"
+
+### pl-create commands ###
+pl_create_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_create_toolong: "Pwaywist Name can't be wongew than **16 Chawactews**~!"
+pl_create_des_toolong: "Pwaywist Descwiption can't be wongew than **1000 Chawactews**~!"
+pl_create_limit_playlist: "You can't cweate mowe than **%{limit} Pwaywists**~!"
+create_created_title: "Successfuwwy Cweated a New Pwaywist~! UwU"
+pl_create_created_footer: "Type /pl editor to edit youw pwaywist~!"
+pl_create_created: |
+    **Pwaywist Name**
+    `%{playlist}`
+
+    **Pwaywist ID**
+    `%{id}`
+
+    **Descwiption**
+    `%{desc}`
+
+### pl-delete commands ###
+pl_delete_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+delete_notfound: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_delete_owner: "You'we not the **Pwaywist Ownew**!"
+pl_delete_confirm: "Do you wanna dewete `%{playlist_id}`~?"
+pl_delete_deleted: "Pwaywist `%{name}` has been successfuwwy **Deweted**~!"
+pl_delete_no: "Cancewwed Pwaywist **Dewetion**~!"
+
+### pl-detail commands ###
+pl_detail_number_invalid: "Pwease pwovide a vawid numbew~!"
+pl_detail_notfound: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_detail_private: "Pwaywist is **Pwivate**"
+pl_detail_track: "%{num}. **%{title}** • **%{author}** `[%{duration}]`"
+pl_detail_embed_title: "Pwaywist: %{name}"
+pl_detail_embed_footer: "Page • %{page}/%{pages} | Songies • %{songs} | Totaw Duwwation • %{duration}"
+pl_detail_notnumber: "Pwease pwovide a vawid page numbew~!"
+pl_detail_page_notfound: "Thewe awe onwy **%{page} Pages**~"
+
+### pl-editor commands! ###
+pl_edit_playlist_id_label: "Entuw youw **New Pwaywist ID** `[a-z, A-Z, 0-9]`"
+pl_edit_playlist_name_label: "Entuw youw **New Pwaywist Name**"
+pl_edit_playlist_des_label: "Entuw youw **New Pwaywist Descwiption**"
+pl_edit_playlist_private_label: "Entuw youw **New Pwaywist Visibiwity** `[public/private]`"
+pl_edit_success: "Successfuwwy edited youw pwaywist~!\nNew Pwaywist ID: `%{playlistId}`"
+pl_edit_arg: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_edit_notfound: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_edit_playlist_owner: "You'we not the **Pwaywist Ownew**! Nyope~"
+pl_edit_invalid_id: "Pwease entuw a vawid, non-existing Pwaywist ID~!"
+pl_edit_invalid_mode: "Invawid Visibiwity mode! Pwease use **public** ow **private**~"
+
+### Editor interaction!
+ineraction_edit_playlist_id_label: "New Pwaywist ID"
+ineraction_edit_playlist_name_label: "New Pwaywist Name"
+ineraction_edit_playlist_des_label: "New Pwaywist Descwiption"
+ineraction_edit_playlist_private_label: "New Pwaywist Visibiwity"
+ineraction_edit_playlist_id_placeholder: "Entuw youw New Pwaywist ID~! [a-z, A-Z, 0-9]"
+ineraction_edit_playlist_name_placeholder: "Entuw youw New Pwaywist Name~!"
+ineraction_edit_playlist_des_placeholder: "Entuw youw New Pwaywist Descwiption~!"
+ineraction_edit_playlist_private_placeholder: "Entuw youw New Pwaywist Visibiwity~! [public/private]"
+ineraction_edit_success: "Successfuwwy edited youw pwaywist~!\nNew Pwaywist ID: `%{playlistId}`"
+ineraction_edit_playlist_error: "Oopsie~ Something went wwong. Pwease twy again! :c"
+ineraction_edit_notfound: "Pwease pwovide a vawid Pwaywist ID~!"
+ineraction_edit_playlist_owner: "You'we not the **Pwaywist Ownew**!"
+ineraction_edit_invalid_id: "Pwease entuw a vawid, non-existing Pwaywist ID~!"
+
+### pl-import commands! ###
+pl_import_imported_desc: "### Pwaywist **%{name}** added to the quewie~ ♪"
+pl_import_imported_footer: "Enjoy %{tracks} songies • %{duration} • of music bwiss~!"
+pl_import_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_import_private: "Pwaywist is **Pwivate**"
+pl_import_voice: "You need to be in a voice channew to use this command~!"
+pl_import_empty: "Pwaywist is **Empty**"
+
+### pl-info commands! ###
+pl_info_owner: "Ownew"
+pl_info_id: "ID"
+pl_info_des: "Descwiption"
+pl_info_no_des: "Nyo descwiption pwovided~!"
+pl_info_private: "Visibiwity"
+pl_public: "Pubwic"
+pl_private: "Pwivate"
+pl_info_total: "Totaw Songies"
+pl_info_created: "Cweated"
+pl_info_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+
+### pl-remove commands! ###
+pl_remove_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_remove_number_invalid: "Pwease pwovide a vawid numbew~!"
+pl_remove_notfound: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_remove_owner: "You'we not the **Pwaywist Ownew**!"
+pl_remove_song_notfound: "Songie not found~!"
+pl_remove_removed: "Wemoved song numbew **%{position}** fwom `%{name}`~"
+
+### pl-SaveQueue command! ###
+pl_savequeue_invalid: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_savequeue_notfound: "Pwease pwovide a vawid Pwaywist ID~!"
+pl_savequeue_owner: "You'we not the **Pwaywist Ownew**!"
+pl_savequeue_no_tracks: "Nyo songie is cuwwentwy pwaying~!"
+pl_savequeue_no_new_saved: "This songie awweady exists in `%{name}`~"
+pl_savequeue_saved: "Saved **%{tracks} Songies** to `%{name}`~! UwU"
+
+pl_error_no_node: "Audio nodes awe cuwwently unavaiwabwe. Pwease wait a moment and twy youw command again~"
